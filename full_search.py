@@ -1,4 +1,5 @@
 from map_maker import create_cities, create_map, NO_ROAD, describe_map
+
 START_CITY = 0
 
 
@@ -15,9 +16,10 @@ def dfs(table):
 
     # Check if the waiting list is not empty and create next routes
     while len(waiting_list) > 0:
-        # remove the first element since DFS is LIFO
+        # remove the last element since DFS is LIFO
         route, cost = waiting_list.pop()
-        # print("took out", route, cost)
+
+        # to get where the salesman is currently standing in a route we point to the last element of the list
         here = route[-1]
 
         if len(route) == count:
@@ -54,7 +56,7 @@ def bfs(table):
     while len(waiting_list) > 0:
         # remove the first element since BFS is FIFO
         route, cost = waiting_list.pop(0)
-        # print("took out", route, cost)
+
         here = route[-1]
 
         if len(route) == count:
