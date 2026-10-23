@@ -15,7 +15,7 @@ def create_cities(n, seed):
     return cities
 
 
-def cities_dist(a, b):
+def cities_distance(a, b):
     # measure the distance between two cities using their x,y,z coordinates
     dx = b[0] - a[0]
     dy = b[1] - a[1]
@@ -38,11 +38,13 @@ def create_map(cities, symmetric, all_roads, seed):
     # add the price which is equal to the distance between two cities
     for i in range(count-1):
         for j in range(i+1, count):
+
             # first check: all roads or 80% of the roads
             if not all_roads:
                 if rdm.random() < 0.2:
                     continue
-            distance = cities_dist(cities[i], cities[j])
+            distance = cities_distance(cities[i], cities[j])
+
             # second check: symmentrical or asymmetrical
             if symmetric:
                 table[i][j] = distance
@@ -94,11 +96,6 @@ def main():
     table = create_map(cities, True, False, 42)
     # test to see if cities are created randomly but the seed helps recreate it
     print(create_cities(5, 12))
-
-    # test the distance calculator
-    print(cities_dist((0, 0, 0), (3, 4, 12)))
-    print(cities_dist((3, 4, 12), (0, 0, 0)))
-    print(cities_dist((0, 0, 0), (3, 4, 0)))
 
 # test if the table is being create
     cities = create_cities(20, 42)

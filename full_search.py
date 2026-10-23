@@ -80,7 +80,7 @@ def bfs(table):
 
 # for testing this file to see if dfs and bfs are returning the right thing
 def main():
-    cities = create_cities(12, 42)
+    cities = create_cities(6, 42)
     table = create_map(cities, True, True, 42)
     # describe_map(cities, table)
     print("bfs;", bfs(table))
