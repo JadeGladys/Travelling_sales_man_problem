@@ -27,8 +27,8 @@ def create_map(cities, symmetric, all_roads, seed):
     # building the price table with no value yet
     count = len(cities)
     rdm = random.Random(seed)
-    table = []
 
+    table = []
     for i in range(count):
         row = []
         for j in range(count):
@@ -74,6 +74,7 @@ def describe_map(cities, table):
             else:
                 height_i = cities[i][2]
                 height_j = cities[j][2]
+
                 if height_j > height_i:
                     i_to_j = "uphill"
                     j_to_i = "downhill"

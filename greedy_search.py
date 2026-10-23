@@ -80,9 +80,9 @@ def dijkstra(table):
 def main():
     cities = create_cities(6, 42)
     table = create_map(cities, True, True, 42)
-    describe_map(cities, table)
-    # print(nearest_neighbor(table))
-    print(dijkstra(table))
+    # describe_map(cities, table)
+    print("Nearest Neighbor:", nearest_neighbor(table))
+    print("Dijkstra:", dijkstra(table))
 
 
 if __name__ == "__main__":
