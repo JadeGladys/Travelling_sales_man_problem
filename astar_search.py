@@ -1,3 +1,5 @@
+import heapq
+import time
 from map_maker import create_cities, create_map, NO_ROAD
 
 START_CITY = 0
@@ -37,27 +39,18 @@ def guess(count, route, guess_per_road):
     return roads_left * guess_per_road
 
 
-def find_lowest_score(waiting_list):
-    lowest_score = NO_ROAD
-    lowest_position = 0
-
-    for index_position in range(len(waiting_list)):
-        _, _, score = waiting_list[index_position]
-        if score < lowest_score:
-            lowest_score = score
-            lowest_position = index_position
-    return waiting_list.pop(lowest_position)
-
-
-def a_star(table, guess_per_road):
+def a_star(table, guess_per_road, deadline=None):
     count = len(table)
     start_score = 0 + guess(count, [START_CITY], guess_per_road)
-    waiting_list = [([START_CITY], 0, start_score)]
+    waiting_list = [(start_score, 0, [START_CITY])]
 
     while len(waiting_list) > 0:
+        # check whether the algorithm has not exceeded the time limit
+        if deadline is not None and time.perf_counter() > deadline:
+            return None, None
+
         # take out the route with the lowest score
-        route, cost, _ = find_lowest_score(waiting_list)
-        # print("Took out:", route, cost)
+        _, cost, route = heapq.heappop(waiting_list)
 
         here = route[-1]
 
@@ -70,7 +63,8 @@ def a_star(table, guess_per_road):
                 full_cost = cost + table[here][START_CITY]
                 full_score = full_cost + \
                     guess(count, full_route, guess_per_road)
-                waiting_list.append((full_route, full_cost, full_score))
+                heapq.heappush(
+                    waiting_list, (full_score, full_cost, full_route))
             continue
 
         for next_city in range(count):
@@ -80,19 +74,21 @@ def a_star(table, guess_per_road):
                     new_cost = cost + table[here][next_city]
                     new_score = new_cost + \
                         guess(count, new_route, guess_per_road)
-                    waiting_list.append((new_route, new_cost, new_score))
+                    heapq.heappush(
+                        waiting_list, (new_score, new_cost, new_route))
 
     return None, NO_ROAD
 
 
-def a_star_admissible(table):
-    return a_star(table, cheapest_road(table))
+def a_star_admissible(table, deadline=None):
+    return a_star(table, cheapest_road(table), deadline)
 
 
-def a_star_inadmissible(table):
-    return a_star(table, average_road(table))
+def a_star_inadmissible(table, deadline=None):
+    return a_star(table, average_road(table), deadline)
 
 
+# testing for just this file
 def main():
     cities = create_cities(6, 42)
     table = create_map(cities, True, True, 42)

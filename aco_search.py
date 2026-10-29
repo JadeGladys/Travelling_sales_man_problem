@@ -1,5 +1,5 @@
-from map_maker import create_cities, create_map, NO_ROAD, describe_map
 import random
+from map_maker import create_cities, create_map, NO_ROAD
 
 START_CITY = 0
 
@@ -76,7 +76,7 @@ def build_trip(table, smell, rdm):
     return route, cost
 
 
-def aco(table):
+def aco(table, deadline=None):
     count = len(table)
     rdm = random.Random(SEED)
 
@@ -92,17 +92,12 @@ def aco(table):
 
     for round_number in range(ROUNDS):
         trips = []
-        round_best_cost = NO_ROAD
-        round_best_route = None
 
         # let all ants build their trips and record which one has the best cost
-        for i in range(ANTS):
+        for ant in range(ANTS):
             route, cost = build_trip(table, smell, rdm)
             if route is not None:
                 trips.append((route, cost))
-                if cost < round_best_cost:
-                    round_best_cost = cost
-                    round_best_route = route
                 if cost < best_cost:
                     best_cost = cost
                     best_route = route
@@ -121,16 +116,13 @@ def aco(table):
                 to_city = route[i + 1]
                 smell[from_city][to_city] += amount
 
-        print("round:", round_number, "|", "this round best route, cost:", round_best_route, round(
-            round_best_cost, 1), "|", "best route, cost:", best_route, round(best_cost, 1))
-
     return best_route, best_cost
 
 
+# testing for just this file
 def main():
     cities = create_cities(12, 42)
     table = create_map(cities, True, True, 42)
-    # describe_map(cities, table)
     print("aco:", aco(table))
 
 

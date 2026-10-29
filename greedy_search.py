@@ -1,14 +1,17 @@
-from map_maker import create_cities, create_map, NO_ROAD, describe_map
 import heapq
+import time
+from map_maker import create_cities, create_map, NO_ROAD
 
 START_CITY = 0
 
 
-def nearest_neighbor(table):
+def nearest_neighbor(table, deadline=None):
     # Build one trip by always taking the cheapest road to an unvisited city
+
     count = len(table)
     route = [START_CITY]
     cost = 0
+
     while len(route) < count:
         here = route[-1]
 
@@ -22,9 +25,7 @@ def nearest_neighbor(table):
                         best_cost = table[here][next_city]
                         next_best_city = next_city
 
-        # once next best city is none algorithm ends
-        # this happenes if one of the roads is removed since the while loops stops at the last city
-        # this wouldn't affect returning back to the start
+        # if the loop doesn't return the next city,a trip can't be completed and alogorithm stops
         if next_best_city is None:
             return None, NO_ROAD
 
@@ -42,15 +43,18 @@ def nearest_neighbor(table):
     return route, cost
 
 
-def dijkstra(table):
-    # find a roundtrip by always picking the cheapest road in the waiting list
+def dijkstra(table, deadline=None):
+    # find a roundtrip by always picking the cheapest route in the waiting list
     count = len(table)
-    waiting_list = [([START_CITY], 0)]
+    waiting_list = [(0, [START_CITY])]
 
     while len(waiting_list) > 0:
+        # check whether the algorithm has not exceeded the time limit
+        if deadline is not None and time.perf_counter() > deadline:
+            return None, None
+
         # take out the cheapest route
-        route, cost = heapq.heappop(waiting_list)
-        print("Took out:", route, cost)
+        cost, route = heapq.heappop(waiting_list)
 
         here = route[-1]
 
@@ -63,7 +67,7 @@ def dijkstra(table):
             if table[here][START_CITY] != NO_ROAD:
                 full_route = route + [START_CITY]
                 full_cost = cost + table[here][START_CITY]
-                waiting_list.append((full_route, full_cost))
+                heapq.heappush(waiting_list, (full_cost, full_route))
             continue
 
         for next_city in range(count):
@@ -71,16 +75,15 @@ def dijkstra(table):
                 if table[here][next_city] != NO_ROAD:
                     new_route = route + [next_city]
                     new_cost = cost + table[here][next_city]
-                    waiting_list.append((new_route, new_cost))
+                    heapq.heappush(waiting_list, (new_cost, new_route))
 
     return None, NO_ROAD
 
 
-# for testing this file to see if dfs and bfs are returning the right thing
+# testing for just this file
 def main():
     cities = create_cities(6, 42)
     table = create_map(cities, True, True, 42)
-    # describe_map(cities, table)
     print("Nearest Neighbor:", nearest_neighbor(table))
     print("Dijkstra:", dijkstra(table))
 

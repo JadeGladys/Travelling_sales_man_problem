@@ -1,0 +1,1345 @@
+Scenario,Cities,Seed,Algorithm,Status,Best Route,Best Cost,Time (s),Memory (KB)
+"Symmetric, all-roads",5,45,BFS,Trip found,"[0, 2, 1, 3, 4, 0]",452.0217,0.00018600,4.6562
+"Symmetric, all-roads",5,45,DFS,Trip found,"[0, 4, 3, 1, 2, 0]",452.0217,0.00008300,0.3203
+"Symmetric, all-roads",5,45,NN,Trip found,"[0, 4, 2, 1, 3, 0]",456.1565,0.00000600,0.0625
+"Symmetric, all-roads",5,45,Dijkstra,Trip found,"[0, 2, 1, 3, 4, 0]",452.0217,0.00010500,1.5
+"Symmetric, all-roads",5,45,A* admissible,Trip found,"[0, 2, 1, 3, 4, 0]",452.0217,0.00017400,3.5625
+"Symmetric, all-roads",5,45,A* inadmissible,Trip found,"[0, 2, 1, 3, 4, 0]",452.0217,0.00002600,0.4062
+"Symmetric, all-roads",5,45,ACO,Trip found,"[0, 2, 1, 3, 4, 0]",452.0217,0.01094800,4.0625
+"Symmetric, all-roads",5,85,BFS,Trip found,"[0, 1, 3, 2, 4, 0]",474.3256,0.00008300,1.1797
+"Symmetric, all-roads",5,85,DFS,Trip found,"[0, 4, 2, 3, 1, 0]",474.3256,0.00007800,0.3203
+"Symmetric, all-roads",5,85,NN,Trip found,"[0, 4, 3, 2, 1, 0]",514.3471,0.00000500,0.0625
+"Symmetric, all-roads",5,85,Dijkstra,Trip found,"[0, 1, 3, 2, 4, 0]",474.3256,0.00009800,1.2891
+"Symmetric, all-roads",5,85,A* admissible,Trip found,"[0, 1, 3, 2, 4, 0]",474.3256,0.00010400,1.1953
+"Symmetric, all-roads",5,85,A* inadmissible,Trip found,"[0, 4, 2, 3, 1, 0]",474.3256,0.00002700,0.3516
+"Symmetric, all-roads",5,85,ACO,Trip found,"[0, 4, 2, 3, 1, 0]",474.3256,0.00920300,3.9922
+"Symmetric, all-roads",5,125,BFS,Trip found,"[0, 3, 1, 2, 4, 0]",395.7882,0.00008200,1.1875
+"Symmetric, all-roads",5,125,DFS,Trip found,"[0, 4, 2, 1, 3, 0]",395.7882,0.00007700,0.3203
+"Symmetric, all-roads",5,125,NN,Trip found,"[0, 3, 2, 4, 1, 0]",467.3456,0.00000400,0.0625
+"Symmetric, all-roads",5,125,Dijkstra,Trip found,"[0, 3, 1, 2, 4, 0]",395.7882,0.00009200,1.2578
+"Symmetric, all-roads",5,125,A* admissible,Trip found,"[0, 3, 1, 2, 4, 0]",395.7882,0.00008700,1.0781
+"Symmetric, all-roads",5,125,A* inadmissible,Trip found,"[0, 3, 2, 1, 4, 0]",402.1086,0.00002200,0.2969
+"Symmetric, all-roads",5,125,ACO,Trip found,"[0, 3, 1, 2, 4, 0]",395.7882,0.00926600,3.9688
+"Symmetric, all-roads",6,46,BFS,Trip found,"[0, 1, 4, 3, 5, 2, 0]",555.7127,0.00066700,19.7266
+"Symmetric, all-roads",6,46,DFS,Trip found,"[0, 2, 5, 3, 4, 1, 0]",555.7127,0.00035500,0.5156
+"Symmetric, all-roads",6,46,NN,Trip found,"[0, 1, 4, 3, 5, 2, 0]",555.7127,0.00000500,0.0625
+"Symmetric, all-roads",6,46,Dijkstra,Trip found,"[0, 1, 4, 3, 5, 2, 0]",555.7127,0.00041600,9.4531
+"Symmetric, all-roads",6,46,A* admissible,Trip found,"[0, 1, 4, 3, 5, 2, 0]",555.7127,0.00053100,16.4062
+"Symmetric, all-roads",6,46,A* inadmissible,Trip found,"[0, 1, 4, 2, 5, 3, 0]",609.3519,0.00002900,0.5156
+"Symmetric, all-roads",6,46,ACO,Trip found,"[0, 1, 4, 3, 5, 2, 0]",555.7127,0.01276600,4.0469
+"Symmetric, all-roads",6,86,BFS,Trip found,"[0, 1, 4, 5, 2, 3, 0]",550.8674,0.00044500,9.6094
+"Symmetric, all-roads",6,86,DFS,Trip found,"[0, 3, 2, 5, 4, 1, 0]",550.8674,0.00035700,0.5156
+"Symmetric, all-roads",6,86,NN,Trip found,"[0, 3, 1, 2, 5, 4, 0]",611.6037,0.00000500,0.0625
+"Symmetric, all-roads",6,86,Dijkstra,Trip found,"[0, 1, 4, 5, 2, 3, 0]",550.8674,0.00041000,9.3281
+"Symmetric, all-roads",6,86,A* admissible,Trip found,"[0, 1, 4, 5, 2, 3, 0]",550.8674,0.00052900,11.8125
+"Symmetric, all-roads",6,86,A* inadmissible,Trip found,"[0, 3, 1, 2, 4, 5, 0]",603.7814,0.00002900,0.5156
+"Symmetric, all-roads",6,86,ACO,Trip found,"[0, 3, 2, 5, 4, 1, 0]",550.8674,0.01268500,4.0156
+"Symmetric, all-roads",6,126,BFS,Trip found,"[0, 1, 2, 3, 4, 5, 0]",380.3655,0.00058100,9.6016
+"Symmetric, all-roads",6,126,DFS,Trip found,"[0, 5, 4, 3, 2, 1, 0]",380.3655,0.00036100,0.5156
+"Symmetric, all-roads",6,126,NN,Trip found,"[0, 1, 5, 4, 3, 2, 0]",409.0729,0.00000500,0.0625
+"Symmetric, all-roads",6,126,Dijkstra,Trip found,"[0, 1, 2, 3, 4, 5, 0]",380.3655,0.00042600,9.4219
+"Symmetric, all-roads",6,126,A* admissible,Trip found,"[0, 1, 2, 3, 4, 5, 0]",380.3655,0.00054800,11.125
+"Symmetric, all-roads",6,126,A* inadmissible,Trip found,"[0, 1, 5, 4, 3, 2, 0]",409.0729,0.00002800,0.4688
+"Symmetric, all-roads",6,126,ACO,Trip found,"[0, 5, 4, 3, 2, 1, 0]",380.3655,0.01325300,3.9922
+"Symmetric, all-roads",7,47,BFS,Trip found,"[0, 1, 4, 5, 6, 3, 2, 0]",448.9629,0.00582300,132.9375
+"Symmetric, all-roads",7,47,DFS,Trip found,"[0, 1, 4, 5, 6, 3, 2, 0]",448.9629,0.00287200,0.6953
+"Symmetric, all-roads",7,47,NN,Trip found,"[0, 1, 4, 6, 3, 2, 5, 0]",525.7665,0.00000900,0.0625
+"Symmetric, all-roads",7,47,Dijkstra,Trip found,"[0, 1, 4, 5, 6, 3, 2, 0]",448.9629,0.00426300,91.8203
+"Symmetric, all-roads",7,47,A* admissible,Trip found,"[0, 1, 4, 5, 6, 3, 2, 0]",448.9629,0.00640600,133.4844
+"Symmetric, all-roads",7,47,A* inadmissible,Trip found,"[0, 1, 4, 5, 6, 3, 2, 0]",448.9629,0.00025800,1.9688
+"Symmetric, all-roads",7,47,ACO,Trip found,"[0, 1, 4, 5, 6, 3, 2, 0]",448.9629,0.02110900,4.0859
+"Symmetric, all-roads",7,87,BFS,Trip found,"[0, 3, 4, 5, 2, 1, 6, 0]",554.415,0.00455800,95.1719
+"Symmetric, all-roads",7,87,DFS,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",554.415,0.00301700,0.6953
+"Symmetric, all-roads",7,87,NN,Trip found,"[0, 6, 3, 1, 2, 5, 4, 0]",598.5317,0.00000800,0.0625
+"Symmetric, all-roads",7,87,Dijkstra,Trip found,"[0, 3, 4, 5, 2, 1, 6, 0]",554.415,0.00544700,92.9688
+"Symmetric, all-roads",7,87,A* admissible,Trip found,"[0, 3, 4, 5, 2, 1, 6, 0]",554.415,0.00654100,98.4062
+"Symmetric, all-roads",7,87,A* inadmissible,Trip found,"[0, 6, 3, 1, 2, 4, 5, 0]",595.2288,0.00033200,3.0156
+"Symmetric, all-roads",7,87,ACO,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",554.415,0.02737700,4.0547
+"Symmetric, all-roads",7,127,BFS,Trip found,"[0, 5, 4, 3, 2, 1, 6, 0]",620.3387,0.00484600,95.1719
+"Symmetric, all-roads",7,127,DFS,Trip found,"[0, 5, 4, 3, 2, 1, 6, 0]",620.3387,0.00321700,0.6953
+"Symmetric, all-roads",7,127,NN,Trip found,"[0, 6, 5, 4, 2, 1, 3, 0]",734.4998,0.00007100,0.0625
+"Symmetric, all-roads",7,127,Dijkstra,Trip found,"[0, 5, 4, 3, 2, 1, 6, 0]",620.3387,0.00508800,87.7969
+"Symmetric, all-roads",7,127,A* admissible,Trip found,"[0, 5, 4, 3, 2, 1, 6, 0]",620.3387,0.00631700,88.4844
+"Symmetric, all-roads",7,127,A* inadmissible,Trip found,"[0, 6, 5, 4, 2, 3, 1, 0]",688.5282,0.00018500,0.6562
+"Symmetric, all-roads",7,127,ACO,Trip found,"[0, 6, 1, 2, 3, 4, 5, 0]",620.3387,0.04062000,4.0312
+"Symmetric, all-roads",8,48,BFS,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",565.0106,0.14546200,1013.5
+"Symmetric, all-roads",8,48,DFS,Trip found,"[0, 5, 6, 7, 1, 4, 2, 3, 0]",565.0106,0.01865700,0.9922
+"Symmetric, all-roads",8,48,NN,Trip found,"[0, 2, 3, 5, 6, 7, 4, 1, 0]",638.4392,0.00002900,0.125
+"Symmetric, all-roads",8,48,Dijkstra,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",565.0106,0.02525000,570.0234
+"Symmetric, all-roads",8,48,A* admissible,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",565.0106,0.01683600,418.4375
+"Symmetric, all-roads",8,48,A* inadmissible,Trip found,"[0, 2, 3, 5, 6, 7, 1, 4, 0]",578.2557,0.00009300,0.9922
+"Symmetric, all-roads",8,48,ACO,Trip found,"[0, 2, 3, 4, 1, 7, 6, 5, 0]",570.0796,0.03162400,4.7109
+"Symmetric, all-roads",8,88,BFS,Trip found,"[0, 6, 3, 2, 1, 7, 4, 5, 0]",633.1053,0.05169900,933.2188
+"Symmetric, all-roads",8,88,DFS,Trip found,"[0, 6, 3, 2, 1, 7, 4, 5, 0]",633.1053,0.02034000,0.9922
+"Symmetric, all-roads",8,88,NN,Trip found,"[0, 5, 4, 1, 2, 3, 6, 7, 0]",779.2536,0.00002300,0.125
+"Symmetric, all-roads",8,88,Dijkstra,Trip found,"[0, 6, 3, 2, 1, 7, 4, 5, 0]",633.1053,0.02549800,658.7734
+"Symmetric, all-roads",8,88,A* admissible,Trip found,"[0, 6, 3, 2, 1, 7, 4, 5, 0]",633.1053,0.00664400,194.2422
+"Symmetric, all-roads",8,88,A* inadmissible,Trip found,"[0, 5, 4, 1, 2, 3, 6, 7, 0]",779.2536,0.00007300,1.0703
+"Symmetric, all-roads",8,88,ACO,Trip found,"[0, 5, 4, 7, 1, 2, 3, 6, 0]",633.1053,0.02727700,4.7109
+"Symmetric, all-roads",8,128,BFS,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.05340800,933.2109
+"Symmetric, all-roads",8,128,DFS,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.01758100,0.9922
+"Symmetric, all-roads",8,128,NN,Trip found,"[0, 7, 2, 3, 5, 6, 4, 1, 0]",619.7888,0.00001000,0.125
+"Symmetric, all-roads",8,128,Dijkstra,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.02266600,593.9375
+"Symmetric, all-roads",8,128,A* admissible,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.01418300,345.8047
+"Symmetric, all-roads",8,128,A* inadmissible,Trip found,"[0, 7, 2, 3, 5, 6, 4, 1, 0]",619.7888,0.00005300,0.9297
+"Symmetric, all-roads",8,128,ACO,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.02903100,4.7109
+"Symmetric, all-roads",9,49,BFS,Trip found,"[0, 2, 8, 3, 4, 1, 5, 6, 7, 0]",491.8834,0.85756400,8716.7266
+"Symmetric, all-roads",9,49,DFS,Trip found,"[0, 2, 8, 3, 4, 1, 5, 6, 7, 0]",491.8834,0.12726800,1.3516
+"Symmetric, all-roads",9,49,NN,Trip found,"[0, 7, 6, 5, 1, 3, 8, 4, 2, 0]",557.1797,0.00001000,0.125
+"Symmetric, all-roads",9,49,Dijkstra,Trip found,"[0, 2, 8, 3, 4, 1, 5, 6, 7, 0]",491.8834,0.12225200,4450.4766
+"Symmetric, all-roads",9,49,A* admissible,Trip found,"[0, 2, 8, 3, 4, 1, 5, 6, 7, 0]",491.8834,0.05898500,2068.0859
+"Symmetric, all-roads",9,49,A* inadmissible,Trip found,"[0, 7, 6, 5, 1, 3, 4, 8, 2, 0]",510.5947,0.00007300,1.3594
+"Symmetric, all-roads",9,49,ACO,Trip found,"[0, 2, 8, 3, 4, 1, 5, 6, 7, 0]",491.8834,0.03394700,5.7734
+"Symmetric, all-roads",9,89,BFS,Trip found,"[0, 4, 3, 8, 6, 5, 2, 1, 7, 0]",635.871,0.80735000,8716.4141
+"Symmetric, all-roads",9,89,DFS,Trip found,"[0, 7, 1, 2, 5, 6, 8, 3, 4, 0]",635.871,0.12190600,1.3516
+"Symmetric, all-roads",9,89,NN,Trip found,"[0, 7, 1, 2, 5, 3, 4, 6, 8, 0]",721.068,0.00000900,0.125
+"Symmetric, all-roads",9,89,Dijkstra,Trip found,"[0, 4, 3, 8, 6, 5, 2, 1, 7, 0]",635.871,0.06278200,2598.8906
+"Symmetric, all-roads",9,89,A* admissible,Trip found,"[0, 4, 3, 8, 6, 5, 2, 1, 7, 0]",635.871,0.03472000,1260.6406
+"Symmetric, all-roads",9,89,A* inadmissible,Trip found,"[0, 7, 1, 2, 5, 3, 4, 6, 8, 0]",721.068,0.00006200,1.2812
+"Symmetric, all-roads",9,89,ACO,Trip found,"[0, 4, 3, 8, 6, 5, 2, 1, 7, 0]",635.871,0.03290300,5.7734
+"Symmetric, all-roads",9,129,BFS,Trip found,"[0, 1, 4, 8, 2, 6, 3, 5, 7, 0]",621.6454,0.79178700,8716.4062
+"Symmetric, all-roads",9,129,DFS,Trip found,"[0, 7, 5, 3, 6, 2, 8, 4, 1, 0]",621.6454,0.12204600,1.3516
+"Symmetric, all-roads",9,129,NN,Trip found,"[0, 4, 8, 2, 7, 5, 3, 6, 1, 0]",772.7793,0.00001000,0.125
+"Symmetric, all-roads",9,129,Dijkstra,Trip found,"[0, 1, 4, 8, 2, 6, 3, 5, 7, 0]",621.6454,0.12129600,4242.1094
+"Symmetric, all-roads",9,129,A* admissible,Trip found,"[0, 1, 4, 8, 2, 6, 3, 5, 7, 0]",621.6454,0.02549400,916.6797
+"Symmetric, all-roads",9,129,A* inadmissible,Trip found,"[0, 4, 8, 2, 7, 5, 3, 6, 1, 0]",772.7793,0.00009600,1.7109
+"Symmetric, all-roads",9,129,ACO,Trip found,"[0, 7, 5, 3, 6, 2, 8, 4, 1, 0]",621.6454,0.03648000,5.7734
+"Symmetric, all-roads",10,50,BFS,Trip found,"[0, 4, 5, 7, 8, 6, 1, 2, 3, 9, 0]",531.8523,42.77771900,82106.9062
+"Symmetric, all-roads",10,50,DFS,Trip found,"[0, 9, 3, 2, 1, 6, 8, 7, 5, 4, 0]",531.8523,1.13656900,1.7812
+"Symmetric, all-roads",10,50,NN,Trip found,"[0, 9, 2, 3, 1, 6, 8, 7, 5, 4, 0]",552.9497,0.00002200,0.125
+"Symmetric, all-roads",10,50,Dijkstra,Trip found,"[0, 4, 5, 7, 8, 6, 1, 2, 3, 9, 0]",531.8523,0.31681700,13245.8125
+"Symmetric, all-roads",10,50,A* admissible,Trip found,"[0, 4, 5, 7, 8, 6, 1, 2, 3, 9, 0]",531.8523,0.13135500,5133.9688
+"Symmetric, all-roads",10,50,A* inadmissible,Trip found,"[0, 9, 2, 3, 1, 6, 8, 7, 5, 4, 0]",552.9497,0.00008700,1.7031
+"Symmetric, all-roads",10,50,ACO,Trip found,"[0, 4, 5, 7, 8, 6, 1, 2, 3, 9, 0]",531.8523,0.04895700,6.5234
+"Symmetric, all-roads",10,90,BFS,Trip found,"[0, 3, 9, 7, 2, 8, 5, 1, 6, 4, 0]",676.0149,42.85884400,82106.7578
+"Symmetric, all-roads",10,90,DFS,Trip found,"[0, 4, 6, 1, 5, 8, 2, 7, 9, 3, 0]",676.0149,1.12149700,1.7812
+"Symmetric, all-roads",10,90,NN,Trip found,"[0, 3, 9, 7, 2, 8, 1, 5, 6, 4, 0]",681.277,0.00002000,0.125
+"Symmetric, all-roads",10,90,Dijkstra,Trip found,"[0, 3, 9, 7, 2, 8, 5, 1, 6, 4, 0]",676.0149,0.56526900,21839.875
+"Symmetric, all-roads",10,90,A* admissible,Trip found,"[0, 3, 9, 7, 2, 8, 5, 1, 6, 4, 0]",676.0149,0.24975200,9550.5469
+"Symmetric, all-roads",10,90,A* inadmissible,Trip found,"[0, 3, 9, 7, 2, 8, 1, 5, 6, 4, 0]",681.277,0.00009000,1.7031
+"Symmetric, all-roads",10,90,ACO,Trip found,"[0, 3, 9, 7, 2, 8, 1, 5, 6, 4, 0]",681.277,0.05088500,6.5234
+"Symmetric, all-roads",10,130,BFS,Trip found,"[0, 2, 5, 4, 8, 7, 1, 6, 9, 3, 0]",572.7829,42.99318300,82106.7578
+"Symmetric, all-roads",10,130,DFS,Trip found,"[0, 3, 9, 6, 1, 7, 8, 4, 5, 2, 0]",572.7829,1.13883200,1.7812
+"Symmetric, all-roads",10,130,NN,Trip found,"[0, 3, 9, 1, 7, 8, 6, 5, 2, 4, 0]",687.1187,0.00002100,0.125
+"Symmetric, all-roads",10,130,Dijkstra,Trip found,"[0, 2, 5, 4, 8, 7, 1, 6, 9, 3, 0]",572.7829,0.71344200,25429.2812
+"Symmetric, all-roads",10,130,A* admissible,Trip found,"[0, 2, 5, 4, 8, 7, 1, 6, 9, 3, 0]",572.7829,0.68274300,22863.8359
+"Symmetric, all-roads",10,130,A* inadmissible,Trip found,"[0, 3, 9, 1, 7, 8, 4, 5, 2, 6, 0]",667.1661,0.00010500,1.8359
+"Symmetric, all-roads",10,130,ACO,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",578.7718,0.04839400,6.5234
+"Symmetric, all-roads",11,51,BFS,Timeout,,,60.29377400,264401.5859
+"Symmetric, all-roads",11,51,DFS,Trip found,"[0, 8, 5, 10, 3, 2, 1, 7, 9, 4, 6, 0]",585.8032,11.77356300,2.3203
+"Symmetric, all-roads",11,51,NN,Trip found,"[0, 6, 4, 9, 7, 1, 2, 3, 10, 8, 5, 0]",613.4332,0.00002600,0.125
+"Symmetric, all-roads",11,51,Dijkstra,Trip found,"[0, 6, 4, 9, 7, 1, 2, 3, 10, 5, 8, 0]",585.8032,3.31075500,109614.75
+"Symmetric, all-roads",11,51,A* admissible,Trip found,"[0, 6, 4, 9, 7, 1, 2, 3, 10, 5, 8, 0]",585.8032,2.28303300,74049.6641
+"Symmetric, all-roads",11,51,A* inadmissible,Trip found,"[0, 8, 10, 5, 3, 4, 9, 7, 1, 2, 6, 0]",666.863,0.00017400,2.875
+"Symmetric, all-roads",11,51,ACO,Trip found,"[0, 8, 5, 10, 3, 2, 1, 7, 9, 4, 6, 0]",585.8032,0.06333400,7.2422
+"Symmetric, all-roads",11,91,BFS,Timeout,,,60.43224800,264235.3672
+"Symmetric, all-roads",11,91,DFS,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",651.2366,12.34314100,2.3203
+"Symmetric, all-roads",11,91,NN,Trip found,"[0, 10, 7, 3, 8, 1, 4, 5, 9, 6, 2, 0]",666.6414,0.00003300,0.125
+"Symmetric, all-roads",11,91,Dijkstra,Trip found,"[0, 7, 3, 8, 1, 4, 5, 9, 6, 2, 10, 0]",651.2366,6.86811000,188683.4688
+"Symmetric, all-roads",11,91,A* admissible,Trip found,"[0, 7, 3, 8, 1, 4, 5, 9, 6, 2, 10, 0]",651.2366,0.81166200,27981.2969
+"Symmetric, all-roads",11,91,A* inadmissible,Trip found,"[0, 10, 7, 3, 8, 1, 4, 5, 9, 6, 2, 0]",666.6414,0.00011900,2.2344
+"Symmetric, all-roads",11,91,ACO,Trip found,"[0, 7, 3, 8, 1, 4, 5, 9, 6, 2, 10, 0]",651.2366,0.06454800,7.2422
+"Symmetric, all-roads",11,131,BFS,Timeout,,,60.37371800,266342.5547
+"Symmetric, all-roads",11,131,DFS,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 1, 6, 3, 0]",618.3314,11.88805300,2.3203
+"Symmetric, all-roads",11,131,NN,Trip found,"[0, 2, 9, 4, 7, 1, 6, 3, 5, 10, 8, 0]",789.6309,0.00003600,0.125
+"Symmetric, all-roads",11,131,Dijkstra,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 1, 6, 3, 0]",618.3314,7.68035000,234480.5625
+"Symmetric, all-roads",11,131,A* admissible,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 1, 6, 3, 0]",618.3314,1.44045100,48780.7031
+"Symmetric, all-roads",11,131,A* inadmissible,Trip found,"[0, 2, 9, 4, 7, 1, 6, 5, 10, 8, 3, 0]",734.8534,0.00021300,3.5938
+"Symmetric, all-roads",11,131,ACO,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 1, 6, 3, 0]",618.3314,0.06191600,7.2422
+"Symmetric, all-roads",12,52,BFS,Skipped,,,,
+"Symmetric, all-roads",12,52,DFS,Timeout,,,60.00006600,2.9453
+"Symmetric, all-roads",12,52,NN,Trip found,"[0, 2, 4, 3, 6, 11, 5, 10, 7, 1, 9, 8, 0]",761.8006,0.00002900,0.125
+"Symmetric, all-roads",12,52,Dijkstra,Trip found,"[0, 2, 8, 9, 1, 7, 10, 6, 5, 11, 3, 4, 0]",725.1821,8.59596500,290338.7188
+"Symmetric, all-roads",12,52,A* admissible,Trip found,"[0, 2, 8, 9, 1, 7, 10, 6, 5, 11, 3, 4, 0]",725.1821,1.17151500,44296.6719
+"Symmetric, all-roads",12,52,A* inadmissible,Trip found,"[0, 2, 4, 3, 6, 11, 5, 10, 7, 1, 9, 8, 0]",761.8006,0.00016900,3.2969
+"Symmetric, all-roads",12,52,ACO,Trip found,"[0, 2, 4, 3, 11, 5, 6, 10, 7, 1, 9, 8, 0]",743.7455,0.07677500,7.9531
+"Symmetric, all-roads",12,92,BFS,Skipped,,,,
+"Symmetric, all-roads",12,92,DFS,Timeout,,,60.00006700,2.9453
+"Symmetric, all-roads",12,92,NN,Trip found,"[0, 4, 2, 1, 3, 8, 5, 9, 11, 10, 7, 6, 0]",656.7134,0.00003400,0.125
+"Symmetric, all-roads",12,92,Dijkstra,Trip found,"[0, 4, 3, 1, 2, 8, 9, 5, 11, 10, 7, 6, 0]",629.6533,53.46572100,1105075.133
+"Symmetric, all-roads",12,92,A* admissible,Trip found,"[0, 4, 3, 1, 2, 8, 9, 5, 11, 10, 7, 6, 0]",629.6533,10.13753700,314480.75
+"Symmetric, all-roads",12,92,A* inadmissible,Trip found,"[0, 4, 2, 1, 3, 8, 5, 9, 11, 10, 7, 6, 0]",656.7134,0.00051600,3.2969
+"Symmetric, all-roads",12,92,ACO,Trip found,"[0, 6, 7, 10, 11, 4, 8, 5, 9, 2, 1, 3, 0]",633.6858,0.07771600,7.9531
+"Symmetric, all-roads",12,132,BFS,Skipped,,,,
+"Symmetric, all-roads",12,132,DFS,Timeout,,,60.00006600,2.9453
+"Symmetric, all-roads",12,132,NN,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 3, 9, 4, 0]",635.0776,0.00003400,0.125
+"Symmetric, all-roads",12,132,Dijkstra,Trip found,"[0, 4, 7, 10, 11, 5, 6, 2, 3, 9, 1, 8, 0]",579.0517,44.23130400,1000760.734
+"Symmetric, all-roads",12,132,A* admissible,Trip found,"[0, 4, 7, 10, 11, 5, 6, 2, 3, 9, 1, 8, 0]",579.0517,9.78832500,316230.5234
+"Symmetric, all-roads",12,132,A* inadmissible,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 3, 9, 4, 0]",635.0776,0.00067100,3.4453
+"Symmetric, all-roads",12,132,ACO,Trip found,"[0, 4, 7, 10, 11, 5, 2, 6, 3, 9, 1, 8, 0]",616.0161,0.07823700,7.9531
+"Symmetric, all-roads",13,53,BFS,Skipped,,,,
+"Symmetric, all-roads",13,53,DFS,Skipped,,,,
+"Symmetric, all-roads",13,53,NN,Trip found,"[0, 1, 2, 11, 7, 4, 10, 12, 5, 6, 3, 9, 8, 0]",917.0384,0.00001800,0.125
+"Symmetric, all-roads",13,53,Dijkstra,Timeout,,,78.33568900,1426905.992
+"Symmetric, all-roads",13,53,A* admissible,Trip found,"[0, 1, 2, 11, 8, 4, 7, 10, 6, 3, 12, 5, 9, 0]",707.0028,28.77963400,828621.25
+"Symmetric, all-roads",13,53,A* inadmissible,Trip found,"[0, 1, 2, 11, 7, 4, 10, 12, 5, 9, 3, 6, 8, 0]",870.7397,0.00166200,6.1719
+"Symmetric, all-roads",13,53,ACO,Trip found,"[0, 1, 2, 11, 7, 4, 8, 10, 6, 3, 12, 5, 9, 0]",721.3465,0.09730000,8.7109
+"Symmetric, all-roads",13,93,BFS,Skipped,,,,
+"Symmetric, all-roads",13,93,DFS,Skipped,,,,
+"Symmetric, all-roads",13,93,NN,Trip found,"[0, 4, 1, 11, 2, 7, 12, 3, 8, 5, 6, 9, 10, 0]",919.0523,0.00002500,0.125
+"Symmetric, all-roads",13,93,Dijkstra,Timeout,,,70.98530900,1461582.211
+"Symmetric, all-roads",13,93,A* admissible,Trip found,"[0, 4, 1, 11, 10, 9, 2, 7, 12, 3, 8, 5, 6, 0]",676.348,36.13219100,958394.0703
+"Symmetric, all-roads",13,93,A* inadmissible,Trip found,"[0, 4, 1, 11, 2, 7, 12, 3, 8, 6, 5, 9, 10, 0]",905.1446,0.00195300,4.9453
+"Symmetric, all-roads",13,93,ACO,Trip found,"[0, 4, 1, 11, 10, 9, 2, 7, 12, 3, 8, 5, 6, 0]",676.348,0.09999600,8.7109
+"Symmetric, all-roads",13,133,BFS,Skipped,,,,
+"Symmetric, all-roads",13,133,DFS,Skipped,,,,
+"Symmetric, all-roads",13,133,NN,Trip found,"[0, 7, 8, 9, 4, 12, 5, 1, 10, 11, 2, 3, 6, 0]",963.3211,0.00002500,0.125
+"Symmetric, all-roads",13,133,Dijkstra,Timeout,,,70.99766100,1463341.422
+"Symmetric, all-roads",13,133,A* admissible,Timeout,,,80.52764500,1430089.219
+"Symmetric, all-roads",13,133,A* inadmissible,Trip found,"[0, 7, 8, 9, 4, 12, 5, 1, 10, 11, 3, 2, 6, 0]",941.8725,0.00221300,4.8281
+"Symmetric, all-roads",13,133,ACO,Trip found,"[0, 2, 3, 1, 10, 11, 5, 12, 6, 4, 8, 9, 7, 0]",767.0989,0.10210800,8.7109
+"Symmetric, all-roads",14,54,BFS,Skipped,,,,
+"Symmetric, all-roads",14,54,DFS,Skipped,,,,
+"Symmetric, all-roads",14,54,NN,Trip found,"[0, 13, 7, 6, 12, 5, 2, 8, 1, 4, 10, 9, 11, 3, 0]",891.1554,0.00002700,0.125
+"Symmetric, all-roads",14,54,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",14,54,A* admissible,Skipped,,,,
+"Symmetric, all-roads",14,54,A* inadmissible,Trip found,"[0, 13, 7, 6, 12, 5, 2, 8, 1, 4, 10, 9, 11, 3, 0]",891.1554,0.00026400,6.7344
+"Symmetric, all-roads",14,54,ACO,Trip found,"[0, 13, 7, 6, 3, 8, 1, 4, 10, 9, 11, 2, 5, 12, 0]",808.2193,0.11443900,9.5156
+"Symmetric, all-roads",14,94,BFS,Skipped,,,,
+"Symmetric, all-roads",14,94,DFS,Skipped,,,,
+"Symmetric, all-roads",14,94,NN,Trip found,"[0, 1, 12, 8, 11, 3, 2, 5, 10, 6, 9, 4, 13, 7, 0]",824.8893,0.00001700,0.125
+"Symmetric, all-roads",14,94,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",14,94,A* admissible,Skipped,,,,
+"Symmetric, all-roads",14,94,A* inadmissible,Trip found,"[0, 1, 12, 8, 11, 3, 2, 5, 10, 6, 9, 4, 13, 7, 0]",824.8893,0.00023000,6.0391
+"Symmetric, all-roads",14,94,ACO,Trip found,"[0, 1, 12, 7, 13, 4, 9, 6, 10, 5, 2, 3, 11, 8, 0]",736.4027,0.11585700,9.5156
+"Symmetric, all-roads",14,134,BFS,Skipped,,,,
+"Symmetric, all-roads",14,134,DFS,Skipped,,,,
+"Symmetric, all-roads",14,134,NN,Trip found,"[0, 6, 13, 7, 10, 11, 1, 12, 9, 8, 4, 3, 5, 2, 0]",731.7773,0.00001700,0.125
+"Symmetric, all-roads",14,134,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",14,134,A* admissible,Skipped,,,,
+"Symmetric, all-roads",14,134,A* inadmissible,Trip found,"[0, 6, 13, 7, 10, 11, 1, 12, 9, 8, 4, 3, 5, 2, 0]",731.7773,0.00020000,6.0391
+"Symmetric, all-roads",14,134,ACO,Trip found,"[0, 5, 2, 3, 4, 10, 7, 11, 1, 12, 8, 9, 13, 6, 0]",672.2442,0.12172000,9.5156
+"Symmetric, all-roads",15,55,BFS,Skipped,,,,
+"Symmetric, all-roads",15,55,DFS,Skipped,,,,
+"Symmetric, all-roads",15,55,NN,Trip found,"[0, 11, 5, 4, 2, 10, 12, 14, 6, 9, 13, 7, 1, 3, 8, 0]",915.0897,0.00001900,0.125
+"Symmetric, all-roads",15,55,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",15,55,A* admissible,Skipped,,,,
+"Symmetric, all-roads",15,55,A* inadmissible,Trip found,"[0, 11, 5, 4, 2, 10, 12, 14, 6, 9, 13, 3, 1, 7, 8, 0]",876.6187,0.00033500,9.8125
+"Symmetric, all-roads",15,55,ACO,Trip found,"[0, 11, 7, 1, 3, 13, 9, 6, 14, 12, 8, 2, 10, 4, 5, 0]",822.7474,0.13617300,10.3672
+"Symmetric, all-roads",15,95,BFS,Skipped,,,,
+"Symmetric, all-roads",15,95,DFS,Skipped,,,,
+"Symmetric, all-roads",15,95,NN,Trip found,"[0, 9, 7, 8, 4, 11, 12, 5, 2, 6, 10, 14, 13, 3, 1, 0]",848.1893,0.00001900,0.125
+"Symmetric, all-roads",15,95,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",15,95,A* admissible,Skipped,,,,
+"Symmetric, all-roads",15,95,A* inadmissible,Trip found,"[0, 9, 7, 8, 4, 11, 12, 5, 2, 6, 10, 14, 13, 3, 1, 0]",848.1893,0.00027600,8.5391
+"Symmetric, all-roads",15,95,ACO,Trip found,"[0, 9, 7, 1, 11, 4, 8, 12, 3, 13, 6, 10, 14, 2, 5, 0]",717.656,0.13799000,10.3672
+"Symmetric, all-roads",15,135,BFS,Skipped,,,,
+"Symmetric, all-roads",15,135,DFS,Skipped,,,,
+"Symmetric, all-roads",15,135,NN,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 12, 3, 7, 14, 9, 0]",774.6009,0.00002000,0.125
+"Symmetric, all-roads",15,135,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",15,135,A* admissible,Skipped,,,,
+"Symmetric, all-roads",15,135,A* inadmissible,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 12, 3, 7, 14, 9, 0]",774.6009,0.00024700,8.1875
+"Symmetric, all-roads",15,135,ACO,Trip found,"[0, 10, 9, 14, 7, 3, 12, 6, 11, 13, 5, 8, 2, 4, 1, 0]",757.8627,0.13334200,10.3672
+"Symmetric, all-roads",16,56,BFS,Skipped,,,,
+"Symmetric, all-roads",16,56,DFS,Skipped,,,,
+"Symmetric, all-roads",16,56,NN,Trip found,"[0, 5, 12, 11, 8, 1, 4, 7, 3, 6, 2, 14, 10, 9, 13, 15, 0]",776.3783,0.00002300,0.1875
+"Symmetric, all-roads",16,56,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",16,56,A* admissible,Skipped,,,,
+"Symmetric, all-roads",16,56,A* inadmissible,Trip found,"[0, 5, 12, 11, 8, 1, 4, 7, 3, 6, 2, 14, 10, 9, 13, 15, 0]",776.3783,0.00031500,10.7344
+"Symmetric, all-roads",16,56,ACO,Trip found,"[0, 5, 12, 11, 8, 1, 4, 7, 3, 6, 2, 13, 9, 10, 15, 14, 0]",761.3129,0.15662600,11.8906
+"Symmetric, all-roads",16,96,BFS,Skipped,,,,
+"Symmetric, all-roads",16,96,DFS,Skipped,,,,
+"Symmetric, all-roads",16,96,NN,Trip found,"[0, 9, 6, 15, 1, 4, 3, 8, 2, 14, 13, 10, 12, 7, 5, 11, 0]",713.6861,0.00002300,0.1875
+"Symmetric, all-roads",16,96,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",16,96,A* admissible,Skipped,,,,
+"Symmetric, all-roads",16,96,A* inadmissible,Trip found,"[0, 9, 6, 15, 1, 4, 3, 8, 2, 14, 13, 10, 12, 7, 5, 11, 0]",713.6861,0.00030700,10.6797
+"Symmetric, all-roads",16,96,ACO,Trip found,"[0, 9, 11, 5, 7, 12, 10, 13, 14, 2, 8, 3, 4, 15, 6, 1, 0]",683.7016,0.15895700,11.8906
+"Symmetric, all-roads",16,136,BFS,Skipped,,,,
+"Symmetric, all-roads",16,136,DFS,Skipped,,,,
+"Symmetric, all-roads",16,136,NN,Trip found,"[0, 1, 11, 15, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 10, 4, 0]",791.3768,0.00002100,0.1875
+"Symmetric, all-roads",16,136,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",16,136,A* admissible,Skipped,,,,
+"Symmetric, all-roads",16,136,A* inadmissible,Trip found,"[0, 1, 11, 15, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 10, 4, 0]",791.3768,0.00029900,10.6797
+"Symmetric, all-roads",16,136,ACO,Trip found,"[0, 1, 11, 15, 3, 7, 2, 9, 14, 13, 12, 6, 8, 5, 4, 10, 0]",778.7398,0.15435600,11.8906
+"Symmetric, all-roads",17,57,BFS,Skipped,,,,
+"Symmetric, all-roads",17,57,DFS,Skipped,,,,
+"Symmetric, all-roads",17,57,NN,Trip found,"[0, 8, 3, 12, 6, 5, 9, 11, 4, 15, 10, 7, 14, 16, 1, 2, 13, 0]",1107.4505,0.00002500,0.1875
+"Symmetric, all-roads",17,57,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",17,57,A* admissible,Skipped,,,,
+"Symmetric, all-roads",17,57,A* inadmissible,Trip found,"[0, 8, 3, 12, 6, 5, 9, 11, 4, 15, 10, 7, 14, 13, 2, 1, 16, 0]",990.4858,0.00042600,14.9297
+"Symmetric, all-roads",17,57,ACO,Trip found,"[0, 8, 3, 16, 4, 15, 10, 7, 14, 13, 11, 2, 9, 5, 6, 1, 12, 0]",837.2353,0.18218500,13.9609
+"Symmetric, all-roads",17,97,BFS,Skipped,,,,
+"Symmetric, all-roads",17,97,DFS,Skipped,,,,
+"Symmetric, all-roads",17,97,NN,Trip found,"[0, 15, 7, 5, 6, 2, 16, 8, 13, 12, 11, 10, 3, 1, 14, 9, 4, 0]",984.7798,0.00002600,0.1875
+"Symmetric, all-roads",17,97,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",17,97,A* admissible,Skipped,,,,
+"Symmetric, all-roads",17,97,A* inadmissible,Trip found,"[0, 15, 7, 5, 6, 2, 16, 8, 13, 12, 3, 10, 1, 14, 9, 4, 11, 0]",1071.7671,0.00038300,14.4141
+"Symmetric, all-roads",17,97,ACO,Trip found,"[0, 15, 7, 5, 11, 6, 2, 16, 8, 13, 12, 3, 10, 1, 14, 9, 4, 0]",895.0847,0.18107400,13.9609
+"Symmetric, all-roads",17,137,BFS,Skipped,,,,
+"Symmetric, all-roads",17,137,DFS,Skipped,,,,
+"Symmetric, all-roads",17,137,NN,Trip found,"[0, 9, 1, 10, 12, 5, 13, 14, 16, 15, 7, 2, 3, 11, 4, 8, 6, 0]",1083.253,0.00002500,0.1875
+"Symmetric, all-roads",17,137,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",17,137,A* admissible,Skipped,,,,
+"Symmetric, all-roads",17,137,A* inadmissible,Trip found,"[0, 9, 1, 10, 12, 5, 13, 14, 16, 15, 7, 2, 3, 11, 4, 6, 8, 0]",1027.0204,0.00036200,13.6172
+"Symmetric, all-roads",17,137,ACO,Trip found,"[0, 9, 1, 8, 6, 3, 2, 15, 7, 14, 16, 13, 5, 12, 10, 11, 4, 0]",1016.0963,0.17377600,13.9609
+"Symmetric, all-roads",18,58,BFS,Skipped,,,,
+"Symmetric, all-roads",18,58,DFS,Skipped,,,,
+"Symmetric, all-roads",18,58,NN,Trip found,"[0, 14, 11, 7, 4, 1, 8, 13, 9, 3, 16, 6, 2, 15, 5, 10, 12, 17, 0]",980.7801,0.00003500,0.1875
+"Symmetric, all-roads",18,58,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",18,58,A* admissible,Skipped,,,,
+"Symmetric, all-roads",18,58,A* inadmissible,Trip found,"[0, 14, 11, 7, 4, 1, 8, 13, 9, 3, 16, 6, 2, 15, 5, 10, 12, 17, 0]",980.7801,0.00041200,16.4688
+"Symmetric, all-roads",18,58,ACO,Trip found,"[0, 11, 7, 5, 15, 2, 6, 10, 12, 17, 9, 3, 13, 16, 14, 8, 1, 4, 0]",841.793,0.20928700,15.1484
+"Symmetric, all-roads",18,98,BFS,Skipped,,,,
+"Symmetric, all-roads",18,98,DFS,Skipped,,,,
+"Symmetric, all-roads",18,98,NN,Trip found,"[0, 10, 1, 17, 3, 14, 6, 11, 2, 5, 9, 4, 8, 16, 7, 13, 12, 15, 0]",851.3362,0.00002800,0.1875
+"Symmetric, all-roads",18,98,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",18,98,A* admissible,Skipped,,,,
+"Symmetric, all-roads",18,98,A* inadmissible,Trip found,"[0, 10, 1, 17, 3, 14, 6, 11, 2, 5, 9, 4, 8, 16, 7, 13, 12, 15, 0]",851.3362,0.00047700,16.4141
+"Symmetric, all-roads",18,98,ACO,Trip found,"[0, 10, 1, 17, 3, 6, 14, 11, 2, 5, 9, 4, 8, 16, 7, 13, 15, 12, 0]",822.362,0.19962100,15.1484
+"Symmetric, all-roads",18,138,BFS,Skipped,,,,
+"Symmetric, all-roads",18,138,DFS,Skipped,,,,
+"Symmetric, all-roads",18,138,NN,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 10, 4, 12, 11, 3, 1, 17, 13, 0]",806.4847,0.00002800,0.1875
+"Symmetric, all-roads",18,138,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",18,138,A* admissible,Skipped,,,,
+"Symmetric, all-roads",18,138,A* inadmissible,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 10, 4, 12, 11, 3, 1, 17, 13, 0]",806.4847,0.00041400,16.4141
+"Symmetric, all-roads",18,138,ACO,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 4, 10, 12, 11, 3, 1, 17, 13, 0]",795.7991,0.19738300,15.1484
+"Symmetric, all-roads",19,59,BFS,Skipped,,,,
+"Symmetric, all-roads",19,59,DFS,Skipped,,,,
+"Symmetric, all-roads",19,59,NN,Trip found,"[0, 3, 16, 8, 12, 7, 6, 15, 2, 11, 9, 18, 14, 13, 1, 5, 17, 4, 10, 0]",1005.9207,0.00003200,0.1875
+"Symmetric, all-roads",19,59,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",19,59,A* admissible,Skipped,,,,
+"Symmetric, all-roads",19,59,A* inadmissible,Trip found,"[0, 3, 16, 8, 12, 7, 6, 15, 2, 11, 9, 18, 14, 13, 1, 5, 17, 4, 10, 0]",1005.9207,0.00050800,19.7266
+"Symmetric, all-roads",19,59,ACO,Trip found,"[0, 1, 13, 14, 11, 9, 18, 2, 15, 6, 7, 12, 10, 4, 17, 5, 8, 16, 3, 0]",889.9942,0.22452300,16.3047
+"Symmetric, all-roads",19,99,BFS,Skipped,,,,
+"Symmetric, all-roads",19,99,DFS,Skipped,,,,
+"Symmetric, all-roads",19,99,NN,Trip found,"[0, 12, 5, 18, 2, 1, 13, 6, 7, 14, 11, 10, 3, 8, 4, 16, 9, 15, 17, 0]",1000.985,0.00003000,0.1875
+"Symmetric, all-roads",19,99,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",19,99,A* admissible,Skipped,,,,
+"Symmetric, all-roads",19,99,A* inadmissible,Trip found,"[0, 12, 5, 18, 2, 1, 13, 6, 17, 15, 9, 4, 16, 8, 3, 10, 11, 14, 7, 0]",1086.1979,0.00053700,21.2969
+"Symmetric, all-roads",19,99,ACO,Trip found,"[0, 12, 4, 16, 8, 3, 10, 11, 14, 7, 13, 6, 1, 2, 18, 5, 17, 15, 9, 0]",957.4165,0.22335900,16.3047
+"Symmetric, all-roads",19,139,BFS,Skipped,,,,
+"Symmetric, all-roads",19,139,DFS,Skipped,,,,
+"Symmetric, all-roads",19,139,NN,Trip found,"[0, 11, 10, 7, 16, 13, 6, 14, 15, 9, 17, 12, 2, 3, 18, 1, 5, 4, 8, 0]",1085.1183,0.00003100,0.1875
+"Symmetric, all-roads",19,139,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",19,139,A* admissible,Skipped,,,,
+"Symmetric, all-roads",19,139,A* inadmissible,Trip found,"[0, 11, 10, 7, 16, 13, 6, 14, 15, 9, 17, 12, 2, 3, 18, 1, 5, 4, 8, 0]",1085.1183,0.00047200,19.6719
+"Symmetric, all-roads",19,139,ACO,Trip found,"[0, 10, 7, 6, 16, 13, 8, 4, 5, 2, 12, 18, 3, 1, 9, 17, 15, 14, 11, 0]",1002.1777,0.22942200,16.3047
+"Symmetric, all-roads",20,60,BFS,Skipped,,,,
+"Symmetric, all-roads",20,60,DFS,Skipped,,,,
+"Symmetric, all-roads",20,60,NN,Trip found,"[0, 16, 13, 8, 15, 4, 10, 14, 18, 6, 7, 1, 12, 5, 3, 9, 2, 11, 19, 17, 0]",920.9448,0.00003500,0.1875
+"Symmetric, all-roads",20,60,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",20,60,A* admissible,Skipped,,,,
+"Symmetric, all-roads",20,60,A* inadmissible,Trip found,"[0, 16, 13, 8, 15, 4, 10, 14, 18, 6, 7, 1, 12, 5, 3, 9, 2, 11, 19, 17, 0]",920.9448,0.00082500,23.0469
+"Symmetric, all-roads",20,60,ACO,Trip found,"[0, 16, 13, 8, 15, 4, 10, 14, 17, 19, 11, 2, 1, 12, 5, 3, 9, 7, 6, 18, 0]",853.1805,0.25094700,17.4531
+"Symmetric, all-roads",20,100,BFS,Skipped,,,,
+"Symmetric, all-roads",20,100,DFS,Skipped,,,,
+"Symmetric, all-roads",20,100,NN,Trip found,"[0, 6, 10, 9, 16, 18, 8, 14, 13, 15, 1, 19, 2, 4, 12, 7, 5, 11, 3, 17, 0]",918.2302,0.00003400,0.1875
+"Symmetric, all-roads",20,100,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",20,100,A* admissible,Skipped,,,,
+"Symmetric, all-roads",20,100,A* inadmissible,Trip found,"[0, 6, 10, 9, 16, 18, 8, 14, 13, 15, 1, 19, 2, 4, 12, 7, 5, 11, 3, 17, 0]",918.2302,0.00056300,22.9922
+"Symmetric, all-roads",20,100,ACO,Trip found,"[0, 6, 16, 9, 17, 18, 8, 14, 13, 15, 1, 2, 19, 4, 7, 12, 5, 11, 3, 10, 0]",812.5645,0.25260800,17.4531
+"Symmetric, all-roads",20,140,BFS,Skipped,,,,
+"Symmetric, all-roads",20,140,DFS,Skipped,,,,
+"Symmetric, all-roads",20,140,NN,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 17, 7, 16, 8, 13, 6, 19, 11, 2, 12, 1, 0]",892.2174,0.00003400,0.1875
+"Symmetric, all-roads",20,140,Dijkstra,Skipped,,,,
+"Symmetric, all-roads",20,140,A* admissible,Skipped,,,,
+"Symmetric, all-roads",20,140,A* inadmissible,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 17, 7, 16, 8, 13, 6, 19, 11, 2, 12, 1, 0]",892.2174,0.00054500,22.9922
+"Symmetric, all-roads",20,140,ACO,Trip found,"[0, 4, 18, 15, 3, 9, 5, 10, 14, 16, 17, 7, 13, 8, 6, 19, 2, 11, 12, 1, 0]",844.741,0.25380400,17.4531
+"Symmetric, 80% roads",5,45,BFS,No trip,,inf,0.00009600,0.2891
+"Symmetric, 80% roads",5,45,DFS,No trip,,inf,0.00003300,0.1797
+"Symmetric, 80% roads",5,45,NN,No trip,,inf,0.00000600,0.0625
+"Symmetric, 80% roads",5,45,Dijkstra,No trip,,inf,0.00002300,0.2422
+"Symmetric, 80% roads",5,45,A* admissible,No trip,,inf,0.00002700,0.2422
+"Symmetric, 80% roads",5,45,A* inadmissible,No trip,,inf,0.00002500,0.2422
+"Symmetric, 80% roads",5,45,ACO,No trip,,inf,0.00610500,3.0547
+"Symmetric, 80% roads",5,85,BFS,Trip found,"[0, 4, 1, 3, 2, 0]",489.4423,0.00003500,0.3984
+"Symmetric, 80% roads",5,85,DFS,Trip found,"[0, 4, 1, 3, 2, 0]",489.4423,0.00003000,0.2188
+"Symmetric, 80% roads",5,85,NN,No trip,,inf,0.00000400,0.0625
+"Symmetric, 80% roads",5,85,Dijkstra,Trip found,"[0, 4, 1, 3, 2, 0]",489.4423,0.00003500,0.3203
+"Symmetric, 80% roads",5,85,A* admissible,Trip found,"[0, 4, 1, 3, 2, 0]",489.4423,0.00003900,0.3047
+"Symmetric, 80% roads",5,85,A* inadmissible,Trip found,"[0, 4, 1, 3, 2, 0]",489.4423,0.00002400,0.2109
+"Symmetric, 80% roads",5,85,ACO,Trip found,"[0, 4, 1, 3, 2, 0]",489.4423,0.00800600,3.8047
+"Symmetric, 80% roads",5,125,BFS,Trip found,"[0, 3, 2, 1, 4, 0]",402.1086,0.00005800,0.6719
+"Symmetric, 80% roads",5,125,DFS,Trip found,"[0, 4, 1, 2, 3, 0]",402.1086,0.00008100,0.2969
+"Symmetric, 80% roads",5,125,NN,Trip found,"[0, 3, 2, 1, 4, 0]",402.1086,0.00000400,0.0625
+"Symmetric, 80% roads",5,125,Dijkstra,Trip found,"[0, 3, 2, 1, 4, 0]",402.1086,0.00006500,0.75
+"Symmetric, 80% roads",5,125,A* admissible,Trip found,"[0, 3, 2, 1, 4, 0]",402.1086,0.00006100,0.6484
+"Symmetric, 80% roads",5,125,A* inadmissible,Trip found,"[0, 3, 2, 1, 4, 0]",402.1086,0.00001800,0.25
+"Symmetric, 80% roads",5,125,ACO,Trip found,"[0, 3, 2, 1, 4, 0]",402.1086,0.00926100,3.8047
+"Symmetric, 80% roads",6,46,BFS,Trip found,"[0, 3, 4, 1, 2, 5, 0]",690.1616,0.00018500,1.6797
+"Symmetric, 80% roads",6,46,DFS,Trip found,"[0, 5, 2, 1, 4, 3, 0]",690.1616,0.00012800,0.3594
+"Symmetric, 80% roads",6,46,NN,No trip,,inf,0.00000400,0.0625
+"Symmetric, 80% roads",6,46,Dijkstra,Trip found,"[0, 3, 4, 1, 2, 5, 0]",690.1616,0.00015400,1.4688
+"Symmetric, 80% roads",6,46,A* admissible,Trip found,"[0, 3, 4, 1, 2, 5, 0]",690.1616,0.00017200,1.4453
+"Symmetric, 80% roads",6,46,A* inadmissible,Trip found,"[0, 2, 5, 4, 1, 3, 0]",705.7333,0.00007100,0.6641
+"Symmetric, 80% roads",6,46,ACO,Trip found,"[0, 5, 2, 1, 4, 3, 0]",690.1616,0.01166800,3.9062
+"Symmetric, 80% roads",6,86,BFS,Trip found,"[0, 1, 4, 5, 2, 3, 0]",550.8674,0.00008400,1.1016
+"Symmetric, 80% roads",6,86,DFS,Trip found,"[0, 3, 2, 5, 4, 1, 0]",550.8674,0.00008400,0.3203
+"Symmetric, 80% roads",6,86,NN,No trip,,inf,0.00000500,0.0625
+"Symmetric, 80% roads",6,86,Dijkstra,Trip found,"[0, 1, 4, 5, 2, 3, 0]",550.8674,0.00008700,0.9062
+"Symmetric, 80% roads",6,86,A* admissible,Trip found,"[0, 1, 4, 5, 2, 3, 0]",550.8674,0.00009600,0.8594
+"Symmetric, 80% roads",6,86,A* inadmissible,Trip found,"[0, 3, 2, 5, 4, 1, 0]",550.8674,0.00002300,0.3281
+"Symmetric, 80% roads",6,86,ACO,Trip found,"[0, 3, 2, 5, 4, 1, 0]",550.8674,0.01059700,3.8672
+"Symmetric, 80% roads",6,126,BFS,Trip found,"[0, 3, 4, 5, 2, 1, 0]",458.8585,0.00013100,1.7422
+"Symmetric, 80% roads",6,126,DFS,Trip found,"[0, 3, 4, 5, 2, 1, 0]",458.8585,0.00012900,0.3516
+"Symmetric, 80% roads",6,126,NN,No trip,,inf,0.00000400,0.0625
+"Symmetric, 80% roads",6,126,Dijkstra,Trip found,"[0, 3, 4, 5, 2, 1, 0]",458.8585,0.00016500,1.5547
+"Symmetric, 80% roads",6,126,A* admissible,Trip found,"[0, 3, 4, 5, 2, 1, 0]",458.8585,0.00017100,1.4922
+"Symmetric, 80% roads",6,126,A* inadmissible,Trip found,"[0, 1, 5, 3, 4, 2, 0]",488.8271,0.00006700,0.6797
+"Symmetric, 80% roads",6,126,ACO,Trip found,"[0, 1, 2, 5, 4, 3, 0]",458.8585,0.01164300,3.9062
+"Symmetric, 80% roads",7,47,BFS,Trip found,"[0, 1, 6, 5, 4, 3, 2, 0]",473.6617,0.00129600,28.1953
+"Symmetric, 80% roads",7,47,DFS,Trip found,"[0, 2, 3, 4, 5, 6, 1, 0]",473.6617,0.00079900,0.5938
+"Symmetric, 80% roads",7,47,NN,Trip found,"[0, 1, 6, 4, 5, 3, 2, 0]",498.6104,0.00000500,0.0625
+"Symmetric, 80% roads",7,47,Dijkstra,Trip found,"[0, 1, 6, 5, 4, 3, 2, 0]",473.6617,0.00115400,22.0078
+"Symmetric, 80% roads",7,47,A* admissible,Trip found,"[0, 1, 6, 5, 4, 3, 2, 0]",473.6617,0.00148100,25.8906
+"Symmetric, 80% roads",7,47,A* inadmissible,Trip found,"[0, 1, 3, 2, 4, 6, 5, 0]",496.634,0.00010700,1.4141
+"Symmetric, 80% roads",7,47,ACO,Trip found,"[0, 1, 6, 5, 4, 3, 2, 0]",473.6617,0.01534900,3.9688
+"Symmetric, 80% roads",7,87,BFS,Trip found,"[0, 3, 4, 5, 2, 1, 6, 0]",554.415,0.00083400,18.75
+"Symmetric, 80% roads",7,87,DFS,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",554.415,0.00059700,0.5703
+"Symmetric, 80% roads",7,87,NN,Trip found,"[0, 6, 3, 1, 2, 5, 4, 0]",598.5317,0.00000500,0.0625
+"Symmetric, 80% roads",7,87,Dijkstra,Trip found,"[0, 3, 4, 5, 2, 1, 6, 0]",554.415,0.00083800,14.7031
+"Symmetric, 80% roads",7,87,A* admissible,Trip found,"[0, 3, 4, 5, 2, 1, 6, 0]",554.415,0.00104200,16.375
+"Symmetric, 80% roads",7,87,A* inadmissible,Trip found,"[0, 6, 3, 1, 2, 4, 5, 0]",595.2288,0.00011400,1.4844
+"Symmetric, 80% roads",7,87,ACO,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",554.415,0.01386400,3.9297
+"Symmetric, 80% roads",7,127,BFS,Trip found,"[0, 2, 3, 5, 1, 4, 6, 0]",896.6861,0.00052300,10.6094
+"Symmetric, 80% roads",7,127,DFS,Trip found,"[0, 2, 3, 5, 1, 4, 6, 0]",896.6861,0.00042400,0.5469
+"Symmetric, 80% roads",7,127,NN,No trip,,inf,0.00000500,0.0625
+"Symmetric, 80% roads",7,127,Dijkstra,Trip found,"[0, 2, 3, 5, 1, 4, 6, 0]",896.6861,0.00055300,7.3203
+"Symmetric, 80% roads",7,127,A* admissible,Trip found,"[0, 2, 3, 5, 1, 4, 6, 0]",896.6861,0.00081300,9.1016
+"Symmetric, 80% roads",7,127,A* inadmissible,Trip found,"[0, 6, 5, 1, 4, 2, 3, 0]",907.1742,0.00029700,2.4375
+"Symmetric, 80% roads",7,127,ACO,Trip found,"[0, 2, 3, 5, 1, 4, 6, 0]",896.6861,0.01356400,3.9297
+"Symmetric, 80% roads",8,48,BFS,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",565.0106,0.00232200,47.7812
+"Symmetric, 80% roads",8,48,DFS,Trip found,"[0, 5, 6, 7, 1, 4, 2, 3, 0]",565.0106,0.00145900,0.6562
+"Symmetric, 80% roads",8,48,NN,No trip,,inf,0.00000700,0.0625
+"Symmetric, 80% roads",8,48,Dijkstra,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",565.0106,0.00199900,35.8281
+"Symmetric, 80% roads",8,48,A* admissible,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",565.0106,0.00195300,37.4141
+"Symmetric, 80% roads",8,48,A* inadmissible,Trip found,"[0, 3, 2, 4, 6, 5, 7, 1, 0]",656.8716,0.00004300,0.6406
+"Symmetric, 80% roads",8,48,ACO,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",565.0106,0.01725600,4.6562
+"Symmetric, 80% roads",8,88,BFS,Trip found,"[0, 5, 7, 4, 1, 2, 3, 6, 0]",714.8191,0.00260800,46.9688
+"Symmetric, 80% roads",8,88,DFS,Trip found,"[0, 6, 3, 2, 1, 4, 7, 5, 0]",714.8191,0.00147800,0.6484
+"Symmetric, 80% roads",8,88,NN,Trip found,"[0, 5, 4, 1, 2, 3, 6, 7, 0]",779.2536,0.00000700,0.125
+"Symmetric, 80% roads",8,88,Dijkstra,Trip found,"[0, 5, 7, 4, 1, 2, 3, 6, 0]",714.8191,0.00233000,41.8906
+"Symmetric, 80% roads",8,88,A* admissible,Trip found,"[0, 5, 7, 4, 1, 2, 3, 6, 0]",714.8191,0.00189200,39.5703
+"Symmetric, 80% roads",8,88,A* inadmissible,Trip found,"[0, 5, 4, 1, 2, 3, 6, 7, 0]",779.2536,0.00004100,0.6797
+"Symmetric, 80% roads",8,88,ACO,Trip found,"[0, 6, 3, 2, 1, 4, 7, 5, 0]",714.8191,0.01826100,4.7109
+"Symmetric, 80% roads",8,128,BFS,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.00529500,119.7656
+"Symmetric, 80% roads",8,128,DFS,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.00301500,0.75
+"Symmetric, 80% roads",8,128,NN,Trip found,"[0, 7, 2, 3, 5, 6, 4, 1, 0]",619.7888,0.00000800,0.125
+"Symmetric, 80% roads",8,128,Dijkstra,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.00347300,89.8594
+"Symmetric, 80% roads",8,128,A* admissible,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.00326800,78.2656
+"Symmetric, 80% roads",8,128,A* inadmissible,Trip found,"[0, 7, 2, 3, 5, 6, 4, 1, 0]",619.7888,0.00003800,0.6797
+"Symmetric, 80% roads",8,128,ACO,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",548.5123,0.01800400,4.7109
+"Symmetric, 80% roads",9,49,BFS,Trip found,"[0, 5, 1, 4, 3, 8, 6, 7, 2, 0]",507.6282,0.08918500,1902.3906
+"Symmetric, 80% roads",9,49,DFS,Trip found,"[0, 5, 1, 4, 3, 8, 6, 7, 2, 0]",507.6282,0.03116000,1.1406
+"Symmetric, 80% roads",9,49,NN,Trip found,"[0, 2, 7, 6, 8, 3, 4, 1, 5, 0]",507.6282,0.00001200,0.125
+"Symmetric, 80% roads",9,49,Dijkstra,Trip found,"[0, 5, 1, 4, 3, 8, 6, 7, 2, 0]",507.6282,0.03468200,1163.0625
+"Symmetric, 80% roads",9,49,A* admissible,Trip found,"[0, 5, 1, 4, 3, 8, 6, 7, 2, 0]",507.6282,0.02219500,599.6016
+"Symmetric, 80% roads",9,49,A* inadmissible,Trip found,"[0, 2, 7, 6, 8, 3, 4, 1, 5, 0]",507.6282,0.00005700,1.0703
+"Symmetric, 80% roads",9,49,ACO,Trip found,"[0, 5, 1, 4, 3, 8, 6, 7, 2, 0]",507.6282,0.02716100,5.7031
+"Symmetric, 80% roads",9,89,BFS,Trip found,"[0, 7, 4, 5, 2, 1, 3, 6, 8, 0]",977.7451,0.01603900,335.4844
+"Symmetric, 80% roads",9,89,DFS,Trip found,"[0, 8, 6, 3, 1, 2, 5, 4, 7, 0]",977.7451,0.00843700,0.9531
+"Symmetric, 80% roads",9,89,NN,No trip,,inf,0.00000900,0.0625
+"Symmetric, 80% roads",9,89,Dijkstra,Trip found,"[0, 7, 4, 5, 2, 1, 3, 6, 8, 0]",977.7451,0.01258200,239.0703
+"Symmetric, 80% roads",9,89,A* admissible,Trip found,"[0, 7, 4, 5, 2, 1, 3, 6, 8, 0]",977.7451,0.01324300,231.9453
+"Symmetric, 80% roads",9,89,A* inadmissible,Trip found,"[0, 7, 5, 4, 2, 1, 3, 6, 8, 0]",1020.4957,0.00025100,1.4453
+"Symmetric, 80% roads",9,89,ACO,Trip found,"[0, 7, 4, 5, 2, 1, 3, 6, 8, 0]",977.7451,0.02544600,5.6797
+"Symmetric, 80% roads",9,129,BFS,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",850.3933,0.00999500,188.2188
+"Symmetric, 80% roads",9,129,DFS,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",850.3933,0.00547400,0.8984
+"Symmetric, 80% roads",9,129,NN,No trip,,inf,0.00000800,0.0625
+"Symmetric, 80% roads",9,129,Dijkstra,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",850.3933,0.01022600,142.5391
+"Symmetric, 80% roads",9,129,A* admissible,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",850.3933,0.01079100,142.6094
+"Symmetric, 80% roads",9,129,A* inadmissible,Trip found,"[0, 4, 2, 5, 3, 7, 1, 8, 6, 0]",916.0824,0.00015700,2.4375
+"Symmetric, 80% roads",9,129,ACO,Trip found,"[0, 7, 3, 5, 2, 4, 1, 8, 6, 0]",850.3933,0.02503400,5.7734
+"Symmetric, 80% roads",10,50,BFS,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 2, 3, 0]",552.8576,5.87125800,27972.0938
+"Symmetric, 80% roads",10,50,DFS,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 2, 3, 0]",552.8576,0.41933900,1.5547
+"Symmetric, 80% roads",10,50,NN,Trip found,"[0, 9, 2, 3, 6, 8, 7, 5, 4, 1, 0]",667.3629,0.00001200,0.125
+"Symmetric, 80% roads",10,50,Dijkstra,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 2, 3, 0]",552.8576,0.16137300,6208.3047
+"Symmetric, 80% roads",10,50,A* admissible,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 2, 3, 0]",552.8576,0.08235300,2833.7734
+"Symmetric, 80% roads",10,50,A* inadmissible,Trip found,"[0, 9, 2, 3, 6, 8, 7, 5, 4, 1, 0]",667.3629,0.00008300,1.4453
+"Symmetric, 80% roads",10,50,ACO,Trip found,"[0, 1, 9, 3, 2, 6, 8, 7, 5, 4, 0]",581.4631,0.04426800,6.3672
+"Symmetric, 80% roads",10,90,BFS,Trip found,"[0, 3, 4, 6, 5, 7, 8, 2, 1, 9, 0]",847.4003,0.68019200,7696.5781
+"Symmetric, 80% roads",10,90,DFS,Trip found,"[0, 9, 1, 2, 8, 7, 5, 6, 4, 3, 0]",847.4003,0.12666400,1.3203
+"Symmetric, 80% roads",10,90,NN,Trip found,"[0, 3, 1, 8, 2, 6, 4, 9, 5, 7, 0]",1053.7538,0.00001100,0.125
+"Symmetric, 80% roads",10,90,Dijkstra,Trip found,"[0, 3, 4, 6, 5, 7, 8, 2, 1, 9, 0]",847.4003,0.16588300,5218.4141
+"Symmetric, 80% roads",10,90,A* admissible,Trip found,"[0, 3, 4, 6, 5, 7, 8, 2, 1, 9, 0]",847.4003,0.13629100,4142.4141
+"Symmetric, 80% roads",10,90,A* inadmissible,Trip found,"[0, 3, 1, 8, 2, 6, 4, 9, 5, 7, 0]",1053.7538,0.00010600,1.8125
+"Symmetric, 80% roads",10,90,ACO,Trip found,"[0, 9, 1, 2, 8, 7, 5, 6, 4, 3, 0]",847.4003,0.04138000,6.3438
+"Symmetric, 80% roads",10,130,BFS,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",578.7718,0.86097100,8956.9062
+"Symmetric, 80% roads",10,130,DFS,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",578.7718,0.14702700,1.4219
+"Symmetric, 80% roads",10,130,NN,Trip found,"[0, 3, 9, 1, 7, 8, 6, 5, 2, 4, 0]",687.1187,0.00001100,0.125
+"Symmetric, 80% roads",10,130,Dijkstra,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",578.7718,0.14431200,5005.1094
+"Symmetric, 80% roads",10,130,A* admissible,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",578.7718,0.15754800,4889.1484
+"Symmetric, 80% roads",10,130,A* inadmissible,Trip found,"[0, 3, 9, 1, 7, 8, 6, 5, 2, 4, 0]",687.1187,0.00014100,2.0078
+"Symmetric, 80% roads",10,130,ACO,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",578.7718,0.04175200,6.3438
+"Symmetric, 80% roads",11,51,BFS,Timeout,,,60.23065700,145791.6172
+"Symmetric, 80% roads",11,51,DFS,Trip found,"[0, 6, 8, 4, 9, 1, 7, 2, 3, 10, 5, 0]",698.9374,2.20517800,1.9219
+"Symmetric, 80% roads",11,51,NN,No trip,,inf,0.00001900,0.125
+"Symmetric, 80% roads",11,51,Dijkstra,Trip found,"[0, 6, 8, 4, 9, 1, 7, 2, 3, 10, 5, 0]",698.9374,1.65517200,51045.1875
+"Symmetric, 80% roads",11,51,A* admissible,Trip found,"[0, 6, 8, 4, 9, 1, 7, 2, 3, 10, 5, 0]",698.9374,1.45000300,41857.7188
+"Symmetric, 80% roads",11,51,A* inadmissible,Trip found,"[0, 8, 3, 4, 9, 1, 7, 2, 10, 5, 6, 0]",743.8532,0.00012800,2.0312
+"Symmetric, 80% roads",11,51,ACO,Trip found,"[0, 5, 10, 3, 2, 7, 1, 9, 4, 8, 6, 0]",698.9374,0.05688900,7.1406
+"Symmetric, 80% roads",11,91,BFS,Timeout,,,60.25145100,186971.4141
+"Symmetric, 80% roads",11,91,DFS,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",651.2366,3.12567800,2.0156
+"Symmetric, 80% roads",11,91,NN,No trip,,inf,0.00002500,0.125
+"Symmetric, 80% roads",11,91,Dijkstra,Trip found,"[0, 7, 3, 8, 1, 4, 5, 9, 6, 2, 10, 0]",651.2366,2.05147400,64893.9609
+"Symmetric, 80% roads",11,91,A* admissible,Trip found,"[0, 7, 3, 8, 1, 4, 5, 9, 6, 2, 10, 0]",651.2366,0.37522600,12771.3438
+"Symmetric, 80% roads",11,91,A* inadmissible,Trip found,"[0, 10, 7, 3, 8, 1, 4, 5, 9, 2, 6, 0]",712.9862,0.00010300,1.8828
+"Symmetric, 80% roads",11,91,ACO,Trip found,"[0, 7, 8, 3, 1, 4, 5, 9, 6, 2, 10, 0]",673.2797,0.05937200,6.9844
+"Symmetric, 80% roads",11,131,BFS,Trip found,"[0, 2, 3, 1, 5, 6, 10, 8, 9, 4, 7, 0]",759.256,24.32569100,61662.0625
+"Symmetric, 80% roads",11,131,DFS,Trip found,"[0, 7, 4, 9, 8, 10, 6, 5, 1, 3, 2, 0]",759.256,0.98000600,1.8203
+"Symmetric, 80% roads",11,131,NN,No trip,,inf,0.00002600,0.125
+"Symmetric, 80% roads",11,131,Dijkstra,Trip found,"[0, 2, 3, 1, 5, 6, 10, 8, 9, 4, 7, 0]",759.256,2.05268600,47234.25
+"Symmetric, 80% roads",11,131,A* admissible,Trip found,"[0, 2, 3, 1, 5, 6, 10, 8, 9, 4, 7, 0]",759.256,1.12102900,29051.3125
+"Symmetric, 80% roads",11,131,A* inadmissible,Trip found,"[0, 2, 3, 1, 6, 5, 9, 10, 8, 4, 7, 0]",760.373,0.00015000,2.1094
+"Symmetric, 80% roads",11,131,ACO,Trip found,"[0, 2, 3, 1, 6, 5, 9, 10, 8, 4, 7, 0]",760.373,0.05185600,6.9844
+"Symmetric, 80% roads",12,52,BFS,Skipped,,,,
+"Symmetric, 80% roads",12,52,DFS,Trip found,"[0, 3, 5, 11, 6, 7, 10, 1, 9, 8, 2, 4, 0]",990.8092,3.79258900,1.9844
+"Symmetric, 80% roads",12,52,NN,No trip,,inf,0.00001600,0.125
+"Symmetric, 80% roads",12,52,Dijkstra,Trip found,"[0, 3, 5, 11, 6, 7, 10, 1, 9, 8, 2, 4, 0]",990.8092,5.34070300,112824.7969
+"Symmetric, 80% roads",12,52,A* admissible,Trip found,"[0, 3, 5, 11, 6, 7, 10, 1, 9, 8, 2, 4, 0]",990.8092,2.09859000,54492.5625
+"Symmetric, 80% roads",12,52,A* inadmissible,Trip found,"[0, 4, 2, 3, 6, 11, 5, 1, 9, 8, 10, 7, 0]",1119.751,0.00021600,1.9844
+"Symmetric, 80% roads",12,52,ACO,Trip found,"[0, 4, 2, 8, 9, 1, 11, 5, 3, 6, 10, 7, 0]",1070.9795,0.06520900,7.8828
+"Symmetric, 80% roads",12,92,BFS,Skipped,,,,
+"Symmetric, 80% roads",12,92,DFS,Trip found,"[0, 4, 9, 2, 1, 3, 8, 5, 11, 10, 7, 6, 0]",675.4238,18.46574800,2.375
+"Symmetric, 80% roads",12,92,NN,No trip,,inf,0.00001600,0.125
+"Symmetric, 80% roads",12,92,Dijkstra,Trip found,"[0, 4, 9, 2, 1, 3, 8, 5, 11, 10, 7, 6, 0]",675.4238,10.46409100,290963.0625
+"Symmetric, 80% roads",12,92,A* admissible,Trip found,"[0, 4, 9, 2, 1, 3, 8, 5, 11, 10, 7, 6, 0]",675.4238,3.74039500,116143.3594
+"Symmetric, 80% roads",12,92,A* inadmissible,Trip found,"[0, 4, 2, 1, 3, 8, 5, 6, 7, 10, 11, 9, 0]",818.3199,0.00038300,3.8672
+"Symmetric, 80% roads",12,92,ACO,Trip found,"[0, 6, 7, 10, 11, 9, 2, 1, 3, 8, 5, 4, 0]",689.653,0.06717300,7.9531
+"Symmetric, 80% roads",12,132,BFS,Skipped,,,,
+"Symmetric, 80% roads",12,132,DFS,Trip found,"[0, 4, 10, 7, 11, 5, 6, 2, 3, 9, 1, 8, 0]",583.581,15.88542900,2.3984
+"Symmetric, 80% roads",12,132,NN,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 9, 3, 4, 0]",649.3425,0.00001500,0.125
+"Symmetric, 80% roads",12,132,Dijkstra,Trip found,"[0, 4, 10, 7, 11, 5, 6, 2, 3, 9, 1, 8, 0]",583.581,5.17741000,154310.1875
+"Symmetric, 80% roads",12,132,A* admissible,Trip found,"[0, 4, 10, 7, 11, 5, 6, 2, 3, 9, 1, 8, 0]",583.581,1.53541900,49324.1953
+"Symmetric, 80% roads",12,132,A* inadmissible,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 9, 3, 4, 0]",649.3425,0.00015300,2.2578
+"Symmetric, 80% roads",12,132,ACO,Trip found,"[0, 8, 1, 9, 3, 2, 6, 5, 11, 7, 10, 4, 0]",583.581,0.07466000,7.8516
+"Symmetric, 80% roads",13,53,BFS,Skipped,,,,
+"Symmetric, 80% roads",13,53,DFS,Timeout,,,60.00005300,2.8672
+"Symmetric, 80% roads",13,53,NN,Trip found,"[0, 1, 2, 11, 4, 10, 12, 5, 3, 6, 7, 8, 9, 0]",907.7483,0.00003500,0.125
+"Symmetric, 80% roads",13,53,Dijkstra,Trip found,"[0, 9, 5, 3, 6, 10, 12, 7, 8, 4, 11, 2, 1, 0]",774.4277,32.77051700,824360.6875
+"Symmetric, 80% roads",13,53,A* admissible,Trip found,"[0, 9, 5, 3, 6, 10, 12, 7, 8, 4, 11, 2, 1, 0]",774.4277,7.61751500,251689.7734
+"Symmetric, 80% roads",13,53,A* inadmissible,Trip found,"[0, 1, 2, 11, 4, 10, 12, 5, 3, 6, 8, 7, 9, 0]",883.8464,0.00069000,3.2266
+"Symmetric, 80% roads",13,53,ACO,Trip found,"[0, 1, 2, 11, 4, 8, 7, 3, 6, 10, 12, 5, 9, 0]",791.2022,0.07951000,8.5938
+"Symmetric, 80% roads",13,93,BFS,Skipped,,,,
+"Symmetric, 80% roads",13,93,DFS,Trip found,"[0, 6, 5, 8, 3, 12, 10, 1, 2, 9, 7, 11, 4, 0]",826.6965,58.99923500,2.8672
+"Symmetric, 80% roads",13,93,NN,No trip,,inf,0.00003200,0.125
+"Symmetric, 80% roads",13,93,Dijkstra,Trip found,"[0, 6, 5, 8, 3, 12, 10, 1, 2, 9, 7, 11, 4, 0]",826.6965,28.02741700,663255.1797
+"Symmetric, 80% roads",13,93,A* admissible,Trip found,"[0, 6, 5, 8, 3, 12, 10, 1, 2, 9, 7, 11, 4, 0]",826.6965,10.51511100,302572.5781
+"Symmetric, 80% roads",13,93,A* inadmissible,Trip found,"[0, 4, 1, 2, 9, 7, 12, 10, 3, 8, 6, 5, 11, 0]",1015.127,0.00044600,3.7734
+"Symmetric, 80% roads",13,93,ACO,Trip found,"[0, 4, 5, 6, 8, 9, 2, 1, 10, 3, 12, 7, 11, 0]",956.3587,0.08073400,8.6875
+"Symmetric, 80% roads",13,133,BFS,Skipped,,,,
+"Symmetric, 80% roads",13,133,DFS,Timeout,,,60.00007800,2.8359
+"Symmetric, 80% roads",13,133,NN,Trip found,"[0, 7, 4, 5, 12, 1, 10, 11, 2, 3, 8, 9, 6, 0]",967.0911,0.00003600,0.125
+"Symmetric, 80% roads",13,133,Dijkstra,Trip found,"[0, 7, 3, 2, 1, 10, 11, 12, 5, 6, 4, 9, 8, 0]",812.7655,59.43713600,1195560.727
+"Symmetric, 80% roads",13,133,A* admissible,Trip found,"[0, 7, 3, 2, 1, 10, 11, 12, 5, 6, 4, 9, 8, 0]",812.7655,23.35846100,630038.3281
+"Symmetric, 80% roads",13,133,A* inadmissible,Trip found,"[0, 7, 4, 5, 12, 1, 10, 11, 2, 3, 8, 9, 6, 0]",967.0911,0.00110700,3.1562
+"Symmetric, 80% roads",13,133,ACO,Trip found,"[0, 8, 9, 4, 6, 5, 12, 1, 11, 10, 2, 3, 7, 0]",831.7738,0.08312300,8.7109
+"Symmetric, 80% roads",14,54,BFS,Skipped,,,,
+"Symmetric, 80% roads",14,54,DFS,Skipped,,,,
+"Symmetric, 80% roads",14,54,NN,Trip found,"[0, 7, 6, 13, 12, 5, 1, 8, 4, 10, 2, 9, 11, 3, 0]",987.4133,0.00001900,0.125
+"Symmetric, 80% roads",14,54,Dijkstra,Timeout,,,77.85567000,1421940.92
+"Symmetric, 80% roads",14,54,A* admissible,Timeout,,,76.06162400,1403773.625
+"Symmetric, 80% roads",14,54,A* inadmissible,Trip found,"[0, 7, 6, 13, 12, 5, 1, 8, 4, 10, 2, 9, 11, 3, 0]",987.4133,0.00201300,4.5078
+"Symmetric, 80% roads",14,54,ACO,Trip found,"[0, 7, 12, 5, 11, 9, 2, 10, 4, 8, 1, 3, 13, 6, 0]",901.9496,0.10756600,9.4922
+"Symmetric, 80% roads",14,94,BFS,Skipped,,,,
+"Symmetric, 80% roads",14,94,DFS,Skipped,,,,
+"Symmetric, 80% roads",14,94,NN,Trip found,"[0, 1, 12, 8, 11, 3, 2, 5, 10, 6, 9, 4, 13, 7, 0]",824.8893,0.00002800,0.125
+"Symmetric, 80% roads",14,94,Dijkstra,Timeout,,,75.55976400,1356749.414
+"Symmetric, 80% roads",14,94,A* admissible,Trip found,"[0, 1, 12, 7, 13, 9, 4, 10, 6, 5, 2, 3, 11, 8, 0]",733.7683,4.76908900,165215.4297
+"Symmetric, 80% roads",14,94,A* inadmissible,Trip found,"[0, 1, 12, 8, 11, 3, 2, 5, 10, 6, 9, 4, 13, 7, 0]",824.8893,0.00069500,3.7656
+"Symmetric, 80% roads",14,94,ACO,Trip found,"[0, 1, 12, 7, 13, 6, 9, 4, 10, 5, 2, 11, 3, 8, 0]",755.1321,0.09593900,9.4688
+"Symmetric, 80% roads",14,134,BFS,Skipped,,,,
+"Symmetric, 80% roads",14,134,DFS,Skipped,,,,
+"Symmetric, 80% roads",14,134,NN,Trip found,"[0, 6, 13, 7, 10, 4, 3, 5, 2, 9, 12, 1, 11, 8, 0]",783.86,0.00002500,0.125
+"Symmetric, 80% roads",14,134,Dijkstra,Timeout,,,71.91330600,1446758.522
+"Symmetric, 80% roads",14,134,A* admissible,Timeout,,,72.70747400,1299854.563
+"Symmetric, 80% roads",14,134,A* inadmissible,Trip found,"[0, 6, 13, 7, 10, 4, 3, 5, 1, 12, 8, 9, 2, 11, 0]",942.3765,0.00342700,17.625
+"Symmetric, 80% roads",14,134,ACO,Trip found,"[0, 6, 13, 7, 11, 1, 12, 9, 8, 10, 4, 3, 2, 5, 0]",676.4099,0.10203400,9.3984
+"Symmetric, 80% roads",15,55,BFS,Skipped,,,,
+"Symmetric, 80% roads",15,55,DFS,Skipped,,,,
+"Symmetric, 80% roads",15,55,NN,Trip found,"[0, 11, 5, 4, 10, 2, 12, 14, 6, 9, 7, 3, 1, 13, 8, 0]",982.88,0.00002900,0.125
+"Symmetric, 80% roads",15,55,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",15,55,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",15,55,A* inadmissible,Trip found,"[0, 11, 5, 4, 10, 2, 12, 14, 6, 9, 7, 3, 1, 13, 8, 0]",982.88,0.00025800,7.5156
+"Symmetric, 80% roads",15,55,ACO,Trip found,"[0, 11, 4, 10, 12, 14, 9, 6, 13, 7, 3, 1, 5, 2, 8, 0]",913.5953,0.12244800,10.2969
+"Symmetric, 80% roads",15,95,BFS,Skipped,,,,
+"Symmetric, 80% roads",15,95,DFS,Skipped,,,,
+"Symmetric, 80% roads",15,95,NN,Trip found,"[0, 5, 8, 4, 11, 9, 7, 12, 6, 2, 14, 13, 3, 10, 1, 0]",978.9234,0.00002000,0.125
+"Symmetric, 80% roads",15,95,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",15,95,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",15,95,A* inadmissible,Trip found,"[0, 5, 8, 4, 11, 9, 7, 12, 6, 10, 2, 14, 13, 3, 1, 0]",901.955,0.00036600,9.2422
+"Symmetric, 80% roads",15,95,ACO,Trip found,"[0, 7, 9, 1, 4, 8, 11, 12, 3, 13, 6, 10, 2, 14, 5, 0]",733.1377,0.11679700,10.2734
+"Symmetric, 80% roads",15,135,BFS,Skipped,,,,
+"Symmetric, 80% roads",15,135,DFS,Skipped,,,,
+"Symmetric, 80% roads",15,135,NN,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 3, 7, 14, 9, 12, 0]",858.3344,0.00001900,0.125
+"Symmetric, 80% roads",15,135,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",15,135,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",15,135,A* inadmissible,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 3, 7, 14, 9, 12, 0]",858.3344,0.00019000,5.1484
+"Symmetric, 80% roads",15,135,ACO,Trip found,"[0, 10, 9, 1, 4, 2, 12, 8, 6, 13, 5, 11, 3, 7, 14, 0]",761.9456,0.11273100,10.2734
+"Symmetric, 80% roads",16,56,BFS,Skipped,,,,
+"Symmetric, 80% roads",16,56,DFS,Skipped,,,,
+"Symmetric, 80% roads",16,56,NN,Trip found,"[0, 5, 12, 11, 8, 4, 7, 3, 1, 14, 10, 9, 13, 2, 15, 6, 0]",1001.0273,0.00002200,0.1875
+"Symmetric, 80% roads",16,56,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",16,56,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",16,56,A* inadmissible,Trip found,"[0, 5, 12, 11, 8, 4, 7, 3, 1, 14, 10, 9, 13, 2, 15, 6, 0]",1001.0273,0.00021200,5.5625
+"Symmetric, 80% roads",16,56,ACO,Trip found,"[0, 5, 12, 1, 11, 8, 4, 7, 3, 6, 14, 10, 9, 13, 2, 15, 0]",856.2681,0.11985200,11.8438
+"Symmetric, 80% roads",16,96,BFS,Skipped,,,,
+"Symmetric, 80% roads",16,96,DFS,Skipped,,,,
+"Symmetric, 80% roads",16,96,NN,No trip,,inf,0.00002200,0.125
+"Symmetric, 80% roads",16,96,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",16,96,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",16,96,A* inadmissible,Trip found,"[0, 9, 11, 5, 7, 12, 10, 2, 13, 14, 3, 8, 4, 6, 15, 1, 0]",852.518,0.00031000,7.6172
+"Symmetric, 80% roads",16,96,ACO,Trip found,"[0, 9, 11, 5, 7, 10, 12, 14, 13, 2, 8, 3, 4, 15, 6, 1, 0]",748.3554,0.13332700,11.7969
+"Symmetric, 80% roads",16,136,BFS,Skipped,,,,
+"Symmetric, 80% roads",16,136,DFS,Skipped,,,,
+"Symmetric, 80% roads",16,136,NN,Trip found,"[0, 1, 10, 4, 15, 11, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 0]",825.2415,0.00002300,0.1875
+"Symmetric, 80% roads",16,136,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",16,136,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",16,136,A* inadmissible,Trip found,"[0, 1, 10, 4, 15, 11, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 0]",825.2415,0.00021300,6.75
+"Symmetric, 80% roads",16,136,ACO,Trip found,"[0, 9, 11, 2, 7, 3, 15, 1, 4, 10, 5, 8, 6, 13, 12, 14, 0]",862.525,0.18266400,11.7266
+"Symmetric, 80% roads",17,57,BFS,Skipped,,,,
+"Symmetric, 80% roads",17,57,DFS,Skipped,,,,
+"Symmetric, 80% roads",17,57,NN,Trip found,"[0, 8, 3, 6, 1, 5, 12, 16, 10, 7, 14, 4, 15, 11, 9, 2, 13, 0]",1064.1179,0.00002500,0.1875
+"Symmetric, 80% roads",17,57,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",17,57,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",17,57,A* inadmissible,Trip found,"[0, 8, 3, 6, 1, 5, 12, 16, 10, 7, 14, 4, 15, 11, 13, 2, 9, 0]",1026.5527,0.00032900,9.5781
+"Symmetric, 80% roads",17,57,ACO,Trip found,"[0, 8, 3, 1, 6, 9, 2, 11, 13, 7, 14, 10, 4, 15, 5, 12, 16, 0]",935.1692,0.14685400,13.8203
+"Symmetric, 80% roads",17,97,BFS,Skipped,,,,
+"Symmetric, 80% roads",17,97,DFS,Skipped,,,,
+"Symmetric, 80% roads",17,97,NN,Trip found,"[0, 15, 7, 4, 9, 10, 3, 13, 12, 6, 11, 5, 2, 8, 16, 1, 14, 0]",1144.1592,0.00002600,0.1875
+"Symmetric, 80% roads",17,97,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",17,97,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",17,97,A* inadmissible,Trip found,"[0, 15, 7, 4, 9, 10, 3, 13, 12, 6, 11, 5, 2, 8, 16, 1, 14, 0]",1144.1592,0.00026300,7.9844
+"Symmetric, 80% roads",17,97,ACO,Trip found,"[0, 15, 7, 6, 16, 8, 2, 11, 5, 12, 13, 3, 10, 1, 14, 4, 9, 0]",1045.86,0.14370800,13.8438
+"Symmetric, 80% roads",17,137,BFS,Skipped,,,,
+"Symmetric, 80% roads",17,137,DFS,Skipped,,,,
+"Symmetric, 80% roads",17,137,NN,Trip found,"[0, 9, 1, 10, 12, 5, 4, 13, 14, 16, 15, 7, 2, 3, 11, 6, 8, 0]",1043.0498,0.00002600,0.1875
+"Symmetric, 80% roads",17,137,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",17,137,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",17,137,A* inadmissible,Trip found,"[0, 9, 1, 10, 12, 5, 4, 13, 14, 16, 15, 7, 2, 3, 11, 6, 8, 0]",1043.0498,0.00025500,8.8828
+"Symmetric, 80% roads",17,137,ACO,Trip found,"[0, 9, 1, 10, 12, 5, 4, 13, 14, 16, 15, 7, 11, 3, 2, 6, 8, 0]",1022.3717,0.15161300,13.8203
+"Symmetric, 80% roads",18,58,BFS,Skipped,,,,
+"Symmetric, 80% roads",18,58,DFS,Skipped,,,,
+"Symmetric, 80% roads",18,58,NN,Trip found,"[0, 11, 8, 4, 1, 14, 16, 13, 9, 3, 12, 17, 6, 2, 15, 5, 10, 7, 0]",1053.5328,0.00002800,0.1875
+"Symmetric, 80% roads",18,58,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",18,58,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",18,58,A* inadmissible,Trip found,"[0, 11, 8, 4, 1, 14, 16, 13, 9, 3, 12, 17, 6, 2, 15, 5, 10, 7, 0]",1053.5328,0.00032100,11.4688
+"Symmetric, 80% roads",18,58,ACO,Trip found,"[0, 11, 8, 4, 1, 14, 16, 13, 3, 9, 17, 12, 2, 15, 5, 10, 6, 7, 0]",970.192,0.17320100,14.9219
+"Symmetric, 80% roads",18,98,BFS,Skipped,,,,
+"Symmetric, 80% roads",18,98,DFS,Skipped,,,,
+"Symmetric, 80% roads",18,98,NN,Trip found,"[0, 12, 15, 7, 13, 9, 4, 8, 16, 11, 14, 6, 3, 17, 1, 10, 2, 5, 0]",1015.6461,0.00002900,0.1875
+"Symmetric, 80% roads",18,98,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",18,98,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",18,98,A* inadmissible,Trip found,"[0, 12, 15, 7, 13, 9, 4, 8, 16, 11, 14, 6, 3, 17, 1, 10, 2, 5, 0]",1015.6461,0.00034900,11.0234
+"Symmetric, 80% roads",18,98,ACO,Trip found,"[0, 12, 15, 7, 13, 4, 9, 5, 2, 6, 3, 17, 1, 10, 14, 11, 8, 16, 0]",985.0756,0.16893300,14.9453
+"Symmetric, 80% roads",18,138,BFS,Skipped,,,,
+"Symmetric, 80% roads",18,138,DFS,Skipped,,,,
+"Symmetric, 80% roads",18,138,NN,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 10, 4, 12, 11, 17, 1, 13, 3, 0]",1084.6583,0.00002800,0.1875
+"Symmetric, 80% roads",18,138,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",18,138,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",18,138,A* inadmissible,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 10, 4, 12, 11, 17, 1, 13, 3, 0]",1084.6583,0.00036500,12.8125
+"Symmetric, 80% roads",18,138,ACO,Trip found,"[0, 16, 14, 7, 5, 15, 6, 9, 12, 11, 10, 4, 3, 13, 1, 17, 8, 2, 0]",943.2058,0.17451100,14.9844
+"Symmetric, 80% roads",19,59,BFS,Skipped,,,,
+"Symmetric, 80% roads",19,59,DFS,Skipped,,,,
+"Symmetric, 80% roads",19,59,NN,Trip found,"[0, 3, 16, 8, 12, 7, 6, 2, 15, 11, 9, 18, 14, 17, 4, 10, 13, 1, 5, 0]",1189.6088,0.00003100,0.1875
+"Symmetric, 80% roads",19,59,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",19,59,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",19,59,A* inadmissible,Trip found,"[0, 3, 16, 8, 12, 7, 6, 2, 15, 11, 9, 18, 14, 17, 4, 10, 13, 1, 5, 0]",1189.6088,0.00038700,13.4219
+"Symmetric, 80% roads",19,59,ACO,Trip found,"[0, 1, 13, 18, 9, 11, 14, 16, 8, 12, 7, 6, 2, 15, 10, 4, 17, 5, 3, 0]",946.8134,0.18596400,16.0859
+"Symmetric, 80% roads",19,99,BFS,Skipped,,,,
+"Symmetric, 80% roads",19,99,DFS,Skipped,,,,
+"Symmetric, 80% roads",19,99,NN,Trip found,"[0, 12, 5, 18, 2, 6, 13, 1, 7, 14, 11, 10, 3, 8, 4, 16, 9, 15, 17, 0]",989.4592,0.00003000,0.1875
+"Symmetric, 80% roads",19,99,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",19,99,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",19,99,A* inadmissible,Trip found,"[0, 12, 5, 18, 2, 6, 13, 1, 7, 14, 11, 10, 3, 8, 4, 16, 9, 15, 17, 0]",989.4592,0.00038500,14.9844
+"Symmetric, 80% roads",19,99,ACO,Trip found,"[0, 12, 5, 18, 2, 6, 13, 1, 7, 14, 11, 10, 3, 8, 4, 16, 9, 15, 17, 0]",989.4592,0.19720500,16.2031
+"Symmetric, 80% roads",19,139,BFS,Skipped,,,,
+"Symmetric, 80% roads",19,139,DFS,Skipped,,,,
+"Symmetric, 80% roads",19,139,NN,No trip,,inf,0.00003100,0.1875
+"Symmetric, 80% roads",19,139,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",19,139,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",19,139,A* inadmissible,Trip found,"[0, 11, 10, 7, 16, 13, 14, 6, 15, 9, 17, 12, 2, 18, 3, 1, 8, 4, 5, 0]",1189.8651,0.00041800,13.25
+"Symmetric, 80% roads",19,139,ACO,Trip found,"[0, 11, 10, 7, 6, 14, 13, 16, 8, 4, 5, 2, 12, 3, 18, 1, 15, 9, 17, 0]",977.2508,0.18836300,16.1094
+"Symmetric, 80% roads",20,60,BFS,Skipped,,,,
+"Symmetric, 80% roads",20,60,DFS,Skipped,,,,
+"Symmetric, 80% roads",20,60,NN,No trip,,inf,0.00003600,0.1875
+"Symmetric, 80% roads",20,60,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",20,60,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",20,60,A* inadmissible,Trip found,"[0, 16, 8, 13, 15, 4, 10, 14, 18, 17, 6, 1, 12, 5, 3, 9, 11, 19, 2, 7, 0]",998.677,0.00045300,15.7031
+"Symmetric, 80% roads",20,60,ACO,Trip found,"[0, 16, 8, 13, 15, 4, 10, 14, 18, 17, 11, 19, 2, 6, 1, 12, 5, 3, 9, 7, 0]",913.8101,0.21232800,17.1875
+"Symmetric, 80% roads",20,100,BFS,Skipped,,,,
+"Symmetric, 80% roads",20,100,DFS,Skipped,,,,
+"Symmetric, 80% roads",20,100,NN,No trip,,inf,0.00003400,0.1875
+"Symmetric, 80% roads",20,100,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",20,100,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",20,100,A* inadmissible,Trip found,"[0, 6, 3, 11, 5, 12, 4, 7, 19, 2, 1, 15, 8, 14, 13, 17, 16, 9, 18, 10, 0]",945.5651,0.00040300,15.7969
+"Symmetric, 80% roads",20,100,ACO,Trip found,"[0, 6, 11, 3, 5, 12, 7, 4, 2, 19, 1, 15, 14, 13, 8, 18, 9, 16, 17, 10, 0]",921.6901,0.20974200,17.2109
+"Symmetric, 80% roads",20,140,BFS,Skipped,,,,
+"Symmetric, 80% roads",20,140,DFS,Skipped,,,,
+"Symmetric, 80% roads",20,140,NN,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 17, 7, 16, 8, 13, 6, 19, 11, 2, 12, 1, 0]",892.2174,0.00003400,0.1875
+"Symmetric, 80% roads",20,140,Dijkstra,Skipped,,,,
+"Symmetric, 80% roads",20,140,A* admissible,Skipped,,,,
+"Symmetric, 80% roads",20,140,A* inadmissible,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 17, 7, 16, 8, 13, 6, 19, 11, 2, 12, 1, 0]",892.2174,0.00041900,17.2422
+"Symmetric, 80% roads",20,140,ACO,Trip found,"[0, 4, 18, 15, 3, 9, 5, 10, 14, 17, 7, 16, 8, 13, 6, 19, 11, 2, 12, 1, 0]",876.4069,0.22368100,17.1875
+"Asymmetric, all-roads",5,45,BFS,Trip found,"[0, 4, 3, 1, 2, 0]",425.9139,0.00009300,1.1797
+"Asymmetric, all-roads",5,45,DFS,Trip found,"[0, 4, 3, 1, 2, 0]",425.9139,0.00008100,0.3203
+"Asymmetric, all-roads",5,45,NN,Trip found,"[0, 1, 2, 3, 4, 0]",484.2218,0.00000400,0.0625
+"Asymmetric, all-roads",5,45,Dijkstra,Trip found,"[0, 4, 3, 1, 2, 0]",425.9139,0.00009100,1.2344
+"Asymmetric, all-roads",5,45,A* admissible,Trip found,"[0, 4, 3, 1, 2, 0]",425.9139,0.00009700,1.1719
+"Asymmetric, all-roads",5,45,A* inadmissible,Trip found,"[0, 2, 1, 3, 4, 0]",478.1296,0.00004300,0.6094
+"Asymmetric, all-roads",5,45,ACO,Trip found,"[0, 4, 3, 1, 2, 0]",425.9139,0.00909100,3.8047
+"Asymmetric, all-roads",5,85,BFS,Trip found,"[0, 4, 2, 3, 1, 0]",448.1583,0.00008400,1.1797
+"Asymmetric, all-roads",5,85,DFS,Trip found,"[0, 4, 2, 3, 1, 0]",448.1583,0.00007800,0.3203
+"Asymmetric, all-roads",5,85,NN,Trip found,"[0, 4, 2, 3, 1, 0]",448.1583,0.00000400,0.0625
+"Asymmetric, all-roads",5,85,Dijkstra,Trip found,"[0, 4, 2, 3, 1, 0]",448.1583,0.00008300,1.1953
+"Asymmetric, all-roads",5,85,A* admissible,Trip found,"[0, 4, 2, 3, 1, 0]",448.1583,0.00009200,1.1484
+"Asymmetric, all-roads",5,85,A* inadmissible,Trip found,"[0, 4, 2, 3, 1, 0]",448.1583,0.00001900,0.2812
+"Asymmetric, all-roads",5,85,ACO,Trip found,"[0, 4, 2, 3, 1, 0]",448.1583,0.00907000,3.8047
+"Asymmetric, all-roads",5,125,BFS,Trip found,"[0, 3, 1, 2, 4, 0]",384.5697,0.00007900,1.1875
+"Asymmetric, all-roads",5,125,DFS,Trip found,"[0, 3, 1, 2, 4, 0]",384.5697,0.00007900,0.3203
+"Asymmetric, all-roads",5,125,NN,Trip found,"[0, 3, 2, 4, 1, 0]",464.1001,0.00000400,0.0625
+"Asymmetric, all-roads",5,125,Dijkstra,Trip found,"[0, 3, 1, 2, 4, 0]",384.5697,0.00010600,1.2656
+"Asymmetric, all-roads",5,125,A* admissible,Trip found,"[0, 3, 1, 2, 4, 0]",384.5697,0.00011700,1.125
+"Asymmetric, all-roads",5,125,A* inadmissible,Trip found,"[0, 3, 2, 1, 4, 0]",414.1518,0.00002400,0.3203
+"Asymmetric, all-roads",5,125,ACO,Trip found,"[0, 3, 1, 2, 4, 0]",384.5697,0.00901800,3.8047
+"Asymmetric, all-roads",6,46,BFS,Trip found,"[0, 1, 4, 3, 2, 5, 0]",528.9758,0.00142000,9.9688
+"Asymmetric, all-roads",6,46,DFS,Trip found,"[0, 1, 4, 3, 2, 5, 0]",528.9758,0.00038800,0.5156
+"Asymmetric, all-roads",6,46,NN,Trip found,"[0, 1, 4, 3, 2, 5, 0]",528.9758,0.00000500,0.0625
+"Asymmetric, all-roads",6,46,Dijkstra,Trip found,"[0, 1, 4, 3, 2, 5, 0]",528.9758,0.00039900,9.0625
+"Asymmetric, all-roads",6,46,A* admissible,Trip found,"[0, 1, 4, 3, 2, 5, 0]",528.9758,0.00041000,9.3594
+"Asymmetric, all-roads",6,46,A* inadmissible,Trip found,"[0, 1, 4, 2, 5, 3, 0]",563.285,0.00003000,0.5156
+"Asymmetric, all-roads",6,46,ACO,Trip found,"[0, 1, 4, 3, 2, 5, 0]",528.9758,0.01278200,3.9062
+"Asymmetric, all-roads",6,86,BFS,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00044900,9.6016
+"Asymmetric, all-roads",6,86,DFS,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00036200,0.5156
+"Asymmetric, all-roads",6,86,NN,Trip found,"[0, 3, 1, 2, 5, 4, 0]",642.3749,0.00000500,0.0625
+"Asymmetric, all-roads",6,86,Dijkstra,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00042400,9.3516
+"Asymmetric, all-roads",6,86,A* admissible,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00057100,11.4062
+"Asymmetric, all-roads",6,86,A* inadmissible,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00003500,0.5391
+"Asymmetric, all-roads",6,86,ACO,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.01236900,3.9062
+"Asymmetric, all-roads",6,126,BFS,Trip found,"[0, 1, 2, 3, 4, 5, 0]",374.1582,0.00043600,9.6016
+"Asymmetric, all-roads",6,126,DFS,Trip found,"[0, 1, 2, 3, 4, 5, 0]",374.1582,0.00035400,0.5156
+"Asymmetric, all-roads",6,126,NN,Trip found,"[0, 1, 4, 5, 3, 2, 0]",425.7108,0.00000400,0.0625
+"Asymmetric, all-roads",6,126,Dijkstra,Trip found,"[0, 1, 2, 3, 4, 5, 0]",374.1582,0.00042200,9.2812
+"Asymmetric, all-roads",6,126,A* admissible,Trip found,"[0, 1, 2, 3, 4, 5, 0]",374.1582,0.00062600,10.6094
+"Asymmetric, all-roads",6,126,A* inadmissible,Trip found,"[0, 1, 4, 5, 3, 2, 0]",425.7108,0.00003300,0.5156
+"Asymmetric, all-roads",6,126,ACO,Trip found,"[0, 1, 2, 3, 4, 5, 0]",374.1582,0.01260200,3.9062
+"Asymmetric, all-roads",7,47,BFS,Trip found,"[0, 1, 2, 3, 6, 5, 4, 0]",436.649,0.00461900,95.5781
+"Asymmetric, all-roads",7,47,DFS,Trip found,"[0, 1, 2, 3, 6, 5, 4, 0]",436.649,0.00218800,0.6953
+"Asymmetric, all-roads",7,47,NN,Trip found,"[0, 1, 4, 6, 5, 2, 3, 0]",463.1343,0.00000600,0.0625
+"Asymmetric, all-roads",7,47,Dijkstra,Trip found,"[0, 1, 2, 3, 6, 5, 4, 0]",436.649,0.00341200,89.5312
+"Asymmetric, all-roads",7,47,A* admissible,Trip found,"[0, 1, 2, 3, 6, 5, 4, 0]",436.649,0.00422000,94.8047
+"Asymmetric, all-roads",7,47,A* inadmissible,Trip found,"[0, 1, 2, 3, 6, 4, 5, 0]",456.2446,0.00007500,1.375
+"Asymmetric, all-roads",7,47,ACO,Trip found,"[0, 1, 2, 3, 6, 5, 4, 0]",436.649,0.01671100,4.0234
+"Asymmetric, all-roads",7,87,BFS,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00388100,95.1719
+"Asymmetric, all-roads",7,87,DFS,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00230900,0.6953
+"Asymmetric, all-roads",7,87,NN,Trip found,"[0, 6, 3, 1, 2, 5, 4, 0]",595.6171,0.00000600,0.0625
+"Asymmetric, all-roads",7,87,Dijkstra,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00334000,89.3125
+"Asymmetric, all-roads",7,87,A* admissible,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00379300,91.3594
+"Asymmetric, all-roads",7,87,A* inadmissible,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00010800,1.7734
+"Asymmetric, all-roads",7,87,ACO,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.01654600,4.0234
+"Asymmetric, all-roads",7,127,BFS,Trip found,"[0, 6, 1, 2, 3, 4, 5, 0]",597.398,0.00385100,95.1719
+"Asymmetric, all-roads",7,127,DFS,Trip found,"[0, 6, 1, 2, 3, 4, 5, 0]",597.398,0.00214000,0.6953
+"Asymmetric, all-roads",7,127,NN,Trip found,"[0, 6, 5, 4, 2, 1, 3, 0]",727.3997,0.00000600,0.0625
+"Asymmetric, all-roads",7,127,Dijkstra,Trip found,"[0, 6, 1, 2, 3, 4, 5, 0]",597.398,0.00297400,82.6719
+"Asymmetric, all-roads",7,127,A* admissible,Trip found,"[0, 6, 1, 2, 3, 4, 5, 0]",597.398,0.00308500,82.2344
+"Asymmetric, all-roads",7,127,A* inadmissible,Trip found,"[0, 6, 5, 4, 2, 3, 1, 0]",655.3365,0.00003900,0.6484
+"Asymmetric, all-roads",7,127,ACO,Trip found,"[0, 6, 1, 2, 3, 4, 5, 0]",597.398,0.01663900,4.0234
+"Asymmetric, all-roads",8,48,BFS,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.04041400,933.6641
+"Asymmetric, all-roads",8,48,DFS,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.01507900,0.9922
+"Asymmetric, all-roads",8,48,NN,Trip found,"[0, 2, 3, 5, 6, 7, 1, 4, 0]",568.4244,0.00000800,0.125
+"Asymmetric, all-roads",8,48,Dijkstra,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.01615600,528.2031
+"Asymmetric, all-roads",8,48,A* admissible,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.01092100,306.2266
+"Asymmetric, all-roads",8,48,A* inadmissible,Trip found,"[0, 2, 3, 5, 6, 7, 1, 4, 0]",568.4244,0.00005000,0.9297
+"Asymmetric, all-roads",8,48,ACO,Trip found,"[0, 3, 2, 5, 6, 7, 1, 4, 0]",566.9339,0.02131500,4.7109
+"Asymmetric, all-roads",8,88,BFS,Trip found,"[0, 5, 4, 7, 2, 1, 3, 6, 0]",617.6616,0.03929400,933.2188
+"Asymmetric, all-roads",8,88,DFS,Trip found,"[0, 5, 4, 7, 2, 1, 3, 6, 0]",617.6616,0.01501800,0.9922
+"Asymmetric, all-roads",8,88,NN,Trip found,"[0, 5, 4, 7, 2, 1, 3, 6, 0]",617.6616,0.00000800,0.125
+"Asymmetric, all-roads",8,88,Dijkstra,Trip found,"[0, 5, 4, 7, 2, 1, 3, 6, 0]",617.6616,0.01761600,634.25
+"Asymmetric, all-roads",8,88,A* admissible,Trip found,"[0, 5, 4, 7, 2, 1, 3, 6, 0]",617.6616,0.00699000,221.625
+"Asymmetric, all-roads",8,88,A* inadmissible,Trip found,"[0, 5, 4, 7, 2, 1, 3, 6, 0]",617.6616,0.00005100,0.9297
+"Asymmetric, all-roads",8,88,ACO,Trip found,"[0, 5, 4, 7, 2, 1, 3, 6, 0]",617.6616,0.02133900,4.7109
+"Asymmetric, all-roads",8,128,BFS,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.03848600,933.2109
+"Asymmetric, all-roads",8,128,DFS,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.01497700,0.9922
+"Asymmetric, all-roads",8,128,NN,Trip found,"[0, 7, 3, 5, 2, 4, 6, 1, 0]",648.7237,0.00000800,0.125
+"Asymmetric, all-roads",8,128,Dijkstra,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.01716100,590.2422
+"Asymmetric, all-roads",8,128,A* admissible,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.01367400,380.7188
+"Asymmetric, all-roads",8,128,A* inadmissible,Trip found,"[0, 7, 3, 5, 2, 4, 1, 6, 0]",633.1301,0.00005500,0.9922
+"Asymmetric, all-roads",8,128,ACO,Trip found,"[0, 7, 2, 1, 4, 6, 3, 5, 0]",552.7203,0.02147200,4.7109
+"Asymmetric, all-roads",9,49,BFS,Trip found,"[0, 7, 6, 5, 1, 4, 3, 8, 2, 0]",466.9808,0.81360700,8716.9141
+"Asymmetric, all-roads",9,49,DFS,Trip found,"[0, 7, 6, 5, 1, 4, 3, 8, 2, 0]",466.9808,0.12420000,1.3516
+"Asymmetric, all-roads",9,49,NN,Trip found,"[0, 7, 6, 5, 1, 3, 8, 4, 2, 0]",524.7622,0.00001000,0.125
+"Asymmetric, all-roads",9,49,Dijkstra,Trip found,"[0, 7, 6, 5, 1, 4, 3, 8, 2, 0]",466.9808,0.08830900,3554.9141
+"Asymmetric, all-roads",9,49,A* admissible,Trip found,"[0, 7, 6, 5, 1, 4, 3, 8, 2, 0]",466.9808,0.04514000,1495.4609
+"Asymmetric, all-roads",9,49,A* inadmissible,Trip found,"[0, 7, 6, 5, 1, 3, 4, 8, 2, 0]",492.6185,0.00007600,1.3594
+"Asymmetric, all-roads",9,49,ACO,Trip found,"[0, 7, 6, 5, 1, 3, 4, 8, 2, 0]",492.6185,0.03151600,5.7734
+"Asymmetric, all-roads",9,89,BFS,Trip found,"[0, 4, 3, 6, 8, 5, 2, 1, 7, 0]",619.637,0.81726400,8716.4141
+"Asymmetric, all-roads",9,89,DFS,Trip found,"[0, 4, 3, 6, 8, 5, 2, 1, 7, 0]",619.637,0.12280000,1.3516
+"Asymmetric, all-roads",9,89,NN,Trip found,"[0, 7, 1, 2, 5, 4, 3, 6, 8, 0]",697.5268,0.00001000,0.125
+"Asymmetric, all-roads",9,89,Dijkstra,Trip found,"[0, 4, 3, 6, 8, 5, 2, 1, 7, 0]",619.637,0.06151400,2526.0547
+"Asymmetric, all-roads",9,89,A* admissible,Trip found,"[0, 4, 3, 6, 8, 5, 2, 1, 7, 0]",619.637,0.04067300,1393.4219
+"Asymmetric, all-roads",9,89,A* inadmissible,Trip found,"[0, 7, 1, 2, 5, 4, 3, 6, 8, 0]",697.5268,0.00006500,1.2812
+"Asymmetric, all-roads",9,89,ACO,Trip found,"[0, 4, 3, 6, 8, 5, 2, 1, 7, 0]",619.637,0.03166500,5.7734
+"Asymmetric, all-roads",9,129,BFS,Trip found,"[0, 7, 5, 3, 6, 2, 8, 4, 1, 0]",614.4941,0.81014800,8716.4141
+"Asymmetric, all-roads",9,129,DFS,Trip found,"[0, 7, 5, 3, 6, 2, 8, 4, 1, 0]",614.4941,0.12241400,1.3516
+"Asymmetric, all-roads",9,129,NN,Trip found,"[0, 7, 5, 3, 6, 2, 4, 8, 1, 0]",628.6939,0.00001000,0.125
+"Asymmetric, all-roads",9,129,Dijkstra,Trip found,"[0, 7, 5, 3, 6, 2, 8, 4, 1, 0]",614.4941,0.10057700,4119.4688
+"Asymmetric, all-roads",9,129,A* admissible,Trip found,"[0, 7, 5, 3, 6, 2, 8, 4, 1, 0]",614.4941,0.03126000,1151.3672
+"Asymmetric, all-roads",9,129,A* inadmissible,Trip found,"[0, 7, 5, 3, 6, 2, 4, 8, 1, 0]",628.6939,0.00006400,1.2812
+"Asymmetric, all-roads",9,129,ACO,Trip found,"[0, 7, 5, 3, 6, 2, 8, 4, 1, 0]",614.4941,0.03379900,5.7734
+"Asymmetric, all-roads",10,50,BFS,Trip found,"[0, 9, 3, 2, 1, 6, 8, 7, 5, 4, 0]",527.1813,43.06080800,82107.3047
+"Asymmetric, all-roads",10,50,DFS,Trip found,"[0, 9, 3, 2, 1, 6, 8, 7, 5, 4, 0]",527.1813,1.12988800,1.7812
+"Asymmetric, all-roads",10,50,NN,Trip found,"[0, 9, 2, 3, 1, 6, 8, 7, 5, 4, 0]",557.8978,0.00002400,0.125
+"Asymmetric, all-roads",10,50,Dijkstra,Trip found,"[0, 9, 3, 2, 1, 6, 8, 7, 5, 4, 0]",527.1813,0.31047400,12557.1094
+"Asymmetric, all-roads",10,50,A* admissible,Trip found,"[0, 9, 3, 2, 1, 6, 8, 7, 5, 4, 0]",527.1813,0.13676600,5413.5781
+"Asymmetric, all-roads",10,50,A* inadmissible,Trip found,"[0, 9, 2, 3, 1, 6, 8, 7, 5, 4, 0]",557.8978,0.00008800,1.7031
+"Asymmetric, all-roads",10,50,ACO,Trip found,"[0, 9, 3, 2, 1, 6, 8, 7, 5, 4, 0]",527.1813,0.05018600,6.5234
+"Asymmetric, all-roads",10,90,BFS,Trip found,"[0, 4, 6, 5, 1, 8, 2, 7, 9, 3, 0]",664.308,43.15641600,82106.7578
+"Asymmetric, all-roads",10,90,DFS,Trip found,"[0, 4, 6, 5, 1, 8, 2, 7, 9, 3, 0]",664.308,1.14371300,1.7812
+"Asymmetric, all-roads",10,90,NN,Trip found,"[0, 3, 9, 7, 2, 8, 1, 5, 6, 4, 0]",698.246,0.00002500,0.125
+"Asymmetric, all-roads",10,90,Dijkstra,Trip found,"[0, 4, 6, 5, 1, 8, 2, 7, 9, 3, 0]",664.308,0.54573700,20435.625
+"Asymmetric, all-roads",10,90,A* admissible,Trip found,"[0, 4, 6, 5, 1, 8, 2, 7, 9, 3, 0]",664.308,0.25984400,9732.6094
+"Asymmetric, all-roads",10,90,A* inadmissible,Trip found,"[0, 3, 9, 7, 2, 8, 1, 5, 6, 4, 0]",698.246,0.00010100,1.8594
+"Asymmetric, all-roads",10,90,ACO,Trip found,"[0, 3, 9, 7, 2, 8, 5, 1, 6, 4, 0]",675.5373,0.04935400,6.5234
+"Asymmetric, all-roads",10,130,BFS,Trip found,"[0, 3, 9, 6, 1, 7, 8, 4, 5, 2, 0]",564.0401,43.06213300,82106.7578
+"Asymmetric, all-roads",10,130,DFS,Trip found,"[0, 3, 9, 6, 1, 7, 8, 4, 5, 2, 0]",564.0401,1.13453400,1.7812
+"Asymmetric, all-roads",10,130,NN,Trip found,"[0, 3, 9, 1, 7, 8, 6, 5, 2, 4, 0]",692.7804,0.00001500,0.125
+"Asymmetric, all-roads",10,130,Dijkstra,Trip found,"[0, 3, 9, 6, 1, 7, 8, 4, 5, 2, 0]",564.0401,0.72480800,25449.625
+"Asymmetric, all-roads",10,130,A* admissible,Trip found,"[0, 3, 9, 6, 1, 7, 8, 4, 5, 2, 0]",564.0401,0.72385200,23433.0703
+"Asymmetric, all-roads",10,130,A* inadmissible,Trip found,"[0, 3, 9, 1, 7, 8, 4, 5, 2, 6, 0]",668.2414,0.00011600,1.8359
+"Asymmetric, all-roads",10,130,ACO,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",570.8778,0.04797400,6.5234
+"Asymmetric, all-roads",11,51,BFS,Timeout,,,60.40107500,263408.4141
+"Asymmetric, all-roads",11,51,DFS,Trip found,"[0, 8, 5, 10, 3, 2, 1, 7, 9, 4, 6, 0]",583.6078,11.91061400,2.3203
+"Asymmetric, all-roads",11,51,NN,Trip found,"[0, 6, 10, 8, 5, 3, 4, 9, 7, 1, 2, 0]",669.4509,0.00002500,0.125
+"Asymmetric, all-roads",11,51,Dijkstra,Trip found,"[0, 8, 5, 10, 3, 2, 1, 7, 9, 4, 6, 0]",583.6078,2.92208800,98004.6016
+"Asymmetric, all-roads",11,51,A* admissible,Trip found,"[0, 8, 5, 10, 3, 2, 1, 7, 9, 4, 6, 0]",583.6078,2.18444800,68961.1797
+"Asymmetric, all-roads",11,51,A* inadmissible,Trip found,"[0, 8, 10, 5, 3, 4, 9, 7, 1, 2, 6, 0]",640.9344,0.00020600,2.875
+"Asymmetric, all-roads",11,51,ACO,Trip found,"[0, 8, 5, 10, 3, 2, 1, 7, 9, 4, 6, 0]",583.6078,0.06748800,7.2422
+"Asymmetric, all-roads",11,91,BFS,Timeout,,,60.34146300,263094.1172
+"Asymmetric, all-roads",11,91,DFS,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",637.6417,11.95017400,2.3203
+"Asymmetric, all-roads",11,91,NN,Trip found,"[0, 10, 3, 7, 8, 4, 5, 9, 6, 2, 1, 0]",749.2137,0.00003000,0.125
+"Asymmetric, all-roads",11,91,Dijkstra,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",637.6417,5.54942000,171119.5938
+"Asymmetric, all-roads",11,91,A* admissible,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",637.6417,0.92053200,31365.4609
+"Asymmetric, all-roads",11,91,A* inadmissible,Trip found,"[0, 10, 3, 7, 8, 4, 5, 9, 6, 2, 1, 0]",749.2137,0.00014700,2.3516
+"Asymmetric, all-roads",11,91,ACO,Trip found,"[0, 10, 3, 7, 8, 1, 4, 5, 9, 6, 2, 0]",645.8453,0.06567900,7.2422
+"Asymmetric, all-roads",11,131,BFS,Timeout,,,60.40185800,264547.3203
+"Asymmetric, all-roads",11,131,DFS,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 1, 6, 3, 0]",607.3995,11.87789800,2.3203
+"Asymmetric, all-roads",11,131,NN,Trip found,"[0, 2, 9, 4, 7, 3, 6, 1, 5, 10, 8, 0]",755.9415,0.00003000,0.125
+"Asymmetric, all-roads",11,131,Dijkstra,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 1, 6, 3, 0]",607.3995,6.41981400,199035.3047
+"Asymmetric, all-roads",11,131,A* admissible,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 1, 6, 3, 0]",607.3995,1.38590900,47641.8594
+"Asymmetric, all-roads",11,131,A* inadmissible,Trip found,"[0, 2, 9, 4, 7, 3, 6, 1, 5, 10, 8, 0]",755.9415,0.00013200,2.4453
+"Asymmetric, all-roads",11,131,ACO,Trip found,"[0, 2, 9, 7, 4, 8, 10, 5, 6, 1, 3, 0]",626.4392,0.06379200,7.2422
+"Asymmetric, all-roads",12,52,BFS,Skipped,,,,
+"Asymmetric, all-roads",12,52,DFS,Timeout,,,60.00007100,2.9453
+"Asymmetric, all-roads",12,52,NN,Trip found,"[0, 2, 4, 3, 11, 5, 6, 10, 7, 1, 9, 8, 0]",759.3465,0.00003700,0.125
+"Asymmetric, all-roads",12,52,Dijkstra,Trip found,"[0, 2, 8, 9, 1, 7, 10, 6, 5, 11, 3, 4, 0]",717.3129,9.14086100,298751.2344
+"Asymmetric, all-roads",12,52,A* admissible,Trip found,"[0, 2, 8, 9, 1, 7, 10, 6, 5, 11, 3, 4, 0]",717.3129,1.67126600,60169.5391
+"Asymmetric, all-roads",12,52,A* inadmissible,Trip found,"[0, 2, 4, 3, 11, 5, 6, 10, 7, 1, 9, 8, 0]",759.3465,0.00019600,3.2969
+"Asymmetric, all-roads",12,52,ACO,Trip found,"[0, 4, 3, 11, 5, 6, 10, 7, 1, 9, 8, 2, 0]",733.0513,0.08100600,7.9531
+"Asymmetric, all-roads",12,92,BFS,Skipped,,,,
+"Asymmetric, all-roads",12,92,DFS,Timeout,,,60.00008900,2.9453
+"Asymmetric, all-roads",12,92,NN,Trip found,"[0, 4, 2, 1, 3, 8, 5, 9, 11, 10, 7, 6, 0]",652.6432,0.00004200,0.125
+"Asymmetric, all-roads",12,92,Dijkstra,Trip found,"[0, 4, 3, 1, 2, 8, 9, 5, 11, 10, 7, 6, 0]",611.3029,35.22871500,880679.9375
+"Asymmetric, all-roads",12,92,A* admissible,Trip found,"[0, 4, 3, 1, 2, 8, 9, 5, 11, 10, 7, 6, 0]",611.3029,8.29392900,270145.2188
+"Asymmetric, all-roads",12,92,A* inadmissible,Trip found,"[0, 4, 2, 1, 3, 8, 5, 9, 11, 10, 7, 6, 0]",652.6432,0.00039300,3.2969
+"Asymmetric, all-roads",12,92,ACO,Trip found,"[0, 11, 10, 7, 6, 3, 1, 2, 8, 5, 9, 4, 0]",628.7572,0.08076900,7.9531
+"Asymmetric, all-roads",12,132,BFS,Skipped,,,,
+"Asymmetric, all-roads",12,132,DFS,Timeout,,,60.00006000,2.9453
+"Asymmetric, all-roads",12,132,NN,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 3, 9, 4, 0]",611.4732,0.00004300,0.125
+"Asymmetric, all-roads",12,132,Dijkstra,Trip found,"[0, 8, 1, 9, 3, 2, 6, 5, 11, 10, 7, 4, 0]",573.1272,49.18861700,1035474.164
+"Asymmetric, all-roads",12,132,A* admissible,Trip found,"[0, 8, 1, 9, 3, 2, 6, 5, 11, 10, 7, 4, 0]",573.1272,13.04446000,388817
+"Asymmetric, all-roads",12,132,A* inadmissible,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 3, 9, 4, 0]",611.4732,0.00048100,3.2969
+"Asymmetric, all-roads",12,132,ACO,Trip found,"[0, 10, 8, 1, 9, 3, 2, 6, 11, 5, 7, 4, 0]",590.9342,0.08310100,7.9531
+"Asymmetric, all-roads",13,53,BFS,Skipped,,,,
+"Asymmetric, all-roads",13,53,DFS,Skipped,,,,
+"Asymmetric, all-roads",13,53,NN,Trip found,"[0, 1, 2, 11, 7, 4, 8, 10, 6, 5, 12, 3, 9, 0]",766.6608,0.00001800,0.125
+"Asymmetric, all-roads",13,53,Dijkstra,Timeout,,,66.58985400,1398452.547
+"Asymmetric, all-roads",13,53,A* admissible,Trip found,"[0, 1, 2, 11, 8, 4, 7, 10, 6, 3, 12, 5, 9, 0]",703.7296,37.36409600,934437.5781
+"Asymmetric, all-roads",13,53,A* inadmissible,Trip found,"[0, 1, 2, 11, 7, 4, 10, 6, 3, 12, 5, 9, 8, 0]",872.331,0.00206200,9.5391
+"Asymmetric, all-roads",13,53,ACO,Trip found,"[0, 1, 2, 11, 7, 4, 8, 10, 6, 3, 12, 5, 9, 0]",722.6764,0.09596000,8.7109
+"Asymmetric, all-roads",13,93,BFS,Skipped,,,,
+"Asymmetric, all-roads",13,93,DFS,Skipped,,,,
+"Asymmetric, all-roads",13,93,NN,Trip found,"[0, 4, 1, 11, 2, 7, 12, 3, 8, 5, 6, 9, 10, 0]",878.8407,0.00002800,0.125
+"Asymmetric, all-roads",13,93,Dijkstra,Timeout,,,77.27719300,1428443.047
+"Asymmetric, all-roads",13,93,A* admissible,Trip found,"[0, 4, 1, 11, 2, 10, 9, 7, 12, 3, 8, 5, 6, 0]",665.4686,37.54695700,965662.4609
+"Asymmetric, all-roads",13,93,A* inadmissible,Trip found,"[0, 4, 1, 11, 2, 7, 12, 3, 8, 5, 6, 9, 10, 0]",878.8407,0.00265500,4.5234
+"Asymmetric, all-roads",13,93,ACO,Trip found,"[0, 4, 1, 11, 2, 10, 9, 7, 12, 3, 8, 5, 6, 0]",665.4686,0.10128400,8.7109
+"Asymmetric, all-roads",13,133,BFS,Skipped,,,,
+"Asymmetric, all-roads",13,133,DFS,Skipped,,,,
+"Asymmetric, all-roads",13,133,NN,Trip found,"[0, 8, 9, 7, 2, 3, 1, 10, 11, 5, 12, 4, 6, 0]",792.41,0.00002300,0.125
+"Asymmetric, all-roads",13,133,Dijkstra,Timeout,,,71.07771500,1489941.906
+"Asymmetric, all-roads",13,133,A* admissible,Timeout,,,76.37619800,1433658.258
+"Asymmetric, all-roads",13,133,A* inadmissible,Trip found,"[0, 8, 9, 7, 2, 3, 1, 10, 11, 5, 12, 4, 6, 0]",792.41,0.00232300,4.5234
+"Asymmetric, all-roads",13,133,ACO,Trip found,"[0, 2, 3, 11, 10, 1, 12, 5, 6, 4, 8, 9, 7, 0]",776.6332,0.09847000,8.7109
+"Asymmetric, all-roads",14,54,BFS,Skipped,,,,
+"Asymmetric, all-roads",14,54,DFS,Skipped,,,,
+"Asymmetric, all-roads",14,54,NN,Trip found,"[0, 13, 7, 6, 12, 5, 2, 8, 1, 4, 10, 9, 11, 3, 0]",853.1926,0.00002400,0.125
+"Asymmetric, all-roads",14,54,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",14,54,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",14,54,A* inadmissible,Trip found,"[0, 13, 7, 6, 12, 5, 2, 8, 1, 4, 10, 9, 11, 3, 0]",853.1926,0.00023400,6.1484
+"Asymmetric, all-roads",14,54,ACO,Trip found,"[0, 13, 7, 6, 12, 5, 2, 11, 9, 10, 4, 1, 8, 3, 0]",818.1438,0.11652700,9.5156
+"Asymmetric, all-roads",14,94,BFS,Skipped,,,,
+"Asymmetric, all-roads",14,94,DFS,Skipped,,,,
+"Asymmetric, all-roads",14,94,NN,Trip found,"[0, 1, 12, 8, 3, 11, 2, 5, 10, 6, 9, 4, 13, 7, 0]",822.9551,0.00001700,0.125
+"Asymmetric, all-roads",14,94,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",14,94,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",14,94,A* inadmissible,Trip found,"[0, 1, 12, 8, 3, 11, 2, 5, 10, 6, 9, 4, 13, 7, 0]",822.9551,0.00019600,6.0391
+"Asymmetric, all-roads",14,94,ACO,Trip found,"[0, 1, 12, 7, 13, 4, 9, 6, 10, 5, 2, 11, 3, 8, 0]",731.3651,0.11434800,9.5156
+"Asymmetric, all-roads",14,134,BFS,Skipped,,,,
+"Asymmetric, all-roads",14,134,DFS,Skipped,,,,
+"Asymmetric, all-roads",14,134,NN,Trip found,"[0, 6, 13, 7, 10, 4, 3, 5, 2, 9, 8, 12, 1, 11, 0]",748.6628,0.00001700,0.125
+"Asymmetric, all-roads",14,134,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",14,134,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",14,134,A* inadmissible,Trip found,"[0, 6, 13, 7, 10, 4, 3, 5, 11, 1, 12, 8, 9, 2, 0]",789.0743,0.00027100,8.0234
+"Asymmetric, all-roads",14,134,ACO,Trip found,"[0, 6, 13, 11, 1, 12, 9, 8, 7, 10, 4, 3, 5, 2, 0]",669.4956,0.11081000,9.5156
+"Asymmetric, all-roads",15,55,BFS,Skipped,,,,
+"Asymmetric, all-roads",15,55,DFS,Skipped,,,,
+"Asymmetric, all-roads",15,55,NN,Trip found,"[0, 11, 5, 4, 2, 10, 12, 14, 6, 9, 13, 3, 7, 1, 8, 0]",890.7841,0.00001900,0.125
+"Asymmetric, all-roads",15,55,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",15,55,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",15,55,A* inadmissible,Trip found,"[0, 11, 5, 4, 2, 10, 12, 14, 6, 9, 13, 3, 1, 7, 8, 0]",870.975,0.00027100,8.8125
+"Asymmetric, all-roads",15,55,ACO,Trip found,"[0, 11, 5, 14, 10, 4, 2, 8, 12, 6, 9, 13, 3, 7, 1, 0]",804.8218,0.13811100,10.3672
+"Asymmetric, all-roads",15,95,BFS,Skipped,,,,
+"Asymmetric, all-roads",15,95,DFS,Skipped,,,,
+"Asymmetric, all-roads",15,95,NN,Trip found,"[0, 9, 7, 8, 4, 11, 12, 5, 2, 6, 10, 14, 3, 13, 1, 0]",853.2946,0.00001900,0.125
+"Asymmetric, all-roads",15,95,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",15,95,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",15,95,A* inadmissible,Trip found,"[0, 9, 7, 8, 4, 11, 12, 5, 2, 6, 10, 14, 13, 3, 1, 0]",830.6572,0.00027700,8.5391
+"Asymmetric, all-roads",15,95,ACO,Trip found,"[0, 5, 10, 14, 2, 6, 13, 3, 12, 11, 4, 8, 1, 9, 7, 0]",699.1695,0.13378600,10.3672
+"Asymmetric, all-roads",15,135,BFS,Skipped,,,,
+"Asymmetric, all-roads",15,135,DFS,Skipped,,,,
+"Asymmetric, all-roads",15,135,NN,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 12, 3, 7, 14, 9, 0]",775.3995,0.00001900,0.125
+"Asymmetric, all-roads",15,135,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",15,135,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",15,135,A* inadmissible,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 12, 3, 7, 14, 9, 0]",775.3995,0.00024500,8.1875
+"Asymmetric, all-roads",15,135,ACO,Trip found,"[0, 10, 9, 1, 4, 2, 8, 5, 13, 6, 11, 12, 3, 7, 14, 0]",732.6295,0.13084300,10.3672
+"Asymmetric, all-roads",16,56,BFS,Skipped,,,,
+"Asymmetric, all-roads",16,56,DFS,Skipped,,,,
+"Asymmetric, all-roads",16,56,NN,Trip found,"[0, 5, 12, 11, 8, 1, 4, 7, 3, 6, 2, 14, 10, 9, 13, 15, 0]",759.9935,0.00002200,0.1875
+"Asymmetric, all-roads",16,56,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",16,56,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",16,56,A* inadmissible,Trip found,"[0, 5, 12, 11, 8, 1, 4, 7, 3, 6, 2, 14, 10, 9, 13, 15, 0]",759.9935,0.00030600,10.7344
+"Asymmetric, all-roads",16,56,ACO,Trip found,"[0, 5, 12, 11, 8, 1, 7, 4, 3, 6, 2, 14, 10, 9, 13, 15, 0]",778.4108,0.15919500,11.8906
+"Asymmetric, all-roads",16,96,BFS,Skipped,,,,
+"Asymmetric, all-roads",16,96,DFS,Skipped,,,,
+"Asymmetric, all-roads",16,96,NN,Trip found,"[0, 9, 6, 15, 4, 3, 8, 2, 14, 13, 10, 12, 7, 5, 11, 1, 0]",711.1456,0.00002300,0.1875
+"Asymmetric, all-roads",16,96,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",16,96,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",16,96,A* inadmissible,Trip found,"[0, 9, 6, 15, 4, 3, 8, 2, 14, 13, 10, 12, 7, 5, 11, 1, 0]",711.1456,0.00031200,10.6797
+"Asymmetric, all-roads",16,96,ACO,Trip found,"[0, 9, 6, 15, 1, 4, 3, 8, 2, 14, 13, 10, 12, 7, 5, 11, 0]",705.0596,0.15841800,11.8906
+"Asymmetric, all-roads",16,136,BFS,Skipped,,,,
+"Asymmetric, all-roads",16,136,DFS,Skipped,,,,
+"Asymmetric, all-roads",16,136,NN,Trip found,"[0, 1, 11, 15, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 10, 4, 0]",766.0737,0.00002200,0.1875
+"Asymmetric, all-roads",16,136,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",16,136,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",16,136,A* inadmissible,Trip found,"[0, 1, 11, 15, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 10, 4, 0]",766.0737,0.00030100,10.6797
+"Asymmetric, all-roads",16,136,ACO,Trip found,"[0, 1, 11, 15, 3, 7, 2, 9, 14, 13, 12, 6, 8, 5, 4, 10, 0]",758.9335,0.15929300,11.8906
+"Asymmetric, all-roads",17,57,BFS,Skipped,,,,
+"Asymmetric, all-roads",17,57,DFS,Skipped,,,,
+"Asymmetric, all-roads",17,57,NN,Trip found,"[0, 8, 3, 12, 6, 5, 9, 11, 4, 15, 10, 7, 14, 13, 2, 1, 16, 0]",984.7937,0.00002500,0.1875
+"Asymmetric, all-roads",17,57,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",17,57,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",17,57,A* inadmissible,Trip found,"[0, 8, 3, 12, 6, 5, 9, 11, 4, 15, 10, 7, 14, 16, 13, 2, 1, 0]",1007.5876,0.00046500,14.9297
+"Asymmetric, all-roads",17,57,ACO,Trip found,"[0, 3, 12, 16, 4, 15, 10, 7, 14, 13, 11, 9, 2, 5, 6, 1, 8, 0]",833.4106,0.17884500,13.9609
+"Asymmetric, all-roads",17,97,BFS,Skipped,,,,
+"Asymmetric, all-roads",17,97,DFS,Skipped,,,,
+"Asymmetric, all-roads",17,97,NN,Trip found,"[0, 15, 7, 5, 12, 13, 8, 16, 2, 6, 11, 3, 10, 1, 14, 9, 4, 0]",933.6069,0.00002500,0.1875
+"Asymmetric, all-roads",17,97,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",17,97,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",17,97,A* inadmissible,Trip found,"[0, 15, 7, 5, 12, 13, 8, 16, 2, 6, 11, 3, 10, 1, 14, 9, 4, 0]",933.6069,0.00035100,13.4297
+"Asymmetric, all-roads",17,97,ACO,Trip found,"[0, 4, 9, 1, 14, 3, 10, 12, 13, 8, 16, 2, 6, 11, 5, 7, 15, 0]",885.8846,0.18084800,13.9609
+"Asymmetric, all-roads",17,137,BFS,Skipped,,,,
+"Asymmetric, all-roads",17,137,DFS,Skipped,,,,
+"Asymmetric, all-roads",17,137,NN,Trip found,"[0, 9, 1, 10, 12, 5, 13, 14, 16, 15, 7, 3, 2, 6, 11, 4, 8, 0]",987.4144,0.00002500,0.1875
+"Asymmetric, all-roads",17,137,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",17,137,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",17,137,A* inadmissible,Trip found,"[0, 9, 1, 10, 12, 5, 13, 14, 16, 15, 7, 3, 2, 6, 11, 4, 8, 0]",987.4144,0.00035500,13.4297
+"Asymmetric, all-roads",17,137,ACO,Trip found,"[0, 10, 12, 5, 13, 14, 16, 7, 15, 2, 6, 3, 11, 4, 8, 1, 9, 0]",972.7759,0.17853100,13.9609
+"Asymmetric, all-roads",18,58,BFS,Skipped,,,,
+"Asymmetric, all-roads",18,58,DFS,Skipped,,,,
+"Asymmetric, all-roads",18,58,NN,Trip found,"[0, 14, 11, 7, 4, 1, 8, 13, 3, 9, 16, 6, 2, 15, 5, 10, 12, 17, 0]",955.2341,0.00002800,0.1875
+"Asymmetric, all-roads",18,58,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",18,58,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",18,58,A* inadmissible,Trip found,"[0, 14, 11, 7, 4, 1, 8, 13, 3, 9, 16, 6, 2, 15, 5, 10, 12, 17, 0]",955.2341,0.00041000,16.4688
+"Asymmetric, all-roads",18,58,ACO,Trip found,"[0, 14, 11, 7, 4, 1, 8, 13, 3, 9, 16, 12, 17, 10, 6, 2, 15, 5, 0]",816.3255,0.20744800,15.1484
+"Asymmetric, all-roads",18,98,BFS,Skipped,,,,
+"Asymmetric, all-roads",18,98,DFS,Skipped,,,,
+"Asymmetric, all-roads",18,98,NN,Trip found,"[0, 12, 15, 13, 7, 4, 9, 2, 5, 11, 14, 6, 3, 17, 1, 10, 16, 8, 0]",850.0175,0.00002900,0.1875
+"Asymmetric, all-roads",18,98,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",18,98,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",18,98,A* inadmissible,Trip found,"[0, 12, 15, 13, 7, 4, 9, 2, 5, 11, 14, 6, 3, 17, 1, 10, 16, 8, 0]",850.0175,0.00042900,16.4688
+"Asymmetric, all-roads",18,98,ACO,Trip found,"[0, 12, 15, 13, 7, 4, 8, 16, 9, 5, 2, 11, 6, 14, 3, 17, 1, 10, 0]",797.7762,0.19701400,15.1484
+"Asymmetric, all-roads",18,138,BFS,Skipped,,,,
+"Asymmetric, all-roads",18,138,DFS,Skipped,,,,
+"Asymmetric, all-roads",18,138,NN,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 12, 11, 10, 4, 3, 1, 17, 13, 0]",854.0753,0.00003000,0.1875
+"Asymmetric, all-roads",18,138,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",18,138,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",18,138,A* inadmissible,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 12, 11, 10, 4, 3, 1, 17, 13, 0]",854.0753,0.00047200,16.4141
+"Asymmetric, all-roads",18,138,ACO,Trip found,"[0, 2, 8, 7, 16, 14, 5, 15, 6, 9, 4, 10, 12, 11, 3, 1, 17, 13, 0]",833.6608,0.20629800,15.1484
+"Asymmetric, all-roads",19,59,BFS,Skipped,,,,
+"Asymmetric, all-roads",19,59,DFS,Skipped,,,,
+"Asymmetric, all-roads",19,59,NN,Trip found,"[0, 3, 16, 4, 10, 12, 8, 17, 5, 1, 13, 14, 11, 9, 18, 2, 15, 6, 7, 0]",1102.9491,0.00003200,0.1875
+"Asymmetric, all-roads",19,59,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",19,59,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",19,59,A* inadmissible,Trip found,"[0, 3, 16, 4, 10, 12, 8, 17, 5, 1, 13, 14, 11, 9, 18, 2, 15, 6, 7, 0]",1102.9491,0.00051100,19.7266
+"Asymmetric, all-roads",19,59,ACO,Trip found,"[0, 3, 17, 5, 4, 10, 16, 8, 12, 7, 6, 15, 2, 11, 9, 18, 14, 13, 1, 0]",857.1442,0.21503900,16.3047
+"Asymmetric, all-roads",19,99,BFS,Skipped,,,,
+"Asymmetric, all-roads",19,99,DFS,Skipped,,,,
+"Asymmetric, all-roads",19,99,NN,Trip found,"[0, 12, 5, 18, 2, 1, 13, 6, 7, 8, 3, 10, 11, 14, 16, 4, 9, 15, 17, 0]",1056.5094,0.00003300,0.1875
+"Asymmetric, all-roads",19,99,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",19,99,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",19,99,A* inadmissible,Trip found,"[0, 12, 5, 18, 2, 1, 13, 6, 7, 8, 3, 10, 11, 4, 16, 9, 15, 17, 14, 0]",1272.112,0.00110000,25.1875
+"Asymmetric, all-roads",19,99,ACO,Trip found,"[0, 12, 5, 4, 16, 3, 8, 10, 11, 14, 7, 1, 13, 6, 2, 18, 17, 15, 9, 0]",955.8893,0.21901700,16.3047
+"Asymmetric, all-roads",19,139,BFS,Skipped,,,,
+"Asymmetric, all-roads",19,139,DFS,Skipped,,,,
+"Asymmetric, all-roads",19,139,NN,Trip found,"[0, 11, 10, 14, 6, 16, 13, 8, 5, 4, 2, 12, 18, 3, 1, 17, 9, 15, 7, 0]",1037.1115,0.00003200,0.1875
+"Asymmetric, all-roads",19,139,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",19,139,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",19,139,A* inadmissible,Trip found,"[0, 11, 10, 14, 6, 16, 13, 8, 5, 4, 2, 12, 18, 3, 1, 17, 9, 15, 7, 0]",1037.1115,0.00047400,19.6719
+"Asymmetric, all-roads",19,139,ACO,Trip found,"[0, 11, 10, 7, 16, 6, 14, 13, 8, 5, 4, 12, 2, 3, 18, 1, 17, 9, 15, 0]",962.1135,0.22812800,16.3047
+"Asymmetric, all-roads",20,60,BFS,Skipped,,,,
+"Asymmetric, all-roads",20,60,DFS,Skipped,,,,
+"Asymmetric, all-roads",20,60,NN,Trip found,"[0, 4, 10, 14, 18, 6, 7, 1, 9, 3, 5, 12, 16, 13, 8, 15, 17, 19, 2, 11, 0]",1057.3837,0.00003400,0.1875
+"Asymmetric, all-roads",20,60,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",20,60,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",20,60,A* inadmissible,Trip found,"[0, 4, 10, 14, 18, 6, 7, 1, 9, 3, 5, 12, 16, 13, 8, 15, 17, 19, 2, 11, 0]",1057.3837,0.00054900,23.0469
+"Asymmetric, all-roads",20,60,ACO,Trip found,"[0, 4, 10, 14, 18, 17, 19, 11, 2, 6, 7, 1, 5, 12, 3, 9, 8, 13, 16, 15, 0]",829.1514,0.24621000,17.4531
+"Asymmetric, all-roads",20,100,BFS,Skipped,,,,
+"Asymmetric, all-roads",20,100,DFS,Skipped,,,,
+"Asymmetric, all-roads",20,100,NN,Trip found,"[0, 6, 10, 9, 16, 17, 18, 8, 14, 13, 15, 1, 19, 2, 4, 12, 5, 11, 3, 7, 0]",926.9897,0.00003400,0.1875
+"Asymmetric, all-roads",20,100,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",20,100,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",20,100,A* inadmissible,Trip found,"[0, 6, 10, 9, 16, 17, 18, 8, 14, 13, 15, 1, 19, 2, 4, 12, 5, 11, 7, 3, 0]",891.6186,0.00056700,23.2031
+"Asymmetric, all-roads",20,100,ACO,Trip found,"[0, 6, 10, 9, 16, 17, 18, 8, 14, 13, 15, 1, 19, 2, 4, 12, 7, 5, 11, 3, 0]",798.9754,0.25925700,17.4531
+"Asymmetric, all-roads",20,140,BFS,Skipped,,,,
+"Asymmetric, all-roads",20,140,DFS,Skipped,,,,
+"Asymmetric, all-roads",20,140,NN,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 16, 17, 7, 13, 8, 6, 19, 11, 2, 12, 1, 0]",845.6477,0.00003600,0.1875
+"Asymmetric, all-roads",20,140,Dijkstra,Skipped,,,,
+"Asymmetric, all-roads",20,140,A* admissible,Skipped,,,,
+"Asymmetric, all-roads",20,140,A* inadmissible,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 16, 17, 7, 13, 8, 6, 19, 11, 2, 12, 1, 0]",845.6477,0.00056600,22.9922
+"Asymmetric, all-roads",20,140,ACO,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 16, 17, 7, 13, 8, 6, 19, 11, 2, 12, 1, 0]",845.6477,0.25697200,17.4531
+"Asymmetric, 80% roads",5,45,BFS,No trip,,inf,0.00003400,0.2891
+"Asymmetric, 80% roads",5,45,DFS,No trip,,inf,0.00002200,0.1797
+"Asymmetric, 80% roads",5,45,NN,No trip,,inf,0.00000400,0.0625
+"Asymmetric, 80% roads",5,45,Dijkstra,No trip,,inf,0.00002600,0.2422
+"Asymmetric, 80% roads",5,45,A* admissible,No trip,,inf,0.00002800,0.2422
+"Asymmetric, 80% roads",5,45,A* inadmissible,No trip,,inf,0.00002400,0.2422
+"Asymmetric, 80% roads",5,45,ACO,No trip,,inf,0.00583300,3.0547
+"Asymmetric, 80% roads",5,85,BFS,Trip found,"[0, 4, 1, 3, 2, 0]",463.1209,0.00003200,0.3984
+"Asymmetric, 80% roads",5,85,DFS,Trip found,"[0, 4, 1, 3, 2, 0]",463.1209,0.00003000,0.2188
+"Asymmetric, 80% roads",5,85,NN,No trip,,inf,0.00000400,0.0625
+"Asymmetric, 80% roads",5,85,Dijkstra,Trip found,"[0, 4, 1, 3, 2, 0]",463.1209,0.00003300,0.3047
+"Asymmetric, 80% roads",5,85,A* admissible,Trip found,"[0, 4, 1, 3, 2, 0]",463.1209,0.00006200,0.2969
+"Asymmetric, 80% roads",5,85,A* inadmissible,Trip found,"[0, 4, 1, 3, 2, 0]",463.1209,0.00002400,0.1719
+"Asymmetric, 80% roads",5,85,ACO,Trip found,"[0, 4, 1, 3, 2, 0]",463.1209,0.00825400,3.8047
+"Asymmetric, 80% roads",5,125,BFS,Trip found,"[0, 4, 1, 2, 3, 0]",390.0653,0.00005900,0.6719
+"Asymmetric, 80% roads",5,125,DFS,Trip found,"[0, 4, 1, 2, 3, 0]",390.0653,0.00005400,0.2969
+"Asymmetric, 80% roads",5,125,NN,Trip found,"[0, 3, 2, 1, 4, 0]",414.1518,0.00000300,0.0625
+"Asymmetric, 80% roads",5,125,Dijkstra,Trip found,"[0, 4, 1, 2, 3, 0]",390.0653,0.00006100,0.75
+"Asymmetric, 80% roads",5,125,A* admissible,Trip found,"[0, 4, 1, 2, 3, 0]",390.0653,0.00005900,0.6562
+"Asymmetric, 80% roads",5,125,A* inadmissible,Trip found,"[0, 3, 2, 1, 4, 0]",414.1518,0.00001800,0.25
+"Asymmetric, 80% roads",5,125,ACO,Trip found,"[0, 4, 1, 2, 3, 0]",390.0653,0.00886500,3.8047
+"Asymmetric, 80% roads",6,46,BFS,Trip found,"[0, 2, 5, 4, 3, 1, 0]",652.8052,0.00012700,1.6797
+"Asymmetric, 80% roads",6,46,DFS,Trip found,"[0, 2, 5, 4, 3, 1, 0]",652.8052,0.00012700,0.3594
+"Asymmetric, 80% roads",6,46,NN,No trip,,inf,0.00000400,0.0625
+"Asymmetric, 80% roads",6,46,Dijkstra,Trip found,"[0, 2, 5, 4, 3, 1, 0]",652.8052,0.00014600,1.4922
+"Asymmetric, 80% roads",6,46,A* admissible,Trip found,"[0, 2, 5, 4, 3, 1, 0]",652.8052,0.00016600,1.4844
+"Asymmetric, 80% roads",6,46,A* inadmissible,Trip found,"[0, 1, 2, 5, 4, 3, 0]",675.199,0.00004400,0.4609
+"Asymmetric, 80% roads",6,46,ACO,Trip found,"[0, 4, 3, 1, 2, 5, 0]",662.7843,0.01157600,3.9062
+"Asymmetric, 80% roads",6,86,BFS,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00007900,1.1016
+"Asymmetric, 80% roads",6,86,DFS,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00008300,0.3203
+"Asymmetric, 80% roads",6,86,NN,No trip,,inf,0.00000400,0.0625
+"Asymmetric, 80% roads",6,86,Dijkstra,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00011800,0.9453
+"Asymmetric, 80% roads",6,86,A* admissible,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00009300,0.9453
+"Asymmetric, 80% roads",6,86,A* inadmissible,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.00002500,0.3359
+"Asymmetric, 80% roads",6,86,ACO,Trip found,"[0, 3, 2, 5, 4, 1, 0]",539.0186,0.01072900,3.8672
+"Asymmetric, 80% roads",6,126,BFS,Trip found,"[0, 1, 2, 5, 4, 3, 0]",453.4312,0.00013600,1.7422
+"Asymmetric, 80% roads",6,126,DFS,Trip found,"[0, 1, 2, 5, 4, 3, 0]",453.4312,0.00012900,0.3516
+"Asymmetric, 80% roads",6,126,NN,No trip,,inf,0.00000500,0.0625
+"Asymmetric, 80% roads",6,126,Dijkstra,Trip found,"[0, 1, 2, 5, 4, 3, 0]",453.4312,0.00015200,1.5312
+"Asymmetric, 80% roads",6,126,A* admissible,Trip found,"[0, 1, 2, 5, 4, 3, 0]",453.4312,0.00016800,1.4688
+"Asymmetric, 80% roads",6,126,A* inadmissible,Trip found,"[0, 4, 3, 5, 1, 2, 0]",490.5696,0.00006600,0.6562
+"Asymmetric, 80% roads",6,126,ACO,Trip found,"[0, 1, 2, 5, 4, 3, 0]",453.4312,0.01208200,3.9062
+"Asymmetric, 80% roads",7,47,BFS,Trip found,"[0, 2, 3, 4, 5, 6, 1, 0]",459.8519,0.00126700,28.4766
+"Asymmetric, 80% roads",7,47,DFS,Trip found,"[0, 2, 3, 4, 5, 6, 1, 0]",459.8519,0.00079000,0.5938
+"Asymmetric, 80% roads",7,47,NN,Trip found,"[0, 1, 6, 4, 5, 2, 3, 0]",470.7794,0.00000500,0.0625
+"Asymmetric, 80% roads",7,47,Dijkstra,Trip found,"[0, 2, 3, 4, 5, 6, 1, 0]",459.8519,0.00111400,22.0938
+"Asymmetric, 80% roads",7,47,A* admissible,Trip found,"[0, 2, 3, 4, 5, 6, 1, 0]",459.8519,0.00141400,25.9219
+"Asymmetric, 80% roads",7,47,A* inadmissible,Trip found,"[0, 1, 3, 2, 4, 6, 5, 0]",512.7411,0.00010200,1.9141
+"Asymmetric, 80% roads",7,47,ACO,Trip found,"[0, 1, 6, 4, 5, 2, 3, 0]",470.7794,0.01508500,3.9688
+"Asymmetric, 80% roads",7,87,BFS,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00084400,18.75
+"Asymmetric, 80% roads",7,87,DFS,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00060400,0.5703
+"Asymmetric, 80% roads",7,87,NN,Trip found,"[0, 6, 3, 1, 2, 5, 4, 0]",595.6171,0.00000600,0.0625
+"Asymmetric, 80% roads",7,87,Dijkstra,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00075500,14.9531
+"Asymmetric, 80% roads",7,87,A* admissible,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00087400,16.6797
+"Asymmetric, 80% roads",7,87,A* inadmissible,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.00007400,1.0625
+"Asymmetric, 80% roads",7,87,ACO,Trip found,"[0, 6, 1, 2, 5, 4, 3, 0]",512.1804,0.01392800,3.9297
+"Asymmetric, 80% roads",7,127,BFS,Trip found,"[0, 6, 5, 3, 1, 4, 2, 0]",864.5641,0.00053100,10.6094
+"Asymmetric, 80% roads",7,127,DFS,Trip found,"[0, 6, 5, 3, 1, 4, 2, 0]",864.5641,0.00042000,0.5469
+"Asymmetric, 80% roads",7,127,NN,No trip,,inf,0.00000500,0.0625
+"Asymmetric, 80% roads",7,127,Dijkstra,Trip found,"[0, 6, 5, 3, 1, 4, 2, 0]",864.5641,0.00053900,7.1172
+"Asymmetric, 80% roads",7,127,A* admissible,Trip found,"[0, 6, 5, 3, 1, 4, 2, 0]",864.5641,0.00076300,8.9062
+"Asymmetric, 80% roads",7,127,A* inadmissible,Trip found,"[0, 6, 5, 1, 4, 2, 3, 0]",879.051,0.00024200,2.0156
+"Asymmetric, 80% roads",7,127,ACO,Trip found,"[0, 6, 5, 1, 4, 2, 3, 0]",879.051,0.01384400,3.9297
+"Asymmetric, 80% roads",8,48,BFS,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.00233900,47.875
+"Asymmetric, 80% roads",8,48,DFS,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.00145500,0.6562
+"Asymmetric, 80% roads",8,48,NN,No trip,,inf,0.00000600,0.0625
+"Asymmetric, 80% roads",8,48,Dijkstra,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.00182800,35.7266
+"Asymmetric, 80% roads",8,48,A* admissible,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.00199200,36.2109
+"Asymmetric, 80% roads",8,48,A* inadmissible,Trip found,"[0, 3, 2, 4, 7, 1, 6, 5, 0]",544.8281,0.00006400,0.7188
+"Asymmetric, 80% roads",8,48,ACO,Trip found,"[0, 3, 2, 4, 1, 7, 6, 5, 0]",543.6621,0.01791100,4.6562
+"Asymmetric, 80% roads",8,88,BFS,Trip found,"[0, 1, 2, 3, 6, 7, 4, 5, 0]",711.7964,0.00235700,46.9922
+"Asymmetric, 80% roads",8,88,DFS,Trip found,"[0, 1, 2, 3, 6, 7, 4, 5, 0]",711.7964,0.00147800,0.6484
+"Asymmetric, 80% roads",8,88,NN,No trip,,inf,0.00000600,0.0625
+"Asymmetric, 80% roads",8,88,Dijkstra,Trip found,"[0, 1, 2, 3, 6, 7, 4, 5, 0]",711.7964,0.00229400,41.7656
+"Asymmetric, 80% roads",8,88,A* admissible,Trip found,"[0, 1, 2, 3, 6, 7, 4, 5, 0]",711.7964,0.00227200,41.8594
+"Asymmetric, 80% roads",8,88,A* inadmissible,Trip found,"[0, 5, 4, 1, 2, 3, 6, 7, 0]",791.9924,0.00005300,0.7188
+"Asymmetric, 80% roads",8,88,ACO,Trip found,"[0, 1, 2, 3, 6, 7, 4, 5, 0]",711.7964,0.09866200,4.7109
+"Asymmetric, 80% roads",8,128,BFS,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.00677900,119.7891
+"Asymmetric, 80% roads",8,128,DFS,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.00351100,0.75
+"Asymmetric, 80% roads",8,128,NN,No trip,,inf,0.00000800,0.0625
+"Asymmetric, 80% roads",8,128,Dijkstra,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.00350300,88.8906
+"Asymmetric, 80% roads",8,128,A* admissible,Trip found,"[0, 2, 1, 4, 6, 3, 5, 7, 0]",540.431,0.00350400,79.0859
+"Asymmetric, 80% roads",8,128,A* inadmissible,Trip found,"[0, 7, 3, 5, 2, 6, 4, 1, 0]",628.4493,0.00008500,1.1953
+"Asymmetric, 80% roads",8,128,ACO,Trip found,"[0, 7, 5, 3, 6, 4, 1, 2, 0]",556.5935,0.01826500,4.7109
+"Asymmetric, 80% roads",9,49,BFS,Trip found,"[0, 5, 7, 6, 1, 4, 3, 8, 2, 0]",503.0718,0.09004600,1902.5781
+"Asymmetric, 80% roads",9,49,DFS,Trip found,"[0, 5, 7, 6, 1, 4, 3, 8, 2, 0]",503.0718,0.03044100,1.1406
+"Asymmetric, 80% roads",9,49,NN,Trip found,"[0, 2, 7, 6, 8, 3, 4, 1, 5, 0]",510.4758,0.00000900,0.125
+"Asymmetric, 80% roads",9,49,Dijkstra,Trip found,"[0, 5, 7, 6, 1, 4, 3, 8, 2, 0]",503.0718,0.03015700,1037.3828
+"Asymmetric, 80% roads",9,49,A* admissible,Trip found,"[0, 5, 7, 6, 1, 4, 3, 8, 2, 0]",503.0718,0.01996000,554.3516
+"Asymmetric, 80% roads",9,49,A* inadmissible,Trip found,"[0, 5, 7, 6, 8, 3, 1, 4, 2, 0]",537.7728,0.00007100,1.2422
+"Asymmetric, 80% roads",9,49,ACO,Trip found,"[0, 5, 7, 6, 1, 4, 3, 8, 2, 0]",503.0718,0.02833100,5.7031
+"Asymmetric, 80% roads",9,89,BFS,Trip found,"[0, 3, 6, 8, 5, 1, 2, 4, 7, 0]",945.3183,0.01624100,335.4844
+"Asymmetric, 80% roads",9,89,DFS,Trip found,"[0, 3, 6, 8, 5, 1, 2, 4, 7, 0]",945.3183,0.00859700,0.9531
+"Asymmetric, 80% roads",9,89,NN,No trip,,inf,0.00000800,0.0625
+"Asymmetric, 80% roads",9,89,Dijkstra,Trip found,"[0, 3, 6, 8, 5, 1, 2, 4, 7, 0]",945.3183,0.01214200,237.7031
+"Asymmetric, 80% roads",9,89,A* admissible,Trip found,"[0, 3, 6, 8, 5, 1, 2, 4, 7, 0]",945.3183,0.01369600,243.3828
+"Asymmetric, 80% roads",9,89,A* inadmissible,Trip found,"[0, 7, 5, 4, 2, 1, 3, 6, 8, 0]",1042.2181,0.00023500,1.4844
+"Asymmetric, 80% roads",9,89,ACO,Trip found,"[0, 3, 6, 8, 2, 1, 5, 4, 7, 0]",950.9823,0.02545900,5.7031
+"Asymmetric, 80% roads",9,129,BFS,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",844.5634,0.01000500,188.2188
+"Asymmetric, 80% roads",9,129,DFS,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",844.5634,0.00581300,0.8984
+"Asymmetric, 80% roads",9,129,NN,No trip,,inf,0.00001600,0.0625
+"Asymmetric, 80% roads",9,129,Dijkstra,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",844.5634,0.01018000,138.5938
+"Asymmetric, 80% roads",9,129,A* admissible,Trip found,"[0, 6, 8, 1, 4, 2, 5, 3, 7, 0]",844.5634,0.01128800,138.8203
+"Asymmetric, 80% roads",9,129,A* inadmissible,Trip found,"[0, 7, 3, 5, 2, 4, 1, 8, 6, 0]",856.2231,0.00012500,1.6953
+"Asymmetric, 80% roads",9,129,ACO,Trip found,"[0, 7, 3, 5, 2, 4, 1, 8, 6, 0]",856.2231,0.02580700,5.7734
+"Asymmetric, 80% roads",10,50,BFS,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 3, 2, 0]",542.287,5.91880000,27972.4453
+"Asymmetric, 80% roads",10,50,DFS,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 3, 2, 0]",542.287,0.41210800,1.5547
+"Asymmetric, 80% roads",10,50,NN,Trip found,"[0, 9, 2, 3, 8, 7, 5, 4, 1, 6, 0]",727.1316,0.00001100,0.125
+"Asymmetric, 80% roads",10,50,Dijkstra,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 3, 2, 0]",542.287,0.13634800,5770.7812
+"Asymmetric, 80% roads",10,50,A* admissible,Trip found,"[0, 4, 5, 7, 8, 6, 1, 9, 3, 2, 0]",542.287,0.07934200,2841.9297
+"Asymmetric, 80% roads",10,50,A* inadmissible,Trip found,"[0, 9, 2, 3, 8, 7, 5, 4, 1, 6, 0]",727.1316,0.00008000,1.4297
+"Asymmetric, 80% roads",10,50,ACO,Trip found,"[0, 3, 2, 9, 1, 6, 8, 7, 5, 4, 0]",557.6173,0.04324300,6.3672
+"Asymmetric, 80% roads",10,90,BFS,Trip found,"[0, 3, 4, 6, 5, 7, 8, 2, 1, 9, 0]",827.5682,0.67219500,7696.5781
+"Asymmetric, 80% roads",10,90,DFS,Trip found,"[0, 3, 4, 6, 5, 7, 8, 2, 1, 9, 0]",827.5682,0.12514000,1.3203
+"Asymmetric, 80% roads",10,90,NN,Trip found,"[0, 3, 1, 8, 2, 6, 4, 9, 5, 7, 0]",1036.9796,0.00001100,0.125
+"Asymmetric, 80% roads",10,90,Dijkstra,Trip found,"[0, 3, 4, 6, 5, 7, 8, 2, 1, 9, 0]",827.5682,0.15408700,4997.0312
+"Asymmetric, 80% roads",10,90,A* admissible,Trip found,"[0, 3, 4, 6, 5, 7, 8, 2, 1, 9, 0]",827.5682,0.13052400,4034.2578
+"Asymmetric, 80% roads",10,90,A* inadmissible,Trip found,"[0, 3, 1, 8, 2, 6, 4, 9, 5, 7, 0]",1036.9796,0.00010500,1.7578
+"Asymmetric, 80% roads",10,90,ACO,Trip found,"[0, 3, 4, 6, 5, 7, 1, 2, 8, 9, 0]",854.6986,0.04169800,6.3438
+"Asymmetric, 80% roads",10,130,BFS,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",570.8778,0.86047600,8956.9844
+"Asymmetric, 80% roads",10,130,DFS,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",570.8778,0.14726700,1.4219
+"Asymmetric, 80% roads",10,130,NN,Trip found,"[0, 3, 9, 1, 7, 8, 6, 5, 2, 4, 0]",692.7804,0.00001100,0.125
+"Asymmetric, 80% roads",10,130,Dijkstra,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",570.8778,0.14779800,5006.5
+"Asymmetric, 80% roads",10,130,A* admissible,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",570.8778,0.16481500,4980.0312
+"Asymmetric, 80% roads",10,130,A* inadmissible,Trip found,"[0, 3, 9, 1, 7, 8, 6, 5, 2, 4, 0]",692.7804,0.00014000,1.8594
+"Asymmetric, 80% roads",10,130,ACO,Trip found,"[0, 9, 3, 6, 1, 7, 8, 4, 5, 2, 0]",570.8778,0.04001300,6.3438
+"Asymmetric, 80% roads",11,51,BFS,Timeout,,,60.23826600,145791.8516
+"Asymmetric, 80% roads",11,51,DFS,Trip found,"[0, 8, 4, 9, 1, 7, 2, 3, 10, 5, 6, 0]",684.9217,2.21982200,1.9219
+"Asymmetric, 80% roads",11,51,NN,Trip found,"[0, 6, 10, 5, 4, 9, 1, 7, 2, 3, 8, 0]",723.8323,0.00002200,0.125
+"Asymmetric, 80% roads",11,51,Dijkstra,Trip found,"[0, 8, 4, 9, 1, 7, 2, 3, 10, 5, 6, 0]",684.9217,1.38893300,43613.0938
+"Asymmetric, 80% roads",11,51,A* admissible,Trip found,"[0, 8, 4, 9, 1, 7, 2, 3, 10, 5, 6, 0]",684.9217,1.21145800,36017.2031
+"Asymmetric, 80% roads",11,51,A* inadmissible,Trip found,"[0, 8, 3, 4, 9, 1, 7, 2, 10, 5, 6, 0]",714.0646,0.00012600,2.0312
+"Asymmetric, 80% roads",11,51,ACO,Trip found,"[0, 8, 4, 9, 1, 7, 2, 3, 10, 5, 6, 0]",684.9217,0.05718600,7.1406
+"Asymmetric, 80% roads",11,91,BFS,Timeout,,,60.28664400,186822.7734
+"Asymmetric, 80% roads",11,91,DFS,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",637.6417,3.12689500,2.0156
+"Asymmetric, 80% roads",11,91,NN,No trip,,inf,0.00002100,0.125
+"Asymmetric, 80% roads",11,91,Dijkstra,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",637.6417,1.90610200,60724.6797
+"Asymmetric, 80% roads",11,91,A* admissible,Trip found,"[0, 10, 2, 6, 9, 5, 4, 1, 8, 3, 7, 0]",637.6417,0.41363400,14277.5469
+"Asymmetric, 80% roads",11,91,A* inadmissible,Trip found,"[0, 10, 3, 7, 8, 1, 4, 5, 9, 2, 6, 0]",715.2746,0.00010500,1.875
+"Asymmetric, 80% roads",11,91,ACO,Trip found,"[0, 10, 3, 8, 1, 4, 5, 9, 6, 2, 7, 0]",668.9794,0.05805400,6.9844
+"Asymmetric, 80% roads",11,131,BFS,Trip found,"[0, 7, 4, 8, 10, 9, 5, 6, 1, 3, 2, 0]",737.997,24.42326200,61662.0625
+"Asymmetric, 80% roads",11,131,DFS,Trip found,"[0, 7, 4, 8, 10, 9, 5, 6, 1, 3, 2, 0]",737.997,0.98481100,1.8203
+"Asymmetric, 80% roads",11,131,NN,No trip,,inf,0.00003300,0.125
+"Asymmetric, 80% roads",11,131,Dijkstra,Trip found,"[0, 7, 4, 8, 10, 9, 5, 6, 1, 3, 2, 0]",737.997,1.77176500,43518.0859
+"Asymmetric, 80% roads",11,131,A* admissible,Trip found,"[0, 7, 4, 8, 10, 9, 5, 6, 1, 3, 2, 0]",737.997,0.96293400,26060.1016
+"Asymmetric, 80% roads",11,131,A* inadmissible,Trip found,"[0, 2, 3, 1, 6, 10, 9, 7, 4, 8, 5, 0]",808.217,0.00030200,5.6406
+"Asymmetric, 80% roads",11,131,ACO,Trip found,"[0, 2, 3, 5, 1, 6, 10, 8, 4, 9, 7, 0]",769.2123,0.05399700,6.9844
+"Asymmetric, 80% roads",12,52,BFS,Skipped,,,,
+"Asymmetric, 80% roads",12,52,DFS,Trip found,"[0, 4, 2, 8, 9, 1, 10, 7, 6, 11, 5, 3, 0]",985.4758,3.77956000,1.9844
+"Asymmetric, 80% roads",12,52,NN,No trip,,inf,0.00001600,0.125
+"Asymmetric, 80% roads",12,52,Dijkstra,Trip found,"[0, 4, 2, 8, 9, 1, 10, 7, 6, 11, 5, 3, 0]",985.4758,4.93344600,112778.2031
+"Asymmetric, 80% roads",12,52,A* admissible,Trip found,"[0, 4, 2, 8, 9, 1, 10, 7, 6, 11, 5, 3, 0]",985.4758,2.48617900,62098.375
+"Asymmetric, 80% roads",12,52,A* inadmissible,Trip found,"[0, 4, 2, 3, 11, 5, 10, 1, 9, 8, 6, 7, 0]",1131.5264,0.00019400,1.9609
+"Asymmetric, 80% roads",12,52,ACO,Trip found,"[0, 4, 2, 8, 9, 1, 11, 5, 3, 6, 10, 7, 0]",1021.6277,0.06726600,7.8828
+"Asymmetric, 80% roads",12,92,BFS,Skipped,,,,
+"Asymmetric, 80% roads",12,92,DFS,Trip found,"[0, 3, 1, 2, 9, 4, 8, 5, 11, 10, 7, 6, 0]",650.9207,18.57850200,2.375
+"Asymmetric, 80% roads",12,92,NN,No trip,,inf,0.00003100,0.125
+"Asymmetric, 80% roads",12,92,Dijkstra,Trip found,"[0, 3, 1, 2, 9, 4, 8, 5, 11, 10, 7, 6, 0]",650.9207,8.28357400,232185.2344
+"Asymmetric, 80% roads",12,92,A* admissible,Trip found,"[0, 3, 1, 2, 9, 4, 8, 5, 11, 10, 7, 6, 0]",650.9207,3.06817900,95229.3672
+"Asymmetric, 80% roads",12,92,A* inadmissible,Trip found,"[0, 4, 2, 1, 3, 8, 5, 6, 7, 10, 11, 9, 0]",803.9744,0.00030700,3.5938
+"Asymmetric, 80% roads",12,92,ACO,Trip found,"[0, 4, 9, 2, 1, 3, 8, 5, 11, 10, 7, 6, 0]",663.3747,0.07616300,7.9531
+"Asymmetric, 80% roads",12,132,BFS,Skipped,,,,
+"Asymmetric, 80% roads",12,132,DFS,Trip found,"[0, 4, 10, 7, 11, 5, 6, 2, 3, 9, 1, 8, 0]",582.5996,16.06573200,2.3984
+"Asymmetric, 80% roads",12,132,NN,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 9, 3, 4, 0]",628.7083,0.00003200,0.125
+"Asymmetric, 80% roads",12,132,Dijkstra,Trip found,"[0, 4, 10, 7, 11, 5, 6, 2, 3, 9, 1, 8, 0]",582.5996,5.79746400,167166.8828
+"Asymmetric, 80% roads",12,132,A* admissible,Trip found,"[0, 4, 10, 7, 11, 5, 6, 2, 3, 9, 1, 8, 0]",582.5996,2.09817400,65230.1641
+"Asymmetric, 80% roads",12,132,A* inadmissible,Trip found,"[0, 10, 11, 5, 7, 6, 2, 8, 1, 9, 3, 4, 0]",628.7083,0.00017900,2.2578
+"Asymmetric, 80% roads",12,132,ACO,Trip found,"[0, 10, 7, 5, 6, 2, 3, 9, 1, 8, 11, 4, 0]",610.3846,0.06813900,7.9062
+"Asymmetric, 80% roads",13,53,BFS,Skipped,,,,
+"Asymmetric, 80% roads",13,53,DFS,Timeout,,,60.00006600,2.8672
+"Asymmetric, 80% roads",13,53,NN,No trip,,inf,0.00004400,0.125
+"Asymmetric, 80% roads",13,53,Dijkstra,Trip found,"[0, 9, 5, 12, 10, 6, 3, 7, 8, 4, 11, 2, 1, 0]",772.2396,33.98429900,793454.3672
+"Asymmetric, 80% roads",13,53,A* admissible,Trip found,"[0, 9, 5, 12, 10, 6, 3, 7, 8, 4, 11, 2, 1, 0]",772.2396,9.24843900,281692.4219
+"Asymmetric, 80% roads",13,53,A* inadmissible,Trip found,"[0, 1, 2, 11, 4, 8, 7, 6, 3, 5, 10, 12, 9, 0]",808.5082,0.00066100,3.1328
+"Asymmetric, 80% roads",13,53,ACO,Trip found,"[0, 1, 2, 11, 4, 8, 10, 6, 3, 5, 9, 12, 7, 0]",814.5416,0.07647700,8.5938
+"Asymmetric, 80% roads",13,93,BFS,Skipped,,,,
+"Asymmetric, 80% roads",13,93,DFS,Trip found,"[0, 4, 11, 7, 9, 2, 1, 10, 12, 3, 8, 5, 6, 0]",807.3554,59.54004200,2.8672
+"Asymmetric, 80% roads",13,93,NN,No trip,,inf,0.00005000,0.125
+"Asymmetric, 80% roads",13,93,Dijkstra,Trip found,"[0, 4, 11, 7, 9, 2, 1, 10, 12, 3, 8, 5, 6, 0]",807.3554,23.77969600,578754.8203
+"Asymmetric, 80% roads",13,93,A* admissible,Trip found,"[0, 4, 11, 7, 9, 2, 1, 10, 12, 3, 8, 5, 6, 0]",807.3554,10.21396900,281844.6875
+"Asymmetric, 80% roads",13,93,A* inadmissible,Trip found,"[0, 4, 1, 2, 9, 7, 12, 10, 3, 8, 6, 5, 11, 0]",989.7528,0.00051100,3.7812
+"Asymmetric, 80% roads",13,93,ACO,Trip found,"[0, 4, 11, 7, 12, 10, 1, 2, 9, 3, 8, 5, 6, 0]",818.7803,0.08024600,8.6875
+"Asymmetric, 80% roads",13,133,BFS,Skipped,,,,
+"Asymmetric, 80% roads",13,133,DFS,Timeout,,,60.00010800,2.8359
+"Asymmetric, 80% roads",13,133,NN,Trip found,"[0, 8, 9, 4, 5, 12, 1, 10, 11, 2, 3, 7, 6, 0]",960.3028,0.00005800,0.125
+"Asymmetric, 80% roads",13,133,Dijkstra,Trip found,"[0, 8, 9, 4, 6, 5, 12, 11, 10, 1, 2, 3, 7, 0]",810.6566,65.99720800,1230334.969
+"Asymmetric, 80% roads",13,133,A* admissible,Trip found,"[0, 8, 9, 4, 6, 5, 12, 11, 10, 1, 2, 3, 7, 0]",810.6566,27.59089300,718092.7266
+"Asymmetric, 80% roads",13,133,A* inadmissible,Trip found,"[0, 8, 9, 4, 5, 12, 1, 10, 11, 2, 3, 7, 6, 0]",960.3028,0.00159500,3.1719
+"Asymmetric, 80% roads",13,133,ACO,Trip found,"[0, 8, 9, 4, 6, 5, 12, 11, 10, 1, 2, 3, 7, 0]",810.6566,0.08423700,8.7109
+"Asymmetric, 80% roads",14,54,BFS,Skipped,,,,
+"Asymmetric, 80% roads",14,54,DFS,Skipped,,,,
+"Asymmetric, 80% roads",14,54,NN,Trip found,"[0, 7, 6, 13, 12, 5, 1, 8, 4, 10, 2, 9, 11, 3, 0]",923.5487,0.00002000,0.125
+"Asymmetric, 80% roads",14,54,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",14,54,A* admissible,Timeout,,,71.40967700,1333563.883
+"Asymmetric, 80% roads",14,54,A* inadmissible,Trip found,"[0, 7, 6, 13, 12, 5, 1, 8, 4, 10, 2, 9, 11, 3, 0]",923.5487,0.00217900,4.5078
+"Asymmetric, 80% roads",14,54,ACO,Trip found,"[0, 7, 6, 13, 12, 5, 3, 1, 8, 4, 10, 2, 9, 11, 0]",855.4401,0.10233900,9.4922
+"Asymmetric, 80% roads",14,94,BFS,Skipped,,,,
+"Asymmetric, 80% roads",14,94,DFS,Skipped,,,,
+"Asymmetric, 80% roads",14,94,NN,Trip found,"[0, 1, 12, 8, 3, 11, 2, 5, 10, 6, 9, 4, 13, 7, 0]",822.9551,0.00002300,0.125
+"Asymmetric, 80% roads",14,94,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",14,94,A* admissible,Trip found,"[0, 1, 12, 7, 13, 9, 4, 10, 6, 5, 2, 3, 11, 8, 0]",718.4452,5.25723100,175910
+"Asymmetric, 80% roads",14,94,A* inadmissible,Trip found,"[0, 1, 12, 8, 3, 11, 2, 5, 10, 6, 9, 4, 13, 7, 0]",822.9551,0.00074800,3.7656
+"Asymmetric, 80% roads",14,94,ACO,Trip found,"[0, 1, 12, 7, 13, 9, 4, 10, 6, 5, 2, 11, 3, 8, 0]",730.1747,0.10510700,9.4688
+"Asymmetric, 80% roads",14,134,BFS,Skipped,,,,
+"Asymmetric, 80% roads",14,134,DFS,Skipped,,,,
+"Asymmetric, 80% roads",14,134,NN,Trip found,"[0, 6, 13, 7, 10, 4, 3, 5, 2, 9, 8, 12, 1, 11, 0]",748.6628,0.00001800,0.125
+"Asymmetric, 80% roads",14,134,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",14,134,A* admissible,Timeout,,,74.01754300,1339554.523
+"Asymmetric, 80% roads",14,134,A* inadmissible,Trip found,"[0, 6, 13, 7, 10, 4, 3, 5, 2, 9, 8, 12, 1, 11, 0]",748.6628,0.00303700,22.0859
+"Asymmetric, 80% roads",14,134,ACO,Trip found,"[0, 6, 13, 7, 11, 1, 12, 8, 9, 10, 4, 3, 2, 5, 0]",665.915,0.09786700,9.3984
+"Asymmetric, 80% roads",15,55,BFS,Skipped,,,,
+"Asymmetric, 80% roads",15,55,DFS,Skipped,,,,
+"Asymmetric, 80% roads",15,55,NN,Trip found,"[0, 11, 5, 4, 10, 2, 12, 14, 6, 9, 7, 3, 1, 13, 8, 0]",966.1244,0.00002600,0.125
+"Asymmetric, 80% roads",15,55,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",15,55,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",15,55,A* inadmissible,Trip found,"[0, 11, 5, 4, 10, 2, 12, 14, 6, 9, 7, 3, 1, 13, 8, 0]",966.1244,0.00024500,6.9531
+"Asymmetric, 80% roads",15,55,ACO,Trip found,"[0, 11, 1, 3, 7, 9, 6, 13, 10, 2, 8, 12, 14, 4, 5, 0]",860.6176,0.12104000,10.2969
+"Asymmetric, 80% roads",15,95,BFS,Skipped,,,,
+"Asymmetric, 80% roads",15,95,DFS,Skipped,,,,
+"Asymmetric, 80% roads",15,95,NN,No trip,,inf,0.00001900,0.125
+"Asymmetric, 80% roads",15,95,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",15,95,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",15,95,A* inadmissible,Trip found,"[0, 5, 8, 4, 11, 9, 7, 6, 2, 14, 13, 10, 3, 12, 1, 0]",950.3362,0.00032100,8.2031
+"Asymmetric, 80% roads",15,95,ACO,Trip found,"[0, 5, 4, 8, 14, 2, 10, 6, 13, 3, 12, 11, 1, 9, 7, 0]",770.1262,0.11687000,10.2734
+"Asymmetric, 80% roads",15,135,BFS,Skipped,,,,
+"Asymmetric, 80% roads",15,135,DFS,Skipped,,,,
+"Asymmetric, 80% roads",15,135,NN,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 3, 7, 14, 9, 12, 0]",856.0663,0.00001900,0.125
+"Asymmetric, 80% roads",15,135,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",15,135,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",15,135,A* inadmissible,Trip found,"[0, 10, 1, 4, 2, 8, 5, 6, 13, 11, 3, 7, 14, 9, 12, 0]",856.0663,0.00018200,5.1484
+"Asymmetric, 80% roads",15,135,ACO,Trip found,"[0, 10, 9, 1, 4, 2, 12, 8, 5, 6, 13, 11, 3, 7, 14, 0]",758.456,0.11281900,10.2734
+"Asymmetric, 80% roads",16,56,BFS,Skipped,,,,
+"Asymmetric, 80% roads",16,56,DFS,Skipped,,,,
+"Asymmetric, 80% roads",16,56,NN,Trip found,"[0, 5, 12, 11, 8, 4, 7, 3, 1, 14, 10, 9, 13, 2, 15, 6, 0]",992.092,0.00002300,0.1875
+"Asymmetric, 80% roads",16,56,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",16,56,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",16,56,A* inadmissible,Trip found,"[0, 5, 12, 11, 8, 4, 7, 3, 1, 14, 10, 9, 13, 2, 15, 6, 0]",992.092,0.00020400,5.4219
+"Asymmetric, 80% roads",16,56,ACO,Trip found,"[0, 5, 14, 12, 1, 11, 8, 4, 3, 6, 7, 2, 13, 9, 10, 15, 0]",861.7321,0.12299000,11.8438
+"Asymmetric, 80% roads",16,96,BFS,Skipped,,,,
+"Asymmetric, 80% roads",16,96,DFS,Skipped,,,,
+"Asymmetric, 80% roads",16,96,NN,Trip found,"[0, 9, 11, 5, 12, 10, 7, 15, 6, 4, 3, 8, 2, 13, 14, 1, 0]",861.4583,0.00002300,0.1875
+"Asymmetric, 80% roads",16,96,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",16,96,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",16,96,A* inadmissible,Trip found,"[0, 9, 11, 5, 12, 10, 7, 15, 6, 4, 3, 8, 2, 13, 14, 1, 0]",861.4583,0.00023000,7.2578
+"Asymmetric, 80% roads",16,96,ACO,Trip found,"[0, 9, 1, 15, 6, 4, 3, 8, 2, 13, 14, 12, 10, 7, 11, 5, 0]",753.2835,0.13907800,11.7969
+"Asymmetric, 80% roads",16,136,BFS,Skipped,,,,
+"Asymmetric, 80% roads",16,136,DFS,Skipped,,,,
+"Asymmetric, 80% roads",16,136,NN,Trip found,"[0, 1, 15, 11, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 10, 4, 0]",780.8284,0.00002200,0.1875
+"Asymmetric, 80% roads",16,136,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",16,136,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",16,136,A* inadmissible,Trip found,"[0, 1, 15, 11, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 10, 4, 0]",780.8284,0.00021300,6.75
+"Asymmetric, 80% roads",16,136,ACO,Trip found,"[0, 1, 15, 11, 3, 7, 2, 9, 14, 12, 13, 6, 8, 5, 10, 4, 0]",780.8284,0.13476600,11.7266
+"Asymmetric, 80% roads",17,57,BFS,Skipped,,,,
+"Asymmetric, 80% roads",17,57,DFS,Skipped,,,,
+"Asymmetric, 80% roads",17,57,NN,Trip found,"[0, 8, 3, 1, 6, 9, 11, 2, 5, 12, 16, 10, 7, 14, 13, 15, 4, 0]",961.2542,0.00002500,0.1875
+"Asymmetric, 80% roads",17,57,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",17,57,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",17,57,A* inadmissible,Trip found,"[0, 8, 3, 1, 6, 9, 11, 2, 5, 12, 16, 10, 7, 14, 13, 15, 4, 0]",961.2542,0.00025600,8.6406
+"Asymmetric, 80% roads",17,57,ACO,Trip found,"[0, 8, 3, 1, 6, 15, 4, 10, 7, 14, 13, 11, 9, 2, 5, 12, 16, 0]",914.8785,0.15287000,13.8203
+"Asymmetric, 80% roads",17,97,BFS,Skipped,,,,
+"Asymmetric, 80% roads",17,97,DFS,Skipped,,,,
+"Asymmetric, 80% roads",17,97,NN,Trip found,"[0, 15, 7, 4, 9, 10, 3, 13, 12, 8, 16, 6, 11, 5, 2, 1, 14, 0]",1168.7477,0.00002600,0.1875
+"Asymmetric, 80% roads",17,97,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",17,97,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",17,97,A* inadmissible,Trip found,"[0, 15, 7, 4, 9, 10, 3, 13, 12, 8, 16, 6, 11, 5, 2, 1, 14, 0]",1168.7477,0.00026800,8.4141
+"Asymmetric, 80% roads",17,97,ACO,Trip found,"[0, 15, 7, 13, 12, 5, 6, 11, 2, 8, 16, 3, 10, 1, 14, 4, 9, 0]",1048.9251,0.14586400,13.8438
+"Asymmetric, 80% roads",17,137,BFS,Skipped,,,,
+"Asymmetric, 80% roads",17,137,DFS,Skipped,,,,
+"Asymmetric, 80% roads",17,137,NN,Trip found,"[0, 9, 1, 10, 12, 5, 4, 13, 14, 16, 15, 7, 3, 2, 6, 11, 8, 0]",1021.5652,0.00002500,0.1875
+"Asymmetric, 80% roads",17,137,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",17,137,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",17,137,A* inadmissible,Trip found,"[0, 9, 1, 10, 12, 5, 4, 13, 14, 16, 15, 7, 3, 2, 6, 11, 8, 0]",1021.5652,0.00026300,8.8281
+"Asymmetric, 80% roads",17,137,ACO,Trip found,"[0, 9, 1, 8, 4, 13, 14, 16, 15, 7, 3, 2, 6, 11, 5, 12, 10, 0]",981.0407,0.14901000,13.8203
+"Asymmetric, 80% roads",18,58,BFS,Skipped,,,,
+"Asymmetric, 80% roads",18,58,DFS,Skipped,,,,
+"Asymmetric, 80% roads",18,58,NN,No trip,,inf,0.00002900,0.1875
+"Asymmetric, 80% roads",18,58,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",18,58,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",18,58,A* inadmissible,Trip found,"[0, 11, 8, 4, 1, 14, 16, 13, 3, 9, 6, 2, 15, 10, 5, 12, 17, 7, 0]",1092.2502,0.00038500,13.6484
+"Asymmetric, 80% roads",18,58,ACO,Trip found,"[0, 11, 8, 4, 1, 6, 10, 2, 15, 5, 12, 17, 9, 3, 13, 16, 14, 7, 0]",991.9516,0.17259500,15.0078
+"Asymmetric, 80% roads",18,98,BFS,Skipped,,,,
+"Asymmetric, 80% roads",18,98,DFS,Skipped,,,,
+"Asymmetric, 80% roads",18,98,NN,No trip,,inf,0.00002800,0.1875
+"Asymmetric, 80% roads",18,98,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",18,98,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",18,98,A* inadmissible,Trip found,"[0, 12, 15, 7, 13, 9, 4, 8, 16, 2, 5, 6, 14, 3, 11, 17, 10, 1, 0]",960.7868,0.00034000,10.9766
+"Asymmetric, 80% roads",18,98,ACO,Trip found,"[0, 12, 15, 10, 1, 17, 3, 6, 14, 11, 16, 8, 4, 13, 7, 9, 5, 2, 0]",968.9755,0.16638600,14.9375
+"Asymmetric, 80% roads",18,138,BFS,Skipped,,,,
+"Asymmetric, 80% roads",18,138,DFS,Skipped,,,,
+"Asymmetric, 80% roads",18,138,NN,No trip,,inf,0.00003000,0.1875
+"Asymmetric, 80% roads",18,138,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",18,138,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",18,138,A* inadmissible,Trip found,"[0, 2, 8, 16, 14, 7, 5, 15, 6, 9, 12, 11, 10, 4, 17, 1, 13, 3, 0]",1053.7909,0.00037500,12.2969
+"Asymmetric, 80% roads",18,138,ACO,Trip found,"[0, 2, 8, 17, 1, 13, 16, 14, 7, 5, 15, 6, 9, 12, 11, 10, 4, 3, 0]",988.5016,0.17797400,14.9609
+"Asymmetric, 80% roads",19,59,BFS,Skipped,,,,
+"Asymmetric, 80% roads",19,59,DFS,Skipped,,,,
+"Asymmetric, 80% roads",19,59,NN,Trip found,"[0, 3, 16, 8, 12, 7, 6, 2, 15, 11, 9, 18, 14, 17, 4, 10, 13, 1, 5, 0]",1191.7811,0.00003100,0.1875
+"Asymmetric, 80% roads",19,59,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",19,59,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",19,59,A* inadmissible,Trip found,"[0, 3, 16, 8, 12, 7, 6, 2, 15, 11, 9, 18, 14, 17, 4, 10, 13, 1, 5, 0]",1191.7811,0.00035900,13.4766
+"Asymmetric, 80% roads",19,59,ACO,Trip found,"[0, 3, 5, 17, 4, 10, 7, 6, 2, 15, 8, 12, 16, 14, 11, 9, 18, 13, 1, 0]",976.3164,0.19161500,16.0859
+"Asymmetric, 80% roads",19,99,BFS,Skipped,,,,
+"Asymmetric, 80% roads",19,99,DFS,Skipped,,,,
+"Asymmetric, 80% roads",19,99,NN,Trip found,"[0, 12, 5, 18, 2, 6, 13, 1, 7, 8, 3, 10, 11, 14, 16, 4, 9, 15, 17, 0]",1053.7617,0.00003100,0.1875
+"Asymmetric, 80% roads",19,99,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",19,99,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",19,99,A* inadmissible,Trip found,"[0, 12, 5, 18, 2, 6, 13, 1, 7, 8, 3, 10, 11, 16, 4, 9, 15, 17, 14, 0]",1270.464,0.00050000,17.0234
+"Asymmetric, 80% roads",19,99,ACO,Trip found,"[0, 12, 5, 18, 2, 6, 13, 1, 7, 14, 11, 10, 3, 8, 4, 16, 17, 15, 9, 0]",1010.3299,0.19770400,16.2031
+"Asymmetric, 80% roads",19,139,BFS,Skipped,,,,
+"Asymmetric, 80% roads",19,139,DFS,Skipped,,,,
+"Asymmetric, 80% roads",19,139,NN,Trip found,"[0, 11, 10, 14, 6, 16, 13, 8, 4, 5, 2, 12, 18, 3, 1, 15, 9, 17, 7, 0]",1091.717,0.00003100,0.1875
+"Asymmetric, 80% roads",19,139,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",19,139,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",19,139,A* inadmissible,Trip found,"[0, 11, 10, 14, 6, 16, 13, 8, 4, 5, 2, 12, 18, 3, 1, 15, 9, 17, 7, 0]",1091.717,0.00034700,13.2812
+"Asymmetric, 80% roads",19,139,ACO,Trip found,"[0, 11, 10, 14, 6, 16, 13, 7, 8, 4, 5, 2, 12, 18, 3, 1, 15, 9, 17, 0]",1023.942,0.19335200,16.1094
+"Asymmetric, 80% roads",20,60,BFS,Skipped,,,,
+"Asymmetric, 80% roads",20,60,DFS,Skipped,,,,
+"Asymmetric, 80% roads",20,60,NN,No trip,,inf,0.00003400,0.1875
+"Asymmetric, 80% roads",20,60,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",20,60,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",20,60,A* inadmissible,Trip found,"[0, 4, 10, 14, 18, 17, 6, 1, 5, 12, 3, 9, 7, 2, 19, 11, 15, 16, 8, 13, 0]",1035.3088,0.00041200,15.7188
+"Asymmetric, 80% roads",20,60,ACO,Trip found,"[0, 16, 8, 13, 15, 4, 10, 14, 17, 18, 11, 19, 2, 6, 1, 5, 12, 3, 9, 7, 0]",916.1939,0.21667300,17.1875
+"Asymmetric, 80% roads",20,100,BFS,Skipped,,,,
+"Asymmetric, 80% roads",20,100,DFS,Skipped,,,,
+"Asymmetric, 80% roads",20,100,NN,No trip,,inf,0.00003200,0.1875
+"Asymmetric, 80% roads",20,100,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",20,100,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",20,100,A* inadmissible,Trip found,"[0, 6, 3, 11, 5, 12, 4, 7, 19, 2, 1, 15, 8, 14, 13, 17, 16, 9, 18, 10, 0]",940.6944,0.00042100,15.9844
+"Asymmetric, 80% roads",20,100,ACO,Trip found,"[0, 6, 3, 11, 5, 12, 4, 7, 19, 2, 13, 14, 8, 18, 1, 15, 17, 16, 9, 10, 0]",894.7806,0.21188500,17.2109
+"Asymmetric, 80% roads",20,140,BFS,Skipped,,,,
+"Asymmetric, 80% roads",20,140,DFS,Skipped,,,,
+"Asymmetric, 80% roads",20,140,NN,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 16, 7, 17, 13, 8, 6, 19, 11, 2, 12, 1, 0]",893.7922,0.00003500,0.1875
+"Asymmetric, 80% roads",20,140,Dijkstra,Skipped,,,,
+"Asymmetric, 80% roads",20,140,A* admissible,Skipped,,,,
+"Asymmetric, 80% roads",20,140,A* inadmissible,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 16, 7, 17, 13, 8, 6, 19, 11, 2, 12, 1, 0]",893.7922,0.00041900,17.2031
+"Asymmetric, 80% roads",20,140,ACO,Trip found,"[0, 4, 18, 15, 3, 9, 5, 14, 10, 17, 7, 16, 13, 8, 6, 11, 2, 19, 12, 1, 0]",884.9555,0.21130100,17.1641

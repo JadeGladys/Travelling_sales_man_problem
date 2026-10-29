@@ -45,7 +45,7 @@ def create_map(cities, symmetric, all_roads, seed):
                     continue
             distance = cities_distance(cities[i], cities[j])
 
-            # second check: symmentrical or asymmetrical
+            # second check: symmetrical or asymmetrical
             if symmetric:
                 table[i][j] = distance
                 table[j][i] = distance
@@ -64,6 +64,7 @@ def create_map(cities, symmetric, all_roads, seed):
     return table
 
 
+# function to help view the map
 def describe_map(cities, table):
     # Print road that are removed, and print uphill or downhill prices.
     count = len(table)
@@ -89,29 +90,3 @@ def describe_map(cities, table):
                 print(i, "->", j, i_to_j, round(table[i][j], 1),
                       "   and   ", j, "->", i, j_to_i, round(table[j][i], 1))
     print("removed roads:", removed)
-
-
-def main():
-    cities = create_cities(5, 42)
-    table = create_map(cities, True, False, 42)
-    # test to see if cities are created randomly but the seed helps recreate it
-    print(create_cities(5, 12))
-
-# test if the table is being create
-    cities = create_cities(20, 42)
-    table = create_map(cities, True, False, 42)
-    roads = 0
-    for row in table:
-        for price in row:
-            print(round(price, 1), end="  ")
-        print()
-    for i in range(len(table)):
-        for j in range(i+1, len(table)):
-            if table[i][j] != NO_ROAD:
-                roads = roads + 1
-    print("roads:", roads, "out of", len(table) * (len(table) - 1) // 2)
-
-
-# these are ran only this file
-if __name__ == "__main__":
-    main()
